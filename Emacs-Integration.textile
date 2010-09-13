@@ -1,13 +1,16 @@
 This page assumes you have already installed and configured clojure-mode, swank-clojure, slime. It also assumes you've followed the Leiningen hacking instructions and are using the master branch.
 
-From your Leiningen checkout directory run the following:
+You just need to add the following line to your *project.clj*  file:
 
-<pre class="console">
-$ cd lein-swank
-$ lein-stable install
+<pre>
+(defproject my-project "0.1.0"
+  :description "My great Clojure project"
+  :dependencies [[org.clojure/clojure "1.1.0-alpha-SNAPSHOT"]
+                            [org.clojure/clojure-contrib "1.0-SNAPSHOT"]]
+  :dev-dependencies [[leiningen/lein-swank "1.0.0-SNAPSHOT"]])
 </pre>
 
-Once this is installed you can test it with:
+Then from your project directory you can run the following:
 
 <pre class="console">
 $ lein swank
