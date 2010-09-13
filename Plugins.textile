@@ -4,3 +4,4 @@
 * "lein-init-script":http://github.com/zkim/leiningen-init-script Generate *NIX daemon scripts for your project.
 * "lein-run":http://github.com/sids/lein-run A leiningen plugin to call a function in a new process or run a .clj file
 * "lein-hadoop":http://github.com/ndimiduk/lein-hadoop Generate a jar containing nested libs as required for hadoop jobs.
+* "lein-difftest":http://github.com/brentonashworth/lein-difftest Modify the reporting of leiningen's test task to display diffs when a test fails
