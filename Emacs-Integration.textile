@@ -1,19 +1,30 @@
-This page assumes you have already installed and configured clojure-mode, swank-clojure, slime. It also assumes you've followed the Leiningen hacking instructions and are using the master branch.
+This page assumes you have already installed and configured clojure-mode and slime.
 
-You should make sure your *project.clj* file looks something like this:
+You should make sure your *project.clj* file includes [swank-clojure "1.2.1"] under :dev-dependencies. Then run "lein deps".
 
-<pre>
-(defproject my-project "0.1.0"
-  :description "My great Clojure project"
-  :dependencies [[org.clojure/clojure "1.1.0"]
-                 [org.clojure/clojure-contrib "1.1.0"]]
-  :dev-dependencies [[leiningen/lein-swank "1.1.0"]])
-</pre>
-
-Then from your project directory you can run the following:
+From your project directory you can run the following:
 
 <pre class="console">
 $ lein swank
 </pre>
 
 A REPL should get started up on port 4005. Launch Emacs. Once Emacs is up and running type *M-x slime-connect*. Use the default settings. You're now connected to a Clojure REPL with a properly configured classpath.
+
+If you'd like to do it all in one M-x command, you can use this:
+
+<pre class="emacs lisp">(defun lein-swank ()
+  (interactive)
+  (let ((root (locate-dominating-file default-directory "project.clj")))
+    (when (not root)
+      (error "Not in a Leiningen project."))
+    ;; you can customize slime-port using .dir-locals.el
+    (shell-command (format "cd %s && lein swank %s &" root slime-port)
+                   "*lein-swank*")
+    (set-process-filter (get-buffer-process "*lein-swank*")
+                        (lambda (process output)
+                          (when (string-match "Connection opened on" output)
+                            (slime-connect "localhost" slime-port)
+                            (set-process-filter process nil))))
+    (message "Starting swank server...")))</pre>
+
+The default port is 4005. If you'd like to run multiple swank servers, you can choose your own port manually or you can set the slime-port variable on a per-project basis with a directory-local variables file.
