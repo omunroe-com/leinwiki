@@ -1,3 +1,4 @@
 * "swank-clojure":http://github.com/technomancy/swank-clojure Launch a Swank server for Emacs integration. (lein-swank is now merged with swank-clojure)
 * "lein-release":http://github.com/technomancy/lein-release Create a tarball of your project and its dependencies
 * "lein-play":http://github.com/technomancy/lein-play Play a different sound at the end of your test runs depending on whether they pass or fail.
+* "lein-init-script":http://github.com/zkim/leiningen-init-script Generate *NIX daemon scripts for your project.
