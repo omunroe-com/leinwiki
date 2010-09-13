@@ -8,3 +8,4 @@
 * " leiningen-war":http://github.com/alienscience/leiningen-war Create WAR files for use in servlet containers.
 * "lein-conjure":http://github.com/macourtney/Conjure Create a Conjure project and run it using Leiningen.
 * "lein-multi":http://github.com/maravillas/lein-multi Run tasks against multiple dependency sets (such as multiple Clojure versions) at once.
+* "lein-gwt":http://github.com/teropa/lein-gwt Run the Google Web Toolkit compiler
