@@ -1,0 +1,16 @@
+This page assumes you have already installed and configured clojure-mode, swank-clojure, slime. It also assumes you've followed the hacking instructions and are using the master branch.
+
+From your leiningen checkout directory run the following:
+
+<pre class="console">
+$ cd lein-swank
+$ lein-stable install
+</pre>
+
+Once this is installed you can test it with:
+
+<pre class="console">
+$ lein swank
+</pre>
+
+A REPL should get started up on port 4005. Launch Emacs. Once Emacs is up and running type *M-x slime-connect*. Use the default settings. You're now connected a Clojure REPL with a properly configured classpath.
