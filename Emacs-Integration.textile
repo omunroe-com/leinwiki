@@ -13,4 +13,4 @@ Once this is installed you can test it with:
 $ lein swank
 </pre>
 
-A REPL should get started up on port 4005. Launch Emacs. Once Emacs is up and running type *M-x slime-connect*. Use the default settings. You're now connected a Clojure REPL with a properly configured classpath.
+A REPL should get started up on port 4005. Launch Emacs. Once Emacs is up and running type *M-x slime-connect*. Use the default settings. You're now connected to a Clojure REPL with a properly configured classpath.
