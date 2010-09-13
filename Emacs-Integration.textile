@@ -1,6 +1,6 @@
-This page assumes you have already installed and configured clojure-mode, swank-clojure, slime. It also assumes you've followed the hacking instructions and are using the master branch.
+This page assumes you have already installed and configured clojure-mode, swank-clojure, slime. It also assumes you've followed the Leiningen hacking instructions and are using the master branch.
 
-From your leiningen checkout directory run the following:
+From your Leiningen checkout directory run the following:
 
 <pre class="console">
 $ cd lein-swank
