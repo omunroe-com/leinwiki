@@ -1,6 +1,6 @@
 This page assumes you have already installed and configured clojure-mode, swank-clojure, slime. It also assumes you've followed the Leiningen hacking instructions and are using the master branch.
 
-You just need to add the following line to your *project.clj*  file:
+You should make sure your *project.clj* file looks something like this:
 
 <pre>
 (defproject my-project "0.1.0"
