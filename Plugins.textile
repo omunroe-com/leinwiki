@@ -6,3 +6,4 @@
 * "lein-hadoop":http://github.com/ndimiduk/lein-hadoop Generate a jar containing nested libs as required for hadoop jobs.
 * "lein-difftest":http://github.com/brentonashworth/lein-difftest Modify the reporting of leiningen's test task to display diffs when a test fails
 * " leiningen-war":http://github.com/alienscience/leiningen-war Create WAR files for use in servlet containers.
+* "lein-conjure":http://github.com/macourtney/Conjure Create a Conjure project and run it using Leiningen.
