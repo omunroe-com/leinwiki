@@ -1,1 +1,1 @@
-Welcome to the leiningen wiki!
+[[Emacs Integration]]
