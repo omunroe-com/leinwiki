@@ -11,3 +11,4 @@
 * "lein-gwt":http://github.com/teropa/lein-gwt Run the Google Web Toolkit compiler
 * "lein-daemon":http://github.com/arohner/lein-daemon Run app as a daemon
 * "lein-search":http://github.com/Licenser/lein-search Search clojars, add and update dependencies from command line
+* "lein-plugin":http://github.com/trptcolin/lein-plugin A plugin to manage plugins.
