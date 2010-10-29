@@ -14,3 +14,4 @@
 * "lein-plugin":http://github.com/trptcolin/lein-plugin A plugin to manage plugins.
 * "radagast":http://github.com/Seajure/radagast A simplistic test coverage tool
 * "lein-autotest":http://github.com/dakrone/lein-autotest Starts Lazytest's watch function on your project's src dir for automatic testing on code change.
+* "lein-fail-fast":http://github.com/pjstadig/lein-fail-fast Stop testing run upon to save time in CI situations.
