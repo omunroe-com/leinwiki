@@ -17,3 +17,4 @@
 * "lein-fail-fast":http://github.com/pjstadig/lein-fail-fast Stop testing run upon to save time in CI situations.
 * "lein-cuke":http://github.com/mjul/lein-cuke Run Cucumber BDD tests from leiningen.
 * "midje":http://github.com/marick/Midje/tree/master/leiningen/ Run "Midje":http://github.com/marick/Midje/blob/master/README.md tests from leiningen.
+* "lein-antlr":http://github.com/alexhall/lein-antlr Generate source code from ANTLR grammars in Leiningen.
