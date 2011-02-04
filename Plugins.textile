@@ -18,3 +18,4 @@
 * "lein-cuke":http://github.com/mjul/lein-cuke Run Cucumber BDD tests from leiningen.
 * "midje":http://github.com/marick/Midje/tree/master/leiningen/ Run "Midje":http://github.com/marick/Midje/blob/master/README.md tests from leiningen.
 * "lein-antlr":http://github.com/alexhall/lein-antlr Generate source code from ANTLR grammars in Leiningen.
+* "lein-beanstalk":https://github.com/weavejester/lein-beanstalk Leiningen plugin for Amazon's Elastic Beanstalk service.
