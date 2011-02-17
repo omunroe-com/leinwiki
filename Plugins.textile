@@ -21,3 +21,4 @@
 * "lein-beanstalk":https://github.com/weavejester/lein-beanstalk Leiningen plugin for Amazon's Elastic Beanstalk service.
 * "lein-ring":https://github.com/weavejester/lein-ring Ring plugin for Leiningen.
 * "lein-test-bang-bang":https://github.com/joegallo/lein-test-bang-bang Run each test namespace in a separate JVM.
+* "lein-notes":https://github.com/taweili/lein-notes To get inline notes from sources 
