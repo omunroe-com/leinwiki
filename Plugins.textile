@@ -1,24 +1,48 @@
-* "swank-clojure":http://github.com/technomancy/swank-clojure Launch a Swank server for Emacs integration. (lein-swank is now merged with swank-clojure)
-* "lein-tar":http://github.com/technomancy/lein-tar Create a tarball of your project and its dependencies. (formerly lein-release)
-* "lein-play":http://github.com/technomancy/lein-play Play a different sound at the end of your test runs depending on whether they pass or fail.
-* "lein-init-script":http://github.com/zkim/leiningen-init-script Generate *NIX daemon scripts for your project.
-* "lein-run":http://github.com/sids/lein-run A leiningen plugin to call a function in a new process or run a .clj file (now included in Leiningen 1.4+ in slightly different form)
-* "lein-hadoop":http://github.com/ndimiduk/lein-hadoop Generate a jar containing nested libs as required for hadoop jobs.
-* "lein-difftest":http://github.com/brentonashworth/lein-difftest Modify the reporting of leiningen's test task to display diffs when a test fails
-* " leiningen-war":http://github.com/alienscience/leiningen-war Create WAR files for use in servlet containers.
-* "lein-conjure":http://github.com/macourtney/Conjure Create a Conjure project and run it using Leiningen.
+If you've created a plugin for Leiningen, please add it here!
+
+h2. Development Tools
+
+* "lein-antlr":http://github.com/alexhall/lein-antlr Generate source code from ANTLR grammars.
+* "lein-diagnostics":https://github.com/robwolfe/lein-diagnostics/ Get diagnostic info regarding versions of libraries.
+* "lein-eclipse":https://github.com/abrenk/lein-eclipse Create Eclipse project descriptor files.
 * "lein-multi":http://github.com/maravillas/lein-multi Run tasks against multiple dependency sets (such as multiple Clojure versions) at once.
-* "lein-gwt":http://github.com/teropa/lein-gwt Run the Google Web Toolkit compiler
-* "lein-daemon":http://github.com/arohner/lein-daemon Run app as a daemon
-* "lein-search":http://github.com/Licenser/lein-search Search clojars, add and update dependencies from command line
-* "lein-plugin":http://github.com/trptcolin/lein-plugin A plugin to manage plugins. (Now included in Leiningen 1.4+)
-* "radagast":http://github.com/Seajure/radagast A simplistic test coverage tool
-* "lein-autotest":http://github.com/dakrone/lein-autotest Starts Lazytest's watch function on your project's src dir for automatic testing on code change.
+* "lein-nailgun":https://github.com/brandonw/lein-nailgun Launch a vimclojure nailgun server.
+* "lein-notes":https://github.com/taweili/lein-notes See inline notes from sources.
+* "lein-project-depends":https://github.com/hugoduncan/lein-namespace-depends Output a project's namespace use/require graph.
+* "lein-search":http://github.com/Licenser/lein-search Search clojars, add and update dependencies from command line.
+* "swank-clojure":http://github.com/technomancy/swank-clojure Launch a Swank server for Emacs integration.
+
+h2. Testing
+
+* "lein-autotest":http://github.com/dakrone/lein-autotest Starts Lazytest's watch on your project for automatic testing on code change.
+* "lein-cuke":http://github.com/mjul/lein-cuke Run Cucumber BDD tests.
+* "lein-difftest":http://github.com/brentonashworth/lein-difftest Display diffs when a test fails.
 * "lein-fail-fast":http://github.com/pjstadig/lein-fail-fast Stop testing run upon to save time in CI situations.
-* "lein-cuke":http://github.com/mjul/lein-cuke Run Cucumber BDD tests from leiningen.
-* "midje":http://github.com/marick/Midje/tree/master/leiningen/ Run "Midje":http://github.com/marick/Midje/blob/master/README.md tests from leiningen.
-* "lein-antlr":http://github.com/alexhall/lein-antlr Generate source code from ANTLR grammars in Leiningen.
-* "lein-beanstalk":https://github.com/weavejester/lein-beanstalk Leiningen plugin for Amazon's Elastic Beanstalk service.
-* "lein-ring":https://github.com/weavejester/lein-ring Ring plugin for Leiningen.
+* "lein-junit":https://github.com/febeling/lein-junit Run JUnit tests.
+* "lein-play":http://github.com/technomancy/lein-play Play a different sound at the end of your test runs depending on whether they pass or fail.
 * "lein-test-bang-bang":https://github.com/joegallo/lein-test-bang-bang Run each test namespace in a separate JVM.
-* "lein-notes":https://github.com/taweili/lein-notes To get inline notes from sources 
+* "lein-test-out":https://github.com/arohner/lein-test-out Run all tests and outputs to a file in junit XML or TAP format.
+* "midje":http://github.com/marick/Midje/tree/master/leiningen/ Run "Midje":http://github.com/marick/Midje/blob/master/README.md tests.
+* "radagast":http://github.com/Seajure/radagast Get simplistic test coverage.
+
+h2. Deployment
+
+* "lein-clojars":https://github.com/ato/lein-clojars Deploy to Clojars.
+* "lein-daemon":http://github.com/arohner/lein-daemon Run app as a daemon.
+* "lein-hadoop":http://github.com/ndimiduk/lein-hadoop Generate a jar containing nested libs as required for hadoop jobs.
+* "lein-init-script":http://github.com/zkim/leiningen-init-script Generate *NIX daemon scripts for your project.
+* "lein-tar":http://github.com/technomancy/lein-tar Create a tarball of your project and its dependencies. (formerly lein-release)
+
+h2. Web
+
+* "lein-beanstalk":https://github.com/weavejester/lein-beanstalk Deploy to Amazon's Elastic Beanstalk service.
+* "lein-conjure":http://github.com/macourtney/Conjure Create a Conjure project and run it.
+* "lein-gwt":http://github.com/teropa/lein-gwt Run the Google Web Toolkit compiler.
+* "lein-ring":https://github.com/weavejester/lein-ring Ring plugin.
+* "leiningen-war":http://github.com/alienscience/leiningen-war Create WAR files for use in servlet containers.
+
+h2. Merged into Leiningen
+
+* "lein-javac":https://github.com/antoniogarrote/lein-javac For compiling Java source (1.4+)
+* "lein-plugin":http://github.com/trptcolin/lein-plugin A plugin to manage plugins. (1.4+)
+* "lein-run":http://github.com/sids/lein-run Call -main functions from the command-line. (1.4+)
