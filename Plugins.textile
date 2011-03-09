@@ -8,6 +8,7 @@ h2. Development Tools
 * "lein-multi":http://github.com/maravillas/lein-multi Run tasks against multiple dependency sets (such as multiple Clojure versions) at once.
 * "lein-nailgun":https://github.com/brandonw/lein-nailgun Launch a vimclojure nailgun server.
 * "lein-notes":https://github.com/taweili/lein-notes See inline notes from sources.
+* "lein-oneoff":https://github.com/mtyaka/lein-oneoff Simplify working with one-off, single-file clojure programs.
 * "lein-project-depends":https://github.com/hugoduncan/lein-namespace-depends Output a project's namespace use/require graph.
 * "lein-search":http://github.com/Licenser/lein-search Search clojars, add and update dependencies from command line.
 * "swank-clojure":http://github.com/technomancy/swank-clojure Launch a Swank server for Emacs integration.
