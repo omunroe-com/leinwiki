@@ -33,6 +33,7 @@ h2. Deployment
 * "lein-hadoop":http://github.com/ndimiduk/lein-hadoop Generate a jar containing nested libs as required for hadoop jobs.
 * "lein-init-script":http://github.com/zkim/leiningen-init-script Generate *NIX daemon scripts for your project.
 * "lein-tar":http://github.com/technomancy/lein-tar Create a tarball of your project and its dependencies. (formerly lein-release)
+* "pallet-lein":http://github.com/pallet/pallet-lein Launch nodes and deploy "crate" packages to the cloud.
 
 h2. Web
 
