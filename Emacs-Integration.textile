@@ -1,6 +1,6 @@
 This page assumes you have already installed and configured clojure-mode and slime.
 
-You should make sure your *project.clj* file includes [swank-clojure "1.2.1"] under :dev-dependencies. Then run "lein deps".
+You should make sure your *project.clj* file includes [swank-clojure "1.3.0"] under :dev-dependencies. Then run "lein deps".
 
 From your project directory you can run the following:
 
