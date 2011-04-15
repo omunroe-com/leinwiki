@@ -3,7 +3,7 @@ Here is how I ([dcj](https://github.com/dcj)) install Leiningen in the Jenkins C
 I'm not claiming this is the only way to do so, or the best, but it documents how I have gotten this to work fairly well.
 I am very interested in ideas/suggestions about how to do this better....
 
-I am working with another developer to produce an Leiningen plugin for Jenkins, here is the 
+I am working with another developer to produce a Leiningen plugin for Jenkins, here is the 
 [requirements document](http://likestream.github.com/doc/leiningen-jenkins-requirements.html).  Maybe by May or June (2011) this will be available.
 
 In the mean time, here is how I install and use Leiningen with Jenkins using existing Jenkins features and plugins:
