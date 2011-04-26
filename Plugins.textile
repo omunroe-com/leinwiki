@@ -12,6 +12,7 @@ h2. Development Tools
 * "lein-project-depends":https://github.com/hugoduncan/lein-namespace-depends Output a project's namespace use/require graph.
 * "lein-retest":http://github.com/technomancy/lein-retest Run only the test namespaces which failed last time around.
 * "lein-search":http://github.com/Licenser/lein-search Search clojars, add and update dependencies from command line.
+* "slamhound":http://github.com/technomancy/slamhound Reconstruct ns forms with needed :use/:require/:import clauses.
 * "swank-clojure":http://github.com/technomancy/swank-clojure Launch a Swank server for Emacs integration.
 
 h2. Testing
