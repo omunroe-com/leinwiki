@@ -27,7 +27,7 @@ h2. Testing
 * "lein-test-out":https://github.com/arohner/lein-test-out Run all tests and outputs to a file in junit XML or TAP format.
 * "midje":http://github.com/marick/Midje/tree/master/leiningen/ Run "Midje":http://github.com/marick/Midje/blob/master/README.md tests.
 * "radagast":http://github.com/Seajure/radagast Get simplistic test coverage.
-* "Speclj:https://github.com/slagyr/speclj (pronounced "speckle") TDD/BDD framework, with auto-runner, based on RSpec:http://rspec.info/
+* "speclj":https://github.com/slagyr/speclj (pronounced "speckle") TDD/BDD framework, with auto-runner, based on "rspec":http://rspec.info/
 
 h2. Deployment
 
