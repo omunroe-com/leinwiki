@@ -14,17 +14,21 @@ If you'd like to do it all in one M-x command, you can use this:
 
 <pre class="emacs lisp">(defun lein-swank ()
   (interactive)
-  (let ((root (locate-dominating-file default-directory "project.clj")))
+  (let ((root (locate-dominating-file default-directory "project.clj"))
+        (current-directory default-directory))
     (when (not root)
       (error "Not in a Leiningen project."))
     ;; you can customize slime-port using .dir-locals.el
-    (shell-command (format "cd %s && lein swank %s &" root slime-port)
-                   "*lein-swank*")
-    (set-process-filter (get-buffer-process "*lein-swank*")
-                        (lambda (process output)
-                          (when (string-match "Connection opened on" output)
-                            (slime-connect "localhost" slime-port)
-                            (set-process-filter process nil))))
-    (message "Starting swank server...")))</pre>
+    (progn
+      (cd root)
+      (shell-command (format "lein swank &")
+                     "*lein-swank*")
+      (set-process-filter (get-buffer-process "*lein-swank*")
+                          (lambda (process output)
+                            (when (string-match "Connection opened on" output)
+                              (slime-connect "localhost" slime-port)
+                              (set-process-filter process nil))))
+      (message "Starting swank server...")
+      (cd current-directory))))</pre>
 
 The default port is 4005. If you'd like to run multiple swank servers, you can choose your own port manually or you can set the slime-port variable on a per-project basis with a directory-local variables file.
