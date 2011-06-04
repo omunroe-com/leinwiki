@@ -29,7 +29,7 @@ h2. Testing
 * "midje":http://github.com/marick/Midje/tree/master/leiningen/ Run "Midje":http://github.com/marick/Midje/blob/master/README.md tests.
 * "radagast":http://github.com/Seajure/radagast Get simplistic test coverage.
 * "speclj":https://github.com/slagyr/speclj (pronounced "speckle") TDD/BDD framework, with auto-runner, based on "rspec":http://rspec.info/
-* "lein-reload":https://github.com/paraseba/lein-reload Reload modified files automatically every time you run tests
+* "lein-reload":https://github.com/paraseba/lein-reload Reload modified files automatically every time you run your tests
 
 h2. Deployment
 
