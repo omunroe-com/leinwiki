@@ -5,6 +5,7 @@ h2. Development Tools
 * "lein-antlr":http://github.com/alexhall/lein-antlr Generate source code from ANTLR grammars.
 * "lein-diagnostics":https://github.com/robwolfe/lein-diagnostics/ Get diagnostic info regarding versions of libraries.
 * "lein-eclipse":https://github.com/abrenk/lein-eclipse Create Eclipse project descriptor files.
+* "lein-lb":https://bitbucket.org/kumarshantanu/lein-lb Database migrations using "Clj-Liquibase":https://bitbucket.org/kumarshantanu/clj-liquibase
 * "lein-multi":http://github.com/maravillas/lein-multi Run tasks against multiple dependency sets (such as multiple Clojure versions) at once.
 * "lein-nailgun":https://github.com/brandonw/lein-nailgun Launch a vimclojure nailgun server.
 * "lein-notes":https://github.com/taweili/lein-notes See inline notes from sources.
