@@ -11,8 +11,6 @@ h2. Development Tools
 * "lein-notes":https://github.com/taweili/lein-notes See inline notes from sources.
 * "lein-oneoff":https://github.com/mtyaka/lein-oneoff Simplify working with one-off, single-file clojure programs.
 * "lein-project-depends":https://github.com/hugoduncan/lein-namespace-depends Output a project's namespace use/require graph.
-* "lein-retest":http://github.com/technomancy/lein-retest Run only the test namespaces which failed last time around.
-* "lein-search":http://github.com/Licenser/lein-search Search clojars, add and update dependencies from command line.
 * "slamhound":http://github.com/technomancy/slamhound Reconstruct ns forms with needed :use/:require/:import clauses.
 * "swank-clojure":http://github.com/technomancy/swank-clojure Launch a Swank server for Emacs integration.
 
@@ -53,3 +51,5 @@ h2. Merged into Leiningen
 * "lein-javac":https://github.com/antoniogarrote/lein-javac For compiling Java source (1.4+)
 * "lein-plugin":http://github.com/trptcolin/lein-plugin A plugin to manage plugins. (1.4+)
 * "lein-run":http://github.com/sids/lein-run Call -main functions from the command-line. (1.4+)
+* "lein-retest":http://github.com/technomancy/lein-retest Run only the test namespaces which failed last time around. (1.6+)
+* "lein-search":http://github.com/Licenser/lein-search Search remote repositories for artifacts. (1.6+)
