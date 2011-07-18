@@ -49,6 +49,10 @@ h2. Web
 * "lein-ring":https://github.com/weavejester/lein-ring Ring plugin.
 * "leiningen-war":http://github.com/alienscience/leiningen-war Create WAR files for use in servlet containers.
 
+h2.Documentation
+
+* "lein-margauto":https://github.com/kyleburton/lein-margauto Leiningen Plugin for "Marginalia":https://github.com/fogus/marginalia that watches your source directories for changes to your clojure source files and rebuilds the Marginalia documentation whenever you update your source code.
+
 h2. Merged into Leiningen
 
 * "lein-javac":https://github.com/antoniogarrote/lein-javac For compiling Java source (1.4+)
