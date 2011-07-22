@@ -42,6 +42,7 @@ h2. Deployment
 * "pallet-lein":http://github.com/pallet/pallet-lein Launch nodes and deploy "crate" packages to the cloud.
 
 h2. Web
+
 * "lein-noir":https://github.com/ibdknox/lein-noir Create and manage "Noir":http://www.webnoir.org projects
 * "lein-beanstalk":https://github.com/weavejester/lein-beanstalk Deploy to Amazon's Elastic Beanstalk service.
 * "lein-conjure":http://github.com/macourtney/Conjure Create a Conjure project and run it.
