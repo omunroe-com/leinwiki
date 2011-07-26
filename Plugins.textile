@@ -6,6 +6,7 @@ h2. Development Tools
 * "lein-diagnostics":https://github.com/robwolfe/lein-diagnostics/ Get diagnostic info regarding versions of libraries.
 * "lein-eclipse":https://github.com/abrenk/lein-eclipse Create Eclipse project descriptor files.
 * "lein-exec":https://github.com/kumarshantanu/lein-exec Execute Clojure scripts in a project
+* "lein-flyway":https://github.com/teropa/lein-flyway for running the "Flyway database migration framework":http://code.google.com/p/flyway
 * "lein-lb":https://bitbucket.org/kumarshantanu/lein-lb Database migrations using "Clj-Liquibase":https://bitbucket.org/kumarshantanu/clj-liquibase
 * "lein-localrepo":https://github.com/kumarshantanu/lein-localrepo Work with local Maven repository
 * "lein-multi":http://github.com/maravillas/lein-multi Run tasks against multiple dependency sets (such as multiple Clojure versions) at once.
