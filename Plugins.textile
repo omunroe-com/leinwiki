@@ -38,6 +38,7 @@ h2. Deployment
 * "lein-clojars":https://github.com/ato/lein-clojars Deploy to Clojars.
 * "lein-daemon":http://github.com/arohner/lein-daemon Run app as a daemon.
 * "lein-hadoop":http://github.com/ndimiduk/lein-hadoop Generate a jar containing nested libs as required for hadoop jobs.
+* "lein-condor":http://github.com/gilesc/lein-condor Execute Clojure code on a Condor cluster.
 * "lein-init-script":http://github.com/zkim/leiningen-init-script Generate *NIX daemon scripts for your project.
 * "lein-tar":http://github.com/technomancy/lein-tar Create a tarball of your project and its dependencies. (formerly lein-release)
 * "pallet-lein":http://github.com/pallet/pallet-lein Launch nodes and deploy "crate" packages to the cloud.
