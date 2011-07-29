@@ -17,7 +17,7 @@ Next I configure how to get the stable release of Leiningen from GitHub:
 And how often to poll for new versions:
 [[http://likestream.github.com/doc/screenshots/lein-jenkins/LeiningenBuildTrigger.png|frame]]
 
-Then I set up environment variables for this job.
+Then I set up environment variables for this job. (Note that this requires the SetEnv Jenkins plugin.)
 [[http://likestream.github.com/doc/screenshots/lein-jenkins/LeiningenInstallEnvVars.png|frame]]
 
 I am building on Solaris, so I need to make sure /usr/ucb in on my path so lein can find whoami.
