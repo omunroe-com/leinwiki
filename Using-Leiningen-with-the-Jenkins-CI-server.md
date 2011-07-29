@@ -32,7 +32,7 @@ OK, so now Leiningen should be downloaded, installed, and available for use, her
 a Clojure build job in Jenkins, first define any important environment variables:
 [[http://likestream.github.com/doc/screenshots/lein-jenkins/BuildWithLeinEnvVars.png|frame]]
 
-Then, the first, (or one of the early) build steps should be to "Copy Artifacts From Another Project", and configure it to copy the lein script you downloaded previously into the workspace of this new project (I put it in ./bin):
+(For this next step, make sure you've installed the Copy Artifacts plugin.) The first, (or one of the early) build steps should be to "Copy Artifacts From Another Project", and configure it to copy the lein script you downloaded previously into the workspace of this new project (I put it in ./bin):
 [[http://likestream.github.com/doc/screenshots/lein-jenkins/GetLeiningenFromInstallJob.png|frame]]
 
 Subsequent build steps can be "Execute Shell", and then just issue the lein "target" command(s) you want.
