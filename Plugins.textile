@@ -54,6 +54,7 @@ h2. Web
 
 h2. Documentation
 
+* "lein-marginalia":https://github.com/fogus/lein-marginalia Leiningen Plugin for "Marginalia":https://github.com/fogus/marginalia
 * "lein-margauto":https://github.com/kyleburton/lein-margauto Leiningen Plugin for "Marginalia":https://github.com/fogus/marginalia that watches your source directories for changes to your clojure source files and rebuilds the Marginalia documentation whenever you update your source code.
 
 h2. Merged into Leiningen
