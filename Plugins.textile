@@ -11,7 +11,7 @@ h2. Development Tools
 * "lein-lb":https://bitbucket.org/kumarshantanu/lein-lb Database migrations using "Clj-Liquibase":https://bitbucket.org/kumarshantanu/clj-liquibase
 * "lein-localrepo":https://github.com/kumarshantanu/lein-localrepo Work with local Maven repository
 * "lein-multi":http://github.com/maravillas/lein-multi Run tasks against multiple dependency sets (such as multiple Clojure versions) at once.
-* "lein-nailgun":https://github.com/brandonw/lein-nailgun Launch a vimclojure nailgun server.
+* "lein-nailgun":https://github.com/mrowl/lein-nailgun Launch a vimclojure nailgun server.
 * "lein-notes":https://github.com/taweili/lein-notes See inline notes from sources.
 * "lein-oneoff":https://github.com/mtyaka/lein-oneoff Simplify working with one-off, single-file clojure programs.
 * "lein-project-depends":https://github.com/hugoduncan/lein-namespace-depends Output a project's namespace use/require graph.
