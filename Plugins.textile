@@ -2,6 +2,7 @@ If you've created a plugin for Leiningen, please add it here!
 
 h2. Development Tools
 
+* "drift":http://github.com/macourtney/drift Create and run Rails like database migrations in Clojure.
 * "lein-antlr":http://github.com/alexhall/lein-antlr Generate source code from ANTLR grammars.
 * "lein-clojurescript":http://github.com/bartonj/lein-clojurescript Compile clojurescript.
 * "lein-diagnostics":https://github.com/robwolfe/lein-diagnostics/ Get diagnostic info regarding versions of libraries.
