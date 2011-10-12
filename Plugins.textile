@@ -4,6 +4,7 @@ h2. Development Tools
 
 * "drift":http://github.com/macourtney/drift Create and run Rails like database migrations in Clojure.
 * "lein-antlr":http://github.com/alexhall/lein-antlr Generate source code from ANTLR grammars.
+* "lein-checkouts":https://github.com/guv/lein-checkouts A leiningen plugin to build all dependency "checkouts" projects before the current project is build.
 * "lein-clojurescript":http://github.com/bartonj/lein-clojurescript Compile clojurescript.
 * "lein-diagnostics":https://github.com/robwolfe/lein-diagnostics/ Get diagnostic info regarding versions of libraries.
 * "lein-eclipse":https://github.com/abrenk/lein-eclipse Create Eclipse project descriptor files.
@@ -21,7 +22,6 @@ h2. Development Tools
 * "slamhound":http://github.com/technomancy/slamhound Reconstruct ns forms with needed :use/:require/:import clauses.
 * "swank-clojure":http://github.com/technomancy/swank-clojure Launch a Swank server for Emacs integration.
 * "spawn":https://github.com/levand/spawn A leiningen plugin for easy project and code generation in Clojure
-* "lein-checkouts":https://github.com/guv/lein-checkouts A leiningen plugin to build all dependency "checkouts" projects before the current project is build.
 
 h2. Testing
 
