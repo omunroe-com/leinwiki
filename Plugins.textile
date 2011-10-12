@@ -21,6 +21,7 @@ h2. Development Tools
 * "slamhound":http://github.com/technomancy/slamhound Reconstruct ns forms with needed :use/:require/:import clauses.
 * "swank-clojure":http://github.com/technomancy/swank-clojure Launch a Swank server for Emacs integration.
 * "spawn":https://github.com/levand/spawn A leiningen plugin for easy project and code generation in Clojure
+* "lein-checkouts":https://github.com/guv/lein-checkouts A leiningen plugin to build all dependency "checkouts" projects before the current project is build.
 
 h2. Testing
 
