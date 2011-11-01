@@ -1,0 +1,30 @@
+* Version Two
+  This is our chance to make backwards-incompatible restructurings and
+  refactorings, so let's make the most of it. Brainstorm here.
+
+* Refactoring
+  - Upgrade to Clojure 1.3
+  - Switch from maven-ant-tasks to Aether
+    Should allow us to clean up a lot.
+  - Place all artifacts inside target/ directory
+  - Require a project argument for all tasks
+    even ones that run outside a project; determine if project is
+    required via metadata instead of inspecting arglists.
+
+* Features
+  - Run projects inside in-process subclassloader
+    - allow for :eval-in :subprocess or :eval-in :leiningen
+  - Allow more extensible jarring multimethods
+    http://groups.google.com/group/leiningen/browse_thread/thread/50b1198e2fbd0d6b
+  - Spin off leiningen-core library
+    - need to brainstorm about what belongs here
+  - Templates for new projects (a la spawn plugin)
+
+* Deprecations
+  - Consider dropping Ant as a dependency.
+    (might need it for javac task)
+  - :checksum-deps by default
+  - :local-repo-classpath by default
+  - Deprecate interactive task in favour of Jark?
+    (assuming Jark is ready)
+  - Drop Clojars snapshots from default repo list
