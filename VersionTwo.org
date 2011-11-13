@@ -2,29 +2,64 @@
   This is our chance to make backwards-incompatible restructurings and
   refactorings, so let's make the most of it. Brainstorm here.
 
-* Refactoring
+* Open Questions
+  - dev as a bit vs arbitrary environments/profiles
+    - what is an environment? what varies?
+      - config files
+      - dependencies
+      - classpath!
+      - test selectors?
+      - hooks?
+      - source environment variables?
+      - arbitrary defproject keys?
+  - Do people use shell wrappers?
+  - First-class support for subtasks?
+  - Do we need to keep maven around for pom generation?
+    - Is it feasible to just use simple XML generation?
+
+* Internal Changes
   - Upgrade to Clojure 1.3
   - Switch from maven-ant-tasks to Aether
     Should allow us to clean up a lot.
   - Place all artifacts inside target/ directory
   - Require a project argument for all tasks
     even ones that run outside a project; determine if project is
-    required via metadata instead of inspecting arglists.
+    required via metadata instead of inspecting arglists
 
 * Features
   - Run projects inside in-process subclassloader
     - allow for :eval-in :subprocess or :eval-in :leiningen
+    - recalculate dependencies without restarting (pomegranate style)
+  - Support classifiers to specify Clojure versions?
+  - Non-transitive AOT when possible (1.4+)
+  - "lein compile :lint" to turn on reflection warnings etc.
+  - Namespace-level test selectors
   - Allow more extensible jarring multimethods
     http://groups.google.com/group/leiningen/browse_thread/thread/50b1198e2fbd0d6b
   - Spin off leiningen-core library
-    - need to brainstorm about what belongs here
+    - Who will use this?
+    - What should be moved?
+      - classpath calculation
+      - eval-in-project
+        - is leiningen.compile/prep going to be a problem?
+      - read-project
+      - user-settings?
+      - repositories-for
+      - find-deps-files
   - Templates for new projects (a la spawn plugin)
+  - Allow tasks to declare themselves as idempotent
 
 * Deprecations
   - Consider dropping Ant as a dependency.
     (might need it for javac task)
-  - :checksum-deps by default
   - :local-repo-classpath by default
+  - Dependency checksum mismatch should cause failure by default
+  - Remove symlink lib option
+  - Remove test! task
+  - Remove bundled lancet
+  - Remove :test-resources-path and :jar-dir
+  - Remove special-casing for group-id for org.clojure deps
+  - Spin off repl socket server into a plugin?
   - Deprecate interactive task in favour of Jark?
     (assuming Jark is ready)
   - Drop Clojars snapshots from default repo list
