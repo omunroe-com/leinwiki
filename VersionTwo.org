@@ -36,7 +36,8 @@
     - recalculate dependencies without restarting (pomegranate style)
   - Support classifiers to specify Clojure versions?
   - Non-transitive AOT when possible (1.4+)
-  - "lein compile :lint" to turn on reflection warnings etc.
+  - =lein compile :lint= to turn on reflection warnings etc.
+    - =lein check= based on [[https://github.com/flatland/cake/blob/develop/src/cake/tasks/check.clj][cake check]]
   - Namespace-level test selectors
   - Allow more extensible jarring multimethods
     http://groups.google.com/group/leiningen/browse_thread/thread/50b1198e2fbd0d6b
