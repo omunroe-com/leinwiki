@@ -18,6 +18,7 @@
     - Is it feasible to just use simple XML generation?
     - We could scavenge the code from [[https://github.com/flatland/depot/blob/develop/src/depot/pom.clj][depot.pom]] for this, or move it into [[https://github.com/cemerick/pomegranate][pomegranate]].
   - nREPL?
+  - optional persistent jvm using =lein start= and =lein stop=?
   - installation process?
 
 * Internal Changes
