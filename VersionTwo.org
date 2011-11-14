@@ -16,7 +16,7 @@
   - First-class support for subtasks?
   - Do we need to keep maven around for pom generation?
     - Is it feasible to just use simple XML generation?
-    - We could scavenge the code from [[https://github.com/flatland/depot/blob/develop/src/depot/pom.clj][depot.pom]] for this, or move it into pomegranate.
+    - We could scavenge the code from [[https://github.com/flatland/depot/blob/develop/src/depot/pom.clj][depot.pom]] for this, or move it into [[https://github.com/cemerick/pomegranate][pomegranate]].
 
 * Internal Changes
   - Upgrade to Clojure 1.3
