@@ -31,6 +31,7 @@
 
 * Features
   - Run projects inside in-process subclassloader
+    - using [[github.com/flatland/classlojure][classlojure]] and perhaps some of cake's [[https://github.com/flatland/cake/blob/develop/src/cake/classloader.clj][bake macros]]?
     - allow for :eval-in :subprocess or :eval-in :leiningen
     - recalculate dependencies without restarting (pomegranate style)
   - Support classifiers to specify Clojure versions?
