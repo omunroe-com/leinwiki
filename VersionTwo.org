@@ -37,7 +37,7 @@
   - Support classifiers to specify Clojure versions?
   - Non-transitive AOT when possible (1.4+)
   - =lein compile :lint= to turn on reflection warnings etc.
-    - =lein check= based on [[https://github.com/flatland/cake/blob/develop/src/cake/tasks/check.clj][cake check]]
+    - =lein check= based on [[https://github.com/flatland/cake/blob/develop/src/cake/tasks/check.clj][cake check]]?
   - Namespace-level test selectors
     - we can port whatever features are desired from [[https://github.com/flatland/cake/blob/develop/src/cake/tasks/test.clj][cake test]] including namespace and tag selectors
   - Allow more extensible jarring multimethods
