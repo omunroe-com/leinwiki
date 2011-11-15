@@ -29,6 +29,7 @@
   - Require a project argument for all tasks
     even ones that run outside a project; determine if project is
     required via metadata instead of inspecting arglists
+  - More extensive test suite; tests covering the code in shell/batch scripts
 
 * Features
   - Run projects inside in-process subclassloader
