@@ -48,6 +48,7 @@ h2. Deployment
 * "lein-init-script":http://github.com/zkim/leiningen-init-script Generate *NIX daemon scripts for your project.
 * "lein-tar":http://github.com/technomancy/lein-tar Create a tarball of your project and its dependencies. (formerly lein-release)
 * "pallet-lein":http://github.com/pallet/pallet-lein Launch nodes and deploy "crate" packages to the cloud.
+* "lein-bin":https://github.com/Raynes/lein-bin Generate cross-platform standalone executables of your project.
 
 h2. Web
 
