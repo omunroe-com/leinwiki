@@ -15,3 +15,10 @@ There has been some discussion in [#leiningen](http://lazybot.org/logs/#leininge
   * Classpath ordering seems like the way to go for determining precedence
 * One way to support this would be to require plugins to be named `lein-*` and define their project middleware wrapper in `leiningen.plugins.*`.
 * Another option is to put some info in the jar `META-INF/MANIFEST.MF`.
+
+Another interesting observation is that defining the project using `(def project ...)` instead of `(defproject ...)` as suggested on the ["Leiningen: the library"](http://groups.google.com/group/leiningen/msg/30b68971c7721038) thread, allows you to use the threading operator to apply project middleware to the project map explicitly:
+
+    (def project 
+      (-> {:name "yo" :group-id "yo" :version "1.0.0-SNAPSHOT" ...}
+          protobuf.core/wrap-project
+          configleaf.core/wrap-contexts))
