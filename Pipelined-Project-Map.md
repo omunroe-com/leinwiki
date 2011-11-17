@@ -1,3 +1,5 @@
+# AKA: Project Middleware
+
 There has been some discussion in [#leiningen](http://lazybot.org/logs/#leiningen/2011-11-16) and on the [mailing list](http://groups.google.com/group/leiningen/browse_thread/thread/4b7cd2a998637ce8) about allowing plugins to modify the defproject map. This basically makes plugins middleware for the project.
 
 ### Why is this useful?
