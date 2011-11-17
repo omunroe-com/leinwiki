@@ -22,3 +22,16 @@ Another interesting observation is that defining the project using `(def project
       (-> {:name "yo" :group-id "yo" :version "1.0.0-SNAPSHOT" ...}
           protobuf.core/wrap-project
           configleaf.core/wrap-contexts))
+
+### Command-line arguments
+
+Should command-line arguments be included in the project map so that plugins can use them for things like profile/environment/context specifiers? That would allow a context syntax like this:
+
+    lein deploy @prod
+    lein repl @qa
+    lein jar @native
+
+An arg format that allows global args in addition to command specific args would allow more flexibility. Cake's argument parsing is worth looking at. Global options can be specified with `--` args. For example:
+
+    lein test :functional --clean=true,all
+    ;; :args {:test [":functional"] :clean ["true" "all"]}
