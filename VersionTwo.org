@@ -38,6 +38,9 @@
   - Require a project argument for all tasks
     even ones that run outside a project; determine if project is
     required via metadata instead of inspecting arglists
+  - No one knows what can go into =init.clj=. Two options AFAICT:
+    - Document the hell out of it (as with =sample.project.clj=)
+    - Look for metadata on functions that indicates =init.clj= usage/dependency that can drive automated production of documentation — both for lein itself _and_ plugins.  e.g. =^{:init.clj {:var 'lein-beanstalk-credentials :keys [[:aws :access-key] [:aws :secret-key]]}}=
   - More extensive test suite; tests covering the code in shell/batch scripts
 
 * Features
