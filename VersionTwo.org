@@ -56,6 +56,7 @@
     - we can port whatever features are desired from [[https://github.com/flatland/cake/blob/develop/src/cake/tasks/test.clj][cake test]] including namespace and tag selectors
   - Allow more extensible jarring multimethods
     [[http://groups.google.com/group/leiningen/browse_thread/thread/50b1198e2fbd0d6b]]
+  - [[https://github.com/technomancy/leiningen/issues/271][Explicit support for repository mirrors/proxies]]
   - Spin off leiningen-core library
     - Who will use this?
     - What should be moved?
