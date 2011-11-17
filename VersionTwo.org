@@ -2,6 +2,9 @@
   This is our chance to make backwards-incompatible restructurings and
   refactorings, so let's make the most of it. Brainstorm here.
 
+* Ideas
+  - [[https://github.com/technomancy/leiningen/wiki/Pipelined-Project-Map][project middleware]]
+
 * Open Questions
   - dev as a bit vs arbitrary environments/profiles
     - what is an environment? what varies?
