@@ -3,7 +3,7 @@
   refactorings, so let's make the most of it. Brainstorm here.
 
 * Ideas
-  - [[https://github.com/technomancy/leiningen/wiki/Pipelined-Project-Map][project middleware]]
+  - [[https://github.com/technomancy/leiningen/wiki/Project-Middleware][project middleware]]
 
 * Open Questions
   - dev as a bit vs arbitrary environments/profiles
