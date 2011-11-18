@@ -12,6 +12,8 @@
         - classpath entries should compose by concatenation
         - everything else by replacement?
       - source environment variables?
+      - we don't want LEIN_ENV checked at runtime, just merged in project map
+        - possibly strip it out of the environment
   - Do people use shell wrappers?
   - First-class support for subtasks?
     - actually this is already mostly there, just needs better docs
@@ -57,6 +59,8 @@
   - Allow more extensible jarring multimethods
     [[http://groups.google.com/group/leiningen/browse_thread/thread/50b1198e2fbd0d6b]]
   - [[https://github.com/technomancy/leiningen/issues/271][Explicit support for repository mirrors/proxies]]
+  - Improved repl client?
+    - See Colin's promising https://github.com/trptcolin/reply
   - Spin off leiningen-core library
     - Who will use this?
     - What should be moved?
