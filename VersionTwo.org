@@ -11,13 +11,12 @@
       - arbitrary defproject keys
         - classpath entries should compose by concatenation
         - everything else by replacement?
-      - source environment variables?
-      - we don't want LEIN_ENV checked at runtime, just merged in project map
-        - possibly strip it out of the environment
+      - auto-activated profiles per-jdk-version?
+      - removing dev-deps means that lein plugins need to be listed separately
+      - where can profiles be defined?
+        - per-project basis: in project.clj or separate file?
+        - per-user basis: maybe ~/.lein/profiles.clj
   - Do people use shell wrappers?
-  - First-class support for subtasks?
-    - actually this is already mostly there, just needs better docs
-    - see plugin task for an example
   - Do we need to keep maven around for pom generation?
     - Is it feasible to just use simple XML generation?
     - We could scavenge the code from [[https://github.com/flatland/depot/blob/develop/src/depot/pom.clj][depot.pom]] for this, or move it into [[https://github.com/cemerick/pomegranate][pomegranate]].
@@ -31,6 +30,9 @@
   - optional persistent jvm using =lein start= and =lein stop=?
     - possibly, if we evaluate jark and find we need something beyond it.
   - installation process?
+  - switch :repositories to a vector rather than a map?
+  - relative paths in *-path in defproject forms?
+  - target java 1.6/1.5 bytecode from 1.7?
 
 * Internal Changes
   - Upgrade to Clojure 1.3
