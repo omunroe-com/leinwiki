@@ -52,6 +52,8 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-autotest](http://github.com/dakrone/lein-autotest) Starts
     Lazytest’s watch on your project for automatic testing on code
     change.
+-   [lein-autoexpect](https://github.com/jakemcc/lein-autoexpect) Watches
+    project for changes and automatically runs [expectations](https://github.com/jaycfields/expectations)
 -   [lein-cuke](http://github.com/mjul/lein-cuke) Run Cucumber BDD
     tests.
 -   [lein-difftest](http://github.com/brentonashworth/lein-difftest)
