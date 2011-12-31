@@ -9,6 +9,9 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-checkouts](https://github.com/guv/lein-checkouts) A leiningen
     plugin to build all dependency “checkouts” projects before the
     current project is build.
+-   [lein-cljsbuild](http://github.com/emezeske/lein-cljsbuild) Compile
+    ClojureScript automatically upon modification, includes support for
+    easily sharing code between Clojure and ClojureScript.
 -   [lein-clojurescript](http://github.com/bartonj/lein-clojurescript)
     Compile clojurescript.
 -   [lein-diagnostics](https://github.com/robwolfe/lein-diagnostics/)
