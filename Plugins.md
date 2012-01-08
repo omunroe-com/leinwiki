@@ -45,13 +45,14 @@ If you’ve created a plugin for Leiningen, please add it here!
     Output a project’s namespace use/require graph.
 -   [lein-sub](https://github.com/kumarshantanu/lein-sub) Execute tasks
     on sub-projects
+-   [lein-thrift](https://github.com/kurtharriger/lein-thrift) for generating thrift sources
 -   [slamhound](http://github.com/technomancy/slamhound) Reconstruct ns
     forms with needed :use/:require/:import clauses.
 -   [swank-clojure](http://github.com/technomancy/swank-clojure) Launch
     a Swank server for Emacs integration.
 -   [spawn](https://github.com/levand/spawn) A leiningen plugin for easy
     project and code generation in Clojure
--   [lein-thrift](https://github.com/kurtharriger/lein-thrift) for generating thrift sources
+
 
 ## Testing
 
