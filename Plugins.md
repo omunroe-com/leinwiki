@@ -23,6 +23,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-flyway](https://github.com/teropa/lein-flyway) for running the
     [Flyway database migration
     framework](http://code.google.com/p/flyway)
+-   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc) for compiling groovy source code
 -   [lein-jit](https://github.com/timmc/lein-jit) for creating non-AOT uberjars
 -   [lein-lb](https://bitbucket.org/kumarshantanu/lein-lb) Database
     migrations using
@@ -50,6 +51,7 @@ If you’ve created a plugin for Leiningen, please add it here!
     a Swank server for Emacs integration.
 -   [spawn](https://github.com/levand/spawn) A leiningen plugin for easy
     project and code generation in Clojure
+-   [lein-thrift](https://github.com/kurtharriger/lein-thift) for generating thrift sources
 
 ## Testing
 
