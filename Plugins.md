@@ -51,7 +51,7 @@ If you’ve created a plugin for Leiningen, please add it here!
     a Swank server for Emacs integration.
 -   [spawn](https://github.com/levand/spawn) A leiningen plugin for easy
     project and code generation in Clojure
--   [lein-thrift](https://github.com/kurtharriger/lein-thift) for generating thrift sources
+-   [lein-thrift](https://github.com/kurtharriger/lein-thrift) for generating thrift sources
 
 ## Testing
 
