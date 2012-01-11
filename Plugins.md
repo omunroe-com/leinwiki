@@ -123,6 +123,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-ring](https://github.com/weavejester/lein-ring) Ring plugin.
 -   [leiningen-war](http://github.com/alienscience/leiningen-war) Create
     WAR files for use in servlet containers.
+-   [lein-axis](https://github.com/jaley/lein-axis) Generate Apache Axis stubs from a WSDL file as part of your Leiningen build process.
 
 ## Documentation
 
