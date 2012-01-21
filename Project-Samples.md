@@ -1,1 +1,0 @@
-This page presents a list of project.clj samples for typical builds. This should help you get started with Leiningen and sort out the most useful options depending on how you want to package your projects.
