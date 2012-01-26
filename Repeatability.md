@@ -110,3 +110,8 @@ tests after every commit in a completely fresh environment, which
 helps a lot with dependency issues; the local `~/.m2/repository` cache
 is rebuilt afresh every time. With Jenkins you can do that yourself; a
 cron job that clears out the local repository every day is probably
+your best bet.
+
+Forgetting to check in files is another common source of
+non-repeatability, but it can easily be addressed with
+[pre-commit hooks](http://book.git-scm.com/5_git_hooks.html).
