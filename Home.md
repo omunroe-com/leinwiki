@@ -9,4 +9,4 @@ for official documentation.
 
 [[VersionTwo]]
 
-[[Using Leiningen with the Jenkins CI server]]
+[[Jenkins]]
