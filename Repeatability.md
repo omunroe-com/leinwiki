@@ -25,6 +25,10 @@ without adding Sonatype to project B's repository list. As soon as
 someone tries working on project B on another machine that hasn't had
 its local repo primed the same way it will fail.
 
+In Leiningen 2 it's possible to add a `:repositories` key to your
+`:user` profile, but this exacerbates all the same problems you get
+with the local repository. You'll get a warning if you try to do this.
+
 ## Free-Floating Jars
 
 It may be desirable to add dependencies on jars which haven't been
