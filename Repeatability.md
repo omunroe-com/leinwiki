@@ -85,7 +85,14 @@ it is not specific to any runtime or language. The key is to ensure
 that state from past test runs or development isn't left around to
 interfere with future runs. The best way to do this from Clojure is to
 take advantage of
-[clojure.test/use-fixtures](http://clojuredocs.org/clojure_core/1.3.0/clojure.test/use-fixtures).
+[clojure.test/use-fixtures](http://clojuredocs.org/clojure_core/1.3.0/clojure.test/use-fixtures)
+to clear out things like directories on disk used for tempfiles,
+database tables, or in-memory refs/atoms.
+
+    (use-fixtures :each (fn [f]
+                          (delete-file-recursively
+                           (file "test_projects" "sample" "classes") :silently)
+                          (f)))
 
 ## Detecting Non-Repeatability
 
