@@ -50,10 +50,10 @@ something simpler you can host them on a
 ## Snapshot Versions
 
 Sometimes it's necessary to include a dependency on software that
-hasn't been released yet. Details on snapshots can be found in `lein
-help tutorial`, snapshots are by definition non-deterministic.
-For this reason, Leiningen will only allow you to depend upon
-snapshots if your project's own version is a snapshot.
+hasn't been released yet; details on snapshots can be found in `lein
+help tutorial`. Snapshots are by definition non-deterministic, and
+for this reason Leiningen will only allow you to depend upon
+snapshots if your project's version is itself a snapshot.
 
 If you need to make a release and the fix you need hasn't made it into
 a release of your dependency, you can lock to a timestamped snapshot
