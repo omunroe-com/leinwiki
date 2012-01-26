@@ -57,7 +57,15 @@ snapshots if your project's own version is a snapshot.
 
 If you need to make a release and the fix you need hasn't made it into
 a release of your dependency, you can lock to a timestamped snapshot
-to avoid the repeatability issues.
+to avoid the repeatability issues. You can find the timestamps for the
+snapshots by looking inside your local repo:
+
+    $ ls ~/.m2/repository/slamhound/slamhound/1.1.0-SNAPSHOT/*jar
+    slamhound-1.1.0-20110417.030036-2.jar
+    slamhound-1.1.0-SNAPSHOT.jar
+
+So now you can replace `[slamhound "1.1.0-SNAPSHOT"]` with
+`[slamhound "1.1.0-20110417.030036-2"]` inside project.clj.
 
 ## Version Ranges
 
@@ -72,8 +80,22 @@ you should absolutely avoid ranges.
 
 ## Testing
 
-TODO
+There's been plenty written about nondeterministic tests, and much of
+it is not specific to any runtime or language. The key is to ensure
+that state from past test runs or development isn't left around to
+interfere with future runs. The best way to do this from Clojure is to
+take advantage of
+[clojure.test/use-fixtures](http://clojuredocs.org/clojure_core/1.3.0/clojure.test/use-fixtures).
 
 ## Detecting Non-Repeatability
 
-TODO
+Non-repeatability usually makes itself known over time, but usually at
+the most inopportune or embarrassing moment. You can save a lot of
+headache by proactively detecting it with a bit of continuous
+integration infrastructure. The most common tools for this are
+[[Jenkins]] and [Travis](http://travis-ci.org), the latter being
+currently suitable only for open source projects. Travis will run your
+tests after every commit in a completely fresh environment, which
+helps a lot with dependency issues; the local `~/.m2/repository` cache
+is rebuilt afresh every time. With Jenkins you can do that yourself; a
+cron job that clears out the local repository every day is probably
