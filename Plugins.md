@@ -11,7 +11,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-eclipse](https://github.com/abrenk/lein-eclipse) Create Eclipse project descriptor files.
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
 -   [lein-flyway](https://github.com/teropa/lein-flyway) for running the [Flyway database migration framework](http://code.google.com/p/flyway)
--   [lein-iclojure](https://github.com/cosmin/lein-iclojure) for running an IClojure REPL
+-   [lein-iclojure](https://github.com/cosmin/lein-iclojure) for running an [IClojure](https://github.com/cosmin/IClojure) REPL
 -   [lein-jit](https://github.com/timmc/lein-jit) for creating non-AOT uberjars
 -   [lein-lb](https://bitbucket.org/kumarshantanu/lein-lb) Database migrations using [Clj-Liquibase](https://bitbucket.org/kumarshantanu/clj-liquibase)
 -   [lein-localrepo](https://github.com/kumarshantanu/lein-localrepo) Work with local Maven repository
