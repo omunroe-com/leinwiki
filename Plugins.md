@@ -21,6 +21,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-nrepl](https://github.com/stephenalindsay/lein-nrepl) Launch an nREPL server.
 -   [lein-oneoff](https://github.com/mtyaka/lein-oneoff) Simplify working with one-off, single-file clojure programs.
 -   [lein-project-depends](https://github.com/hugoduncan/lein-namespace-depends) Output a project’s namespace use/require graph.
+-   [lein-repls](https://github.com/franks42/lein-repls) Launch a persistent REPL-server and use the lightweight command-line "cljsh" client to interact.
 -   [lein-sub](https://github.com/kumarshantanu/lein-sub) Execute tasks on sub-projects
 -   [slamhound](http://github.com/technomancy/slamhound) Reconstruct ns forms with needed :use/:require/:import clauses.
 -   [spawn](https://github.com/levand/spawn) A leiningen plugin for easy project and code generation in Clojure
