@@ -41,6 +41,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-autoexpect](https://github.com/jakemcc/lein-autoexpect) Watches project for changes and automatically runs [expectations](https://github.com/jaycfields/expectations)
 -   [lein-autotest](http://github.com/dakrone/lein-autotest) Starts Lazytest’s watch on your project for automatic testing on code change.
 -   [lein-clj-doc-test](https://github.com/newfoundresearch/lein-clj-doc-test) Plugin derived from [clj-doc-test](https://github.com/Kobold/clj-doc-test/), which enables document based testing like Python’s doctest
+-   [lein-cucumber](https://github.com/nilswloka/lein-cucumber) A simple leiningen plugin for running clojure-based cucumber-jvm specifications. 
 -   [lein-cuke](http://github.com/mjul/lein-cuke) Run Cucumber BDD tests.
 -   [lein-difftest](http://github.com/brentonashworth/lein-difftest) Display diffs when a test fails.
 -   [lein-fail-fast](http://github.com/pjstadig/lein-fail-fast) Stop testing run upon to save time in CI situations.
