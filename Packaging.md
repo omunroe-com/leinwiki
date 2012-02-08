@@ -2,7 +2,7 @@ Leiningen is available in a number of package managers:
 
 [nix](https://nixos.org/websvn/nix/nixpkgs/trunk/pkgs/development/tools/build-managers/leiningen/default.nix)
 
-[apt-get](http://packages.debian.org/sid/leiningen) (Debian: since wheezy; Ubuntu: since Oneric)
+[apt-get](http://packages.debian.org/sid/leiningen) (Debian: since wheezy; Ubuntu: since Oneiric)
 
 [homebrew](https://github.com/mxcl/homebrew/blob/master/Library/Formula/leiningen.rb)
 
