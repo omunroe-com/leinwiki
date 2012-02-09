@@ -13,7 +13,6 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-flyway](https://github.com/teropa/lein-flyway) for running the [Flyway database migration framework](http://code.google.com/p/flyway)
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps) Pull dependencies via git
 -   [lein-iclojure](https://github.com/cosmin/lein-iclojure) for running an [IClojure](https://github.com/cosmin/IClojure) REPL
--   [lein-jit](https://github.com/timmc/lein-jit) for creating non-AOT uberjars
 -   [lein-lb](https://bitbucket.org/kumarshantanu/lein-lb) Database migrations using [Clj-Liquibase](https://bitbucket.org/kumarshantanu/clj-liquibase)
 -   [lein-localrepo](https://github.com/kumarshantanu/lein-localrepo) Work with local Maven repository
 -   [lein-multi](http://github.com/maravillas/lein-multi) Run tasks against multiple dependency sets (such as multiple Clojure versions) at once.
@@ -63,6 +62,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-daemon](http://github.com/arohner/lein-daemon) Run app as a daemon.
 -   [lein-hadoop](http://github.com/ndimiduk/lein-hadoop) Generate a jar containing nested libs as required for hadoop jobs.
 -   [lein-init-script](http://github.com/zkim/leiningen-init-script) Generate **NIX daemon scripts for your project.
+-   [lein-otf](https://github.com/timmc/lein-otf) for creating non-AOT uberjars
 -   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies. (formerly lein-release)
 -   [pallet-lein](http://github.com/pallet/pallet-lein) Launch nodes and deploy "crate" packages to the cloud.
 
