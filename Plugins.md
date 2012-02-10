@@ -34,6 +34,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-cljsbuild](http://github.com/emezeske/lein-cljsbuild) Compile ClojureScript automatically upon modification. Includes support for sharing code between Clojure and ClojureScript.
 -   [lein-clojurescript](http://github.com/bartonj/lein-clojurescript) Compile clojurescript.
 -   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc) for compiling groovy source code
+-   [lein-scalac](https://github.com/technomancy/lein-scalac) Compile Scala.
 -   [lein-thrift](https://github.com/kurtharriger/lein-thrift) for generating thrift sources
 
 ## Testing
