@@ -80,6 +80,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 ## Documentation
 
 -   [lein-autodoc](https://github.com/tomfaulhaber/lein-autodoc) Generate autodoc documentation.
+-   [lein-docbkx](https://github.com/kumarshantanu/lein-docbkx) Render Docbook XML documents using Docbkx-tools.
 -   [lein-margauto](https://github.com/kyleburton/lein-margauto) Leiningen Plugin for [Marginalia](https://github.com/fogus/marginalia) that watches your source directories for changes to your clojure source files and rebuilds the Marginalia documentation whenever you update your source code.
 -   [lein-marginalia](https://github.com/fogus/lein-marginalia) Leiningen Plugin for [Marginalia](https://github.com/fogus/marginalia)
 
