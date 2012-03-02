@@ -12,6 +12,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
 -   [lein-flyway](https://github.com/teropa/lein-flyway) for running the [Flyway database migration framework](http://code.google.com/p/flyway)
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps) Pull dependencies via git
+-   [lein-html5-docs](https://github.com/tsdh/lein-html5-docs) Generate HTML5 API docs
 -   [lein-iclojure](https://github.com/cosmin/lein-iclojure) for running an [IClojure](https://github.com/cosmin/IClojure) REPL
 -   [lein-lb](https://bitbucket.org/kumarshantanu/lein-lb) Database migrations using [Clj-Liquibase](https://bitbucket.org/kumarshantanu/clj-liquibase)
 -   [lein-localrepo](https://github.com/kumarshantanu/lein-localrepo) Work with local Maven repository
