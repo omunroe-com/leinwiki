@@ -37,6 +37,7 @@ looks like this:
 ```clj
 {:user {:plugins [[lein-difftest "1.3.7"]
                   [lein-marginalia "0.7.0"]
+                  [lein-pprint "1.0.0"]
                   [lein-swank "1.4.3"]]}}
 ```
 
@@ -75,7 +76,9 @@ be copied to the `:user` profile. The exception is the
 ```clj
 {:user {:plugins [[lein-difftest "1.3.7"]
                   [lein-marginalia "0.7.0"]
-                  [lein-swank "1.4.3"]]}
+                  [lein-pprint "1.0.0"]
+                  [lein-swank "1.4.3"]]
+        :search-page-size 30}
  :auth {:repository-auth {#"http://blueant.com/archiva/"
                            {:username "milgrim"
                             :password "locative.2"}}}}
@@ -87,7 +90,9 @@ While Leiningen 2 is fairly stable, it's not quite ready for a release
 candidate yet; there are still a few features missing. In particular
 if you need shell wrappers or the ability to selectively clean
 `.class` files after compilation, you may want to stick with version 1
-for a little longer. You may find the
+for a little longer. 
+
+You may find the
 [lein-pprint](https://github.com/technomancy/leiningen/tree/master/lein-pprint)
 plugin useful for debugging your project.
 
