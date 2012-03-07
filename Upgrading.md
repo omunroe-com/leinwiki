@@ -1,7 +1,8 @@
 # Upgrading
 
-Interested in upgrading to Leiningen 2? I don't blame you! Let me
-offer some tips for getting started.
+Interested in upgrading to Leiningen 2? I don't blame you! Look at
+[all those great features](https://github.com/technomancy/leiningen/blob/master/NEWS.md).
+Let me offer some tips for getting started.
 
 ## Installation
 
@@ -27,7 +28,7 @@ a bit of adjustment. Firstly, all your user-level plugins are now
 stored in the `:user` profile instead of being manually installed. So
 if you have the following:
 
-    $ ls -l ~/.lein/plugins
+    $ ls ~/.lein/plugins
     lein-difftest-1.3.7.jar  lein-marginalia-0.7.0.jar lein-swank-1.4.3.jar
 
 You'll have to translate that into a `~/.lein/profiles.clj` file that
@@ -52,8 +53,8 @@ the plugin author and/or the Leiningen mailing list.
 ## Precate
 
 Now that your `:user` profile is in place, it's time to focus on the
-project which you plan to upgrade. We'll install a plugin to help with
-the process:
+project which you plan to upgrade. We'll install a plugin (using
+Leiningen 1) to help with the process:
 
     $ lein plugin install lein-precate 0.2.0
 
