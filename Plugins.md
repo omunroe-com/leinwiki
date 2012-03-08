@@ -28,6 +28,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [spawn](https://github.com/levand/spawn) A leiningen plugin for easy project and code generation in Clojure
 -   [swank-clojure](http://github.com/technomancy/swank-clojure) Launch a Swank server for Emacs integration.
 -   [lein-gentags](https://github.com/snewman/lein-gentags) Creates TAGS files using etags for use in emacs code navigation.
+-   [lein-nevam](https://github.com/thickey/lein-nevam) Converts Maven pom.xml files to project.clj files.
 
 ## Compilers
 
