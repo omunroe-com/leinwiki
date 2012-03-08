@@ -56,7 +56,7 @@ Now that your `:user` profile is in place, it's time to focus on the
 project which you plan to upgrade. We'll install a plugin (using
 Leiningen 1) to help with the process:
 
-    $ lein plugin install lein-precate 0.2.0
+    $ lein plugin install lein-precate 0.2.1
 
 Precate, of course, is the opposite of deprecate. Running `lein
 precate` in your project will show you a suggested configuration which
