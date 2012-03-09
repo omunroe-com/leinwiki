@@ -17,6 +17,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-lb](https://bitbucket.org/kumarshantanu/lein-lb) Database migrations using [Clj-Liquibase](https://bitbucket.org/kumarshantanu/clj-liquibase)
 -   [lein-localrepo](https://github.com/kumarshantanu/lein-localrepo) Work with local Maven repository
 -   [lein-multi](http://github.com/maravillas/lein-multi) Run tasks against multiple dependency sets (such as multiple Clojure versions) at once.
+-   [lein-mustache](https://github.com/achin/lein-mustache) Evaluate Mustache templates with Clojure data files (e.g. for creating templatized documentation)  
 -   [lein-nailgun](https://github.com/mrowl/lein-nailgun) Launch a vimclojure nailgun server.
 -   [lein-newnew](https://github.com/Raynes/lein-newnew) Next-generation `lein new` supporting custom project skeletons.
 -   [lein-notes](https://github.com/taweili/lein-notes) See inline notes from sources.
