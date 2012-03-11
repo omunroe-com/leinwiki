@@ -48,7 +48,13 @@ be checked into version control easily instead of having to re-run
 
 You may run into issues since not all plugins out there have been
 upgraded to work with Leiningen 2 yet. Please report such issues with
-the plugin author and/or the Leiningen mailing list.
+the plugin author and/or the Leiningen mailing list. If the
+installation instructions for a plugin haven't been updated yet, you
+can try replacing "lein plugin install [...]" with just adding the
+corresponding name/version to the `:plugins` vector in your `:user`
+profile. This won't work for all plugins since some of them rely on
+violating the project/plugin isolation, but it will work for the
+simpler ones.
 
 ## Precate
 
