@@ -8,12 +8,14 @@ Let me offer some tips for getting started.
 
 Download
 [`bin/lein`](https://raw.github.com/technomancy/leiningen/preview/bin/lein)
-from the `preview` branch:
+from the `preview` branch (assuming `~/bin` directory already exists):
 
-    $ wget -O ~/bin/lein2 https://raw.github.com/technomancy/leiningen/preview/bin/lein
+    $ wget --no-check-certificate -O ~/bin/lein2 https://raw.github.com/technomancy/leiningen/preview/bin/lein
     $ chmod 755 ~/bin/lein2
 
-This is assuming you have `~/bin` on your `$PATH`. You probably want
+Add `~/bin` to your `$PATH`.
+
+You probably want
 to place the `lein2` symlink wherever your existing Leiningen 1
 installation is. At some point you'll probably want to just name it
 `lein`, but for now let's play it safe and leave the old 1.x version
