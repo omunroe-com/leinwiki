@@ -30,6 +30,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [swank-clojure](http://github.com/technomancy/swank-clojure) Launch a Swank server for Emacs integration.
 -   [lein-gentags](https://github.com/snewman/lein-gentags) Creates TAGS files using etags for use in emacs code navigation.
 -   [lein-nevam](https://github.com/thickey/lein-nevam) Converts Maven pom.xml files to project.clj files.
+-   [lein-webrepl](https://github.com/zoka/lein-webrepl) A Leiningen v2.0 plugin provides browser based nREPL interface.
 
 ## Compilers
 
