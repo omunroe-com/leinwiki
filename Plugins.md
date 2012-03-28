@@ -10,6 +10,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-diagnostics](https://github.com/robwolfe/lein-diagnostics/) Get diagnostic info regarding versions of libraries.
 -   [lein-eclipse](https://github.com/abrenk/lein-eclipse) Create Eclipse project descriptor files.
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
+-   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher) Generate a namespace dependency graph as an svg file
 -   [lein-flyway](https://github.com/teropa/lein-flyway) for running the [Flyway database migration framework](http://code.google.com/p/flyway)
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps) Pull dependencies via git
 -   [lein-html5-docs](https://github.com/tsdh/lein-html5-docs) Generate HTML5 API docs
