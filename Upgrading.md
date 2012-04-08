@@ -38,7 +38,7 @@ looks like this:
 ```clj
 {:user {:plugins [[lein-difftest "1.3.7"]
                   [lein-marginalia "0.7.0"]
-                  [lein-pprint "1.0.0"]
+                  [lein-pprint "1.1.1"]
                   [lein-swank "1.4.3"]]}}
 ```
 
@@ -83,7 +83,7 @@ be copied to the `:user` profile. The exception is the
 ```clj
 {:user {:plugins [[lein-difftest "1.3.7"]
                   [lein-marginalia "0.7.0"]
-                  [lein-pprint "1.0.0"]
+                  [lein-pprint "1.1.1"]
                   [lein-swank "1.4.3"]]
         :search-page-size 30}
  :auth {:repository-auth {#"http://blueant.com/archiva/"
