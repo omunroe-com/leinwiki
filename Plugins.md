@@ -23,6 +23,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-newnew](https://github.com/Raynes/lein-newnew) Next-generation `lein new` supporting custom project skeletons.
 -   [lein-notes](https://github.com/taweili/lein-notes) See inline notes from sources.
 -   [lein-oneoff](https://github.com/mtyaka/lein-oneoff) Simplify working with one-off, single-file clojure programs.
+-   [lein-outdated](https://github.com/ato/lein-outdated) List newer available versions of dependencies.
 -   [lein-project-depends](https://github.com/hugoduncan/lein-namespace-depends) Output a project’s namespace use/require graph.
 -   [lein-repls](https://github.com/franks42/lein-repls) Launch a persistent REPL-server and use the lightweight command-line "cljsh" client to interact.
 -   [lein-sub](https://github.com/kumarshantanu/lein-sub) Execute tasks on sub-projects
