@@ -27,6 +27,7 @@ If you’ve created a plugin for Leiningen, please add it here!
 -   [lein-project-depends](https://github.com/hugoduncan/lein-namespace-depends) Output a project’s namespace use/require graph.
 -   [lein-repls](https://github.com/franks42/lein-repls) Launch a persistent REPL-server and use the lightweight command-line "cljsh" client to interact.
 -   [lein-sub](https://github.com/kumarshantanu/lein-sub) Execute tasks on sub-projects
+-   [lein-tarsier](https://github.com/sattvik/lein-tarsier) A more fully-featured plug-in to add a [VimClojure](http://www.vim.org/scripts/script.php?script_id=2501) server to your project
 -   [slamhound](http://github.com/technomancy/slamhound) Reconstruct ns forms with needed :use/:require/:import clauses.
 -   [spawn](https://github.com/levand/spawn) A leiningen plugin for easy project and code generation in Clojure
 -   [swank-clojure](http://github.com/technomancy/swank-clojure) Launch a Swank server for Emacs integration.
