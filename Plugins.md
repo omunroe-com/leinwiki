@@ -7,95 +7,95 @@ Plugins marked with † have not been confirmed to work with Leiningen 2.
 
 ## Development Tools
 
--   [drift](http://github.com/macourtney/drift)† Create and run Rails like database migrations in Clojure.
--   [lein-checkouts](https://github.com/guv/lein-checkouts)† Build all dependency "checkouts" projects before the current project is build.
--   [lein-diagnostics](https://github.com/robwolfe/lein-diagnostics/)† Get diagnostic info regarding versions of libraries.
--   [lein-eclipse](https://github.com/abrenk/lein-eclipse)† Create Eclipse project descriptor files.
--   [lein-exec](https://github.com/kumarshantanu/lein-exec)† Execute Clojure scripts in a project
+-   [drift](http://github.com/macourtney/drift)† Create and run Rails like database migrations in Clojure
+-   [lein-checkouts](https://github.com/guv/lein-checkouts)† Build all dependency "checkouts" projects before the current project is build
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher)† Generate a namespace dependency graph as an svg file
--   [lein-flyway](https://github.com/teropa/lein-flyway)† for running the [Flyway database migration framework](http://code.google.com/p/flyway)
+-   [lein-diagnostics](https://github.com/robwolfe/lein-diagnostics/)† Get diagnostic info regarding versions of libraries
+-   [lein-eclipse](https://github.com/abrenk/lein-eclipse)† Create Eclipse project descriptor files
+-   [lein-exec](https://github.com/kumarshantanu/lein-exec)† Execute Clojure scripts in a project
+-   [lein-flyway](https://github.com/teropa/lein-flyway)† Run [Flyway database migrations](http://code.google.com/p/flyway)
+-   [lein-gentags](https://github.com/snewman/lein-gentags)† Create TAGS files using etags for use in emacs code navigation
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps)† Pull dependencies via git
 -   [lein-iclojure](https://github.com/cosmin/lein-iclojure)† for running an [IClojure](https://github.com/cosmin/IClojure) REPL
 -   [lein-lb](https://bitbucket.org/kumarshantanu/lein-lb)† Database migrations using [Clj-Liquibase](https://bitbucket.org/kumarshantanu/clj-liquibase)
--   [lein-localrepo](https://github.com/kumarshantanu/lein-localrepo) Work with local Maven repository
--   [lein-nailgun](https://github.com/mrowl/lein-nailgun)† Launch a vimclojure nailgun server.
--   [lein-notes](https://github.com/taweili/lein-notes)† See inline notes from sources.
--   [lein-oneoff](https://github.com/mtyaka/lein-oneoff)† Simplify working with one-off, single-file clojure programs.
--   [lein-outdated](https://github.com/ato/lein-outdated) List newer available versions of dependencies.
--   [lein-project-depends](https://github.com/hugoduncan/lein-namespace-depends)† Output a project’s namespace use/require graph.
--   [lein-repls](https://github.com/franks42/lein-repls)† Launch a persistent REPL-server and use the lightweight command-line "cljsh" client to interact.
+-   [lein-localrepo](https://github.com/kumarshantanu/lein-localrepo) Work with the local Maven repository
+-   [lein-nailgun](https://github.com/mrowl/lein-nailgun)† Launch a vimclojure nailgun server
+-   [lein-nevam](https://github.com/thickey/lein-nevam) Convert Maven pom.xml files to project.clj files
+-   [lein-notes](https://github.com/taweili/lein-notes)† See inline notes from sources
+-   [lein-oneoff](https://github.com/mtyaka/lein-oneoff)† Simplify working with one-off, single-file clojure programs
+-   [lein-outdated](https://github.com/ato/lein-outdated) List newer available versions of dependencies
+-   [lein-project-depends](https://github.com/hugoduncan/lein-namespace-depends)† Output a project’s namespace use/require graph
+-   [lein-repls](https://github.com/franks42/lein-repls)† Launch a persistent REPL-server and use the lightweight command-line `cljsh` client to interact
 -   [lein-sub](https://github.com/kumarshantanu/lein-sub) Execute tasks on sub-projects
--   [lein-tarsier](https://github.com/sattvik/lein-tarsier) A more fully-featured plug-in to add a [VimClojure](http://www.vim.org/scripts/script.php?script_id=2501) server to your project
--   [slamhound](http://github.com/technomancy/slamhound)† Reconstruct ns forms with needed :use/:require/:import clauses.
--   [lein-swank](http://github.com/technomancy/swank-clojure) Launch a Swank server for Emacs integration.
--   [lein-gentags](https://github.com/snewman/lein-gentags)† Create TAGS files using etags for use in emacs code navigation.
--   [lein-nevam](https://github.com/thickey/lein-nevam) Convert Maven pom.xml files to project.clj files.
--   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface.
+-   [lein-swank](http://github.com/technomancy/swank-clojure) Launch a Swank server for Emacs integration
+-   [lein-tarsier](https://github.com/sattvik/lein-tarsier) Add a [VimClojure](http://www.vim.org/scripts/script.php?script_id=2501) server to your project
+-   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
+-   [slamhound](http://github.com/technomancy/slamhound)† Reconstruct ns forms with needed :use/:require/:import clauses
 
 ## Compilers
 
--   [lein-antlr](http://github.com/alexhall/lein-antlr)† Generate source code from ANTLR grammars.
--   [lein-cljsbuild](http://github.com/emezeske/lein-cljsbuild) Compile ClojureScript automatically upon modification. Includes support for sharing code between Clojure and ClojureScript.
--   [lein-clojurescript](http://github.com/bartonj/lein-clojurescript)† Compile clojurescript.
--   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc)† for compiling groovy source code
--   [lein-scalac](https://github.com/technomancy/lein-scalac)† Compile Scala.
--   [lein-thrift](https://github.com/kurtharriger/lein-thrift)† for generating thrift sources
+-   [lein-antlr](http://github.com/alexhall/lein-antlr)† Generate source code from ANTLR grammars
+-   [lein-cljsbuild](http://github.com/emezeske/lein-cljsbuild) Compile ClojureScript automatically upon modification and share code between Clojure and ClojureScript
+-   [lein-clojurescript](http://github.com/bartonj/lein-clojurescript)† Compile ClojureScript
+-   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc)† Compile Groovy
+-   [lein-scalac](https://github.com/technomancy/lein-scalac)† Compile Scala
+-   [lein-thrift](https://github.com/kurtharriger/lein-thrift)† Generating Thrift sources
 
 ## Testing
 
--   [lein-autoexpect](https://github.com/jakemcc/lein-autoexpect)† Watches project for changes and automatically runs [expectations](https://github.com/jaycfields/expectations)
--   [lein-autotest](http://github.com/dakrone/lein-autotest)† Starts Lazytest’s watch on your project for automatic testing on code change.
--   [lein-clj-doc-test](https://github.com/newfoundresearch/lein-clj-doc-test)† Plugin derived from [clj-doc-test](https://github.com/Kobold/clj-doc-test/), which enables document based testing like Python’s doctest
--   [lein-cucumber](https://github.com/nilswloka/lein-cucumber)† A simple leiningen plugin for running clojure-based cucumber-jvm specifications. 
--   [lein-cuke](http://github.com/mjul/lein-cuke)† Run Cucumber BDD tests.
--   [lein-difftest](http://github.com/brentonashworth/lein-difftest) Display diffs when a test fails.
--   [lein-fail-fast](http://github.com/pjstadig/lein-fail-fast)† Stop testing run upon to save time in CI situations.
--   [lein-junit](https://github.com/febeling/lein-junit)† Run JUnit tests.
--   [lein-midje](https://github.com/marick/lein-midje) Run [Midje](http://github.com/marick/Midje/blob/master/README.md) tests.
--   [lein-play](http://github.com/technomancy/lein-play)† Play a different sound at the end of your test runs depending on whether they pass or fail.
+-   [lein-autoexpect](https://github.com/jakemcc/lein-autoexpect)† Watch project for changes and automatically run [expectations](https://github.com/jaycfields/expectations)
+-   [lein-autotest](http://github.com/dakrone/lein-autotest)† Start Lazytest's watch on your project for automatic testing on code change
+-   [lein-clj-doc-test](https://github.com/newfoundresearch/lein-clj-doc-test)† Enable documentation-based testing like Python's doctest with [clj-doc-test](https://github.com/Kobold/clj-doc-test/)
+-   [lein-cucumber](https://github.com/nilswloka/lein-cucumber)† Run clojure-based cucumber-jvm specifications
+-   [lein-cuke](http://github.com/mjul/lein-cuke)† Run Cucumber BDD tests
+-   [lein-difftest](http://github.com/brentonashworth/lein-difftest) Display diffs when a test fails
+-   [lein-fail-fast](http://github.com/pjstadig/lein-fail-fast)† Stop testing run upon to save time in CI situations
+-   [lein-junit](https://github.com/febeling/lein-junit)† Run JUnit tests
+-   [lein-midje](https://github.com/marick/lein-midje) Run [Midje](http://github.com/marick/Midje/blob/master/README.md) tests
+-   [lein-play](http://github.com/technomancy/lein-play)† Play a different sound at the end of your test runs depending on whether they pass or fail
 -   [lein-reload](https://github.com/paraseba/lein-reload)† Reload modified files automatically every time you run your tests
--   [lein-test-bang-bang](https://github.com/joegallo/lein-test-bang-bang)† Run each test namespace in a separate JVM.
--   [lein-test-out](https://github.com/arohner/lein-test-out)† Run all tests and outputs to a file in junit XML or TAP format.
--   [radagast](http://github.com/Seajure/radagast)† Get simplistic test coverage.
+-   [lein-test-bang-bang](https://github.com/joegallo/lein-test-bang-bang)† Run each test namespace in a separate JVM
+-   [lein-test-out](https://github.com/arohner/lein-test-out)† Run all tests and outputs to a file in junit XML or TAP format
+-   [radagast](http://github.com/Seajure/radagast)† Get simplistic test coverage
 -   [speclj](https://github.com/slagyr/speclj)† (pronounced “speckle”) TDD/BDD framework, with auto-runner, based on [rspec](http://rspec.info/)
 
 ## Deployment
 
--   [lein-bin](https://github.com/Raynes/lein-bin)† Generate cross-platform standalone executables of your project.
--   [lein-clojars](https://github.com/ato/lein-clojars) Deploy to Clojars.
--   [lein-condor](http://github.com/gilesc/lein-condor)† Execute Clojure code on a Condor cluster.
--   [lein-daemon](http://github.com/arohner/lein-daemon)† Run app as a daemon.
--   [lein-hadoop](http://github.com/ndimiduk/lein-hadoop)† Generate a jar containing nested libs as required for hadoop jobs.
--   [lein-init-script](http://github.com/zkim/leiningen-init-script)† Generate **NIX daemon scripts for your project.
--   [lein-otf](https://github.com/timmc/lein-otf)† for creating non-AOT uberjars
--   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies. (formerly lein-release)
--   [pallet-lein](http://github.com/pallet/pallet-lein)† Launch nodes and deploy "crate" packages to the cloud.
+-   [lein-bin](https://github.com/Raynes/lein-bin)† Generate cross-platform standalone executables of your project
+-   [lein-clojars](https://github.com/ato/lein-clojars) Deploy to Clojars
+-   [lein-condor](http://github.com/gilesc/lein-condor)† Execute Clojure code on a Condor cluster
+-   [lein-daemon](http://github.com/arohner/lein-daemon)† Run app as a daemon
+-   [lein-hadoop](http://github.com/ndimiduk/lein-hadoop)† Generate a jar containing nested libs as required for hadoop jobs
+-   [lein-init-script](http://github.com/zkim/leiningen-init-script)† Generate **NIX daemon scripts for your project
+-   [lein-otf](https://github.com/timmc/lein-otf)† Create non-AOT uberjars
+-   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies, formerly lein-release
+-   [pallet-lein](http://github.com/pallet/pallet-lein)† Launch nodes and deploy "crate" packages to the cloud
 
 ## Web
 
--   [lein-axis](https://github.com/jaley/lein-axis)† Generate Apache Axis stubs from a WSDL file as part of your Leiningen build process.
--   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) Deploy to Amazon’s Elastic Beanstalk service.
--   [lein-conjure](http://github.com/macourtney/Conjure)† Create a Conjure project and run it.
--   [lein-gwt](http://github.com/teropa/lein-gwt)† Run the Google Web Toolkit compiler.
+-   [lein-axis](https://github.com/jaley/lein-axis)† Generate Apache Axis stubs from a WSDL file
+-   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) Deploy to Amazon’s Elastic Beanstalk service
+-   [lein-conjure](http://github.com/macourtney/Conjure)† Create a Conjure project and run it
+-   [lein-gwt](http://github.com/teropa/lein-gwt)† Run the Google Web Toolkit compiler
 -   [lein-noir](https://github.com/ibdknox/lein-noir) Create and manage [Noir](http://www.webnoir.org) projects
--   [lein-ring](https://github.com/weavejester/lein-ring) Work with web applications using Ring.
--   [leiningen-war](http://github.com/alienscience/leiningen-war)† Create WAR files for use in servlet containers.
+-   [lein-ring](https://github.com/weavejester/lein-ring) Work with web applications using Ring
+-   [leiningen-war](http://github.com/alienscience/leiningen-war)† Create WAR files for use in servlet containers
 
 ## Documentation
 
--   [lein-autodoc](https://github.com/tomfaulhaber/lein-autodoc)† Generate autodoc documentation.
--   [lein-docbkx](https://github.com/kumarshantanu/lein-docbkx)† Render Docbook XML documents as PDF, EPUB, HTML etc. using Docbkx-tools.
+-   [lein-autodoc](https://github.com/tomfaulhaber/lein-autodoc)† Generate autodoc documentation
+-   [lein-docbkx](https://github.com/kumarshantanu/lein-docbkx)† Render Docbook XML documents as PDF, EPUB, HTML etc. using Docbkx-tools
 -   [lein-html5-docs](https://github.com/tsdh/lein-html5-docs)† Generate HTML5 API docs
--   [lein-margauto](https://github.com/kyleburton/lein-margauto)† Leiningen Plugin for [Marginalia](https://github.com/fogus/marginalia) that watches your source directories for changes to your clojure source files and rebuilds the Marginalia documentation whenever you update your source code.
--   [lein-marginalia](https://github.com/fogus/lein-marginalia) Leiningen Plugin for [Marginalia](https://github.com/fogus/marginalia)
--   [lein-mustache](https://github.com/achin/lein-mustache)† Evaluate Mustache templates with Clojure data files (e.g. for creating templatized documentation)  
+-   [lein-margauto](https://github.com/kyleburton/lein-margauto)† Watches your source directories for changes to your clojure source files and rebuilds the Marginalia documentation whenever you update your source code
+-   [lein-marginalia](https://github.com/fogus/lein-marginalia) Generate [Marginalia](https://github.com/fogus/marginalia) documentation
+-   [lein-mustache](https://github.com/achin/lein-mustache)† Evaluate Mustache templates with Clojure data files (e.g. for creating templatized documentation)
 
 ## Merged into Leiningen
 
 -   [lein-javac](https://github.com/antoniogarrote/lein-javac) For compiling Java source (1.4+)
--   [lein-plugin](http://github.com/trptcolin/lein-plugin) A plugin to manage plugins. (1.4+)
--   [lein-retest](http://github.com/technomancy/lein-retest) Run only the test namespaces which failed last time around. (1.6+)
--   [lein-run](http://github.com/sids/lein-run) Call -main functions from the command-line. (1.4+)
--   [lein-search](http://github.com/Licenser/lein-search) Search remote repositories for artifacts. (1.6+)
--   [lein-multi](http://github.com/maravillas/lein-multi) Run tasks against multiple dependency sets (such as multiple Clojure versions) at once. (2.0+)
--   [lein-newnew](https://github.com/Raynes/lein-newnew) Next-generation `lein new` supporting custom project skeletons. (2.0+)
+-   [lein-multi](http://github.com/maravillas/lein-multi) Run tasks against multiple dependency sets (such as multiple Clojure versions) at once (2.0+)
+-   [lein-newnew](https://github.com/Raynes/lein-newnew) Next-generation `lein new` supporting custom project skeletons (2.0+)
+-   [lein-plugin](http://github.com/trptcolin/lein-plugin) Manage plugins (1.4+)
+-   [lein-retest](http://github.com/technomancy/lein-retest) Run only the test namespaces which failed last time around (1.6+)
+-   [lein-run](http://github.com/sids/lein-run) Call -main functions from the command-line (1.4+)
+-   [lein-search](http://github.com/Licenser/lein-search) Search remote repositories for artifacts (1.6+)
