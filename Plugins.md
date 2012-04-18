@@ -89,7 +89,7 @@ Plugins marked with † have not been confirmed to work with Leiningen 2.
 -   [lein-html5-docs](https://github.com/tsdh/lein-html5-docs)† Generate HTML5 API docs
 -   [lein-margauto](https://github.com/kyleburton/lein-margauto)† Watches your source directories for changes to your clojure source files and rebuilds the Marginalia documentation whenever you update your source code
 -   [lein-marginalia](https://github.com/fogus/lein-marginalia) Generate [Marginalia](https://github.com/fogus/marginalia) documentation
--   [lein-mustache](https://github.com/achin/lein-mustache)† Evaluate Mustache templates with Clojure data files (e.g. for creating templatized documentation)
+-   [lein-mustache](https://github.com/achin/lein-mustache) Evaluate Mustache templates with Clojure data files (e.g. for creating templatized documentation)
 
 ## Merged into Leiningen
 
