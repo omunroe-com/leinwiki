@@ -73,6 +73,7 @@ Plugins marked with † have not been confirmed to work with Leiningen 2.
 
 ## Web
 
+-   [fw1-template](https://github.com/seancorfield/fw1-template) Create [FW/1](https://github.com/seancorfield/fw1-clj) projects
 -   [lein-axis](https://github.com/jaley/lein-axis)† Generate Apache Axis stubs from a WSDL file
 -   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) Deploy to Amazon’s Elastic Beanstalk service
 -   [lein-conjure](http://github.com/macourtney/Conjure)† Create a Conjure project and run it
