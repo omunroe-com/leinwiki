@@ -40,6 +40,7 @@ Plugins marked with † have not been confirmed to work with Leiningen 2.
 -   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc)† Compile Groovy
 -   [lein-scalac](https://github.com/technomancy/lein-scalac)† Compile Scala
 -   [lein-thrift](https://github.com/kurtharriger/lein-thrift)† Generating Thrift sources
+-   [lein-lesscss](https://github.com/fmancinelli/lein-lesscss) Compile [Less CSS](http://lesscss.org/) resources.
 
 ## Testing
 
