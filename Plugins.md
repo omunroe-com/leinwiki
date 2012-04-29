@@ -12,7 +12,7 @@ Plugins marked with † have not been confirmed to work with Leiningen 2.
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher)† Generate a namespace dependency graph as an svg file
 -   [lein-diagnostics](https://github.com/robwolfe/lein-diagnostics/)† Get diagnostic info regarding versions of libraries
 -   [lein-eclipse](https://github.com/abrenk/lein-eclipse)† Create Eclipse project descriptor files
--   [lein-exec](https://github.com/kumarshantanu/lein-exec)† Execute Clojure scripts in a project
+-   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
 -   [lein-flyway](https://github.com/teropa/lein-flyway)† Run [Flyway database migrations](http://code.google.com/p/flyway)
 -   [lein-gentags](https://github.com/snewman/lein-gentags)† Create TAGS files using etags for use in emacs code navigation
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps)† Pull dependencies via git
