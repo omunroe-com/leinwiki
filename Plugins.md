@@ -37,7 +37,6 @@ Plugins marked with † have not been confirmed to work with Leiningen 2.
 
 -   [lein-antlr](http://github.com/alexhall/lein-antlr)† Generate source code from ANTLR grammars
 -   [lein-cljsbuild](http://github.com/emezeske/lein-cljsbuild) Compile ClojureScript automatically upon modification and share code between Clojure and ClojureScript
--   [lein-clojurescript](http://github.com/bartonj/lein-clojurescript)† Compile ClojureScript
 -   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc)† Compile Groovy
 -   [lein-scalac](https://github.com/technomancy/lein-scalac)† Compile Scala
 -   [lein-thrift](https://github.com/kurtharriger/lein-thrift)† Generating Thrift sources
