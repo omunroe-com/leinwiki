@@ -59,6 +59,7 @@ Plugins marked with † have not been confirmed to work with Leiningen 2.
 -   [lein-test-out](https://github.com/arohner/lein-test-out)† Run all tests and outputs to a file in junit XML or TAP format
 -   [radagast](http://github.com/Seajure/radagast)† Get simplistic test coverage
 -   [speclj](https://github.com/slagyr/speclj)† (pronounced “speckle”) TDD/BDD framework, with auto-runner, based on [rspec](http://rspec.info/)
+-   [guzheng](http://github.com/dgrnbrg/lein-guzheng) Branch coverage analysis usable with any testing framefork
 
 ## Deployment
 
