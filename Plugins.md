@@ -31,6 +31,7 @@ Plugins marked with † have not been confirmed to work with Leiningen 2.
 -   [lein-tarsier](https://github.com/sattvik/lein-tarsier) Add a [VimClojure](http://www.vim.org/scripts/script.php?script_id=2501) server to your project
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
 -   [slamhound](http://github.com/technomancy/slamhound)† Reconstruct ns forms with needed :use/:require/:import clauses
+-   [lein-gitify](https://github.com/Raynes/lein-gitify) Create and initialize Github/git in your new Leiningen projects.
 
 ## Compilers
 
