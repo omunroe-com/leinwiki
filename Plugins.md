@@ -3,7 +3,7 @@
 
 If you’ve created a plugin for Leiningen, please add it here!
 
-Plugins marked with † have not been confirmed to work with Leiningen 2.
+_Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 ## Development Tools
 
@@ -68,6 +68,7 @@ Plugins marked with † have not been confirmed to work with Leiningen 2.
 -   [lein-condor](http://github.com/gilesc/lein-condor)† Execute Clojure code on a Condor cluster
 -   [lein-daemon](http://github.com/arohner/lein-daemon)† Run app as a daemon
 -   [lein-hadoop](http://github.com/ndimiduk/lein-hadoop)† Generate a jar containing nested libs as required for hadoop jobs
+-   [lein-immutant](https://github.com/immutant/lein-immutant) Manage and deploy applications to an [Immutant](http://immutant.org) server
 -   [lein-init-script](http://github.com/zkim/leiningen-init-script)† Generate **NIX daemon scripts for your project
 -   [lein-otf](https://github.com/timmc/lein-otf)† Create non-AOT uberjars
 -   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies, formerly lein-release
