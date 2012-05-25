@@ -65,7 +65,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 ## Deployment
 
--   [lein-bin](https://github.com/Raynes/lein-bin)† Generate cross-platform standalone executables of your project
+-   [lein-bin](https://github.com/Raynes/lein-bin) Generate cross-platform standalone executables of your project
 -   [lein-clojars](https://github.com/ato/lein-clojars) Deploy to Clojars
 -   [lein-condor](http://github.com/gilesc/lein-condor)† Execute Clojure code on a Condor cluster
 -   [lein-daemon](http://github.com/arohner/lein-daemon)† Run app as a daemon
