@@ -9,6 +9,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 -   [drift](http://github.com/macourtney/drift)† Create and run Rails like database migrations in Clojure
 -   [lein-checkouts](https://github.com/guv/lein-checkouts)† Build all dependency "checkouts" projects before the current project is build
+-   [lein-debian](https://github.com/erickg/lein-debian)† Package build products and/or dependencies as Debian (.deb) packages
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher)† Generate a namespace dependency graph as an svg file
 -   [lein-diagnostics](https://github.com/robwolfe/lein-diagnostics/)† Get diagnostic info regarding versions of libraries
 -   [lein-eclipse](https://github.com/abrenk/lein-eclipse)† Create Eclipse project descriptor files
