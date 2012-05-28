@@ -10,7 +10,7 @@ Download
 [`bin/lein`](https://raw.github.com/technomancy/leiningen/preview/bin/lein)
 from the `preview` branch (assuming `~/bin` directory already exists):
 
-    $ wget --no-check-certificate -O ~/bin/lein2 https://raw.github.com/technomancy/leiningen/preview/bin/lein
+    $ wget -O ~/bin/lein2 https://raw.github.com/technomancy/leiningen/preview/bin/lein
     $ chmod 755 ~/bin/lein2
 
 Add `~/bin` to your `$PATH`.
