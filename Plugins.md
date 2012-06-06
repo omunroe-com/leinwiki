@@ -91,7 +91,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 -   [lein-autodoc](https://github.com/tomfaulhaber/lein-autodoc)† Generate autodoc documentation
 -   [lein-docbkx](https://github.com/kumarshantanu/lein-docbkx)† Render Docbook XML documents as PDF, EPUB, HTML etc. using Docbkx-tools
--   [lein-html5-docs](https://github.com/tsdh/lein-html5-docs)† Generate HTML5 API docs
+-   [lein-html5-docs](https://github.com/tsdh/lein-html5-docs) Generate HTML5 API docs
 -   [lein-licenses](https://github.com/technomancy/lein-licenses) List licenses of all dependencies
 -   [lein-margauto](https://github.com/kyleburton/lein-margauto)† Watches your source directories for changes to your clojure source files and rebuilds the Marginalia documentation whenever you update your source code
 -   [lein-marginalia](https://github.com/fogus/lein-marginalia) Generate [Marginalia](https://github.com/fogus/marginalia) documentation
