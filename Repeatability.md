@@ -62,14 +62,18 @@ snapshots if your project's version is itself a snapshot.
 If you need to make a release and the fix you need hasn't made it into
 a release of your dependency, you can lock to a timestamped snapshot
 to avoid the repeatability issues. You can find the timestamps for the
-snapshots by looking inside your local repo:
+snapshots with `lein deps :tree`:
 
-    $ ls ~/.m2/repository/slamhound/slamhound/1.1.0-SNAPSHOT/*jar
-    slamhound-1.1.0-20110417.030036-2.jar
-    slamhound-1.1.0-SNAPSHOT.jar
+    $ lein deps :tree
+     [org.clojure/clojure "1.4.0"]
+     [compojure "1.1.0-20120509.203749-1"]
+       [clout "1.0.1"]
+       [...]
 
-So now you can replace `[slamhound "1.1.0-SNAPSHOT"]` with
-`[slamhound "1.1.0-20110417.030036-2"]` inside project.clj.
+So now you can replace `[compojure "1.1.0-SNAPSHOT]` with
+`[compojure "1.1.0-20120509.203749-1"]` inside project.clj. If you use
+Leiningen 1.x you can find the number in the filename of the jar
+inside the `lib` directory.
 
 ## Version Ranges
 
