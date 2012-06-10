@@ -9,10 +9,8 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 -   [drift](http://github.com/macourtney/drift)† Create and run Rails like database migrations in Clojure
 -   [lein-checkouts](https://github.com/guv/lein-checkouts)† Build all dependency "checkouts" projects before the current project is build
--   [lein-debian](https://github.com/erickg/lein-debian)† Package build products and/or dependencies as Debian (.deb) packages
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher)† Generate a namespace dependency graph as an svg file
 -   [lein-diagnostics](https://github.com/robwolfe/lein-diagnostics/)† Get diagnostic info regarding versions of libraries
--   [lein-eclipse](https://github.com/abrenk/lein-eclipse)† Create Eclipse project descriptor files
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
 -   [lein-flyway](https://github.com/teropa/lein-flyway)† Run [Flyway database migrations](http://code.google.com/p/flyway)
 -   [lein-gentags](https://github.com/snewman/lein-gentags)† Create TAGS files using etags for use in emacs code navigation
@@ -37,6 +35,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 ## Compilers
 
 -   [lein-antlr](http://github.com/alexhall/lein-antlr)† Generate source code from ANTLR grammars
+-   [lein-debian](https://github.com/erickg/lein-debian)† Package build products and/or dependencies as Debian (.deb) packages
 -   [lein-cljsbuild](http://github.com/emezeske/lein-cljsbuild) Compile ClojureScript automatically upon modification and share code between Clojure and ClojureScript
 -   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc)† Compile Groovy
 -   [lein-ragel](https://github.com/llasram/lein-ragel) Compile Ragel sources to Java sources
@@ -59,7 +58,6 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-reload](https://github.com/paraseba/lein-reload)† Reload modified files automatically every time you run your tests
 -   [lein-test-bang-bang](https://github.com/joegallo/lein-test-bang-bang)† Run each test namespace in a separate JVM
 -   [lein-test-out](https://github.com/arohner/lein-test-out)† Run all tests and outputs to a file in junit XML or TAP format
--   [radagast](http://github.com/Seajure/radagast)† Get simplistic test coverage
 -   [speclj](https://github.com/slagyr/speclj)† (pronounced “speckle”) TDD/BDD framework, with auto-runner, based on [rspec](http://rspec.info/)
 -   [guzheng](http://github.com/dgrnbrg/lein-guzheng) Branch coverage analysis usable with any testing framefork
 
@@ -78,14 +76,11 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 ## Web
 
--   [fw1-template](https://github.com/seancorfield/fw1-template) Create [FW/1](https://github.com/seancorfield/fw1-clj) projects
 -   [lein-axis](https://github.com/jaley/lein-axis)† Generate Apache Axis stubs from a WSDL file
 -   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) Deploy to Amazon’s Elastic Beanstalk service
 -   [lein-conjure](http://github.com/macourtney/Conjure)† Create a Conjure project and run it
 -   [lein-gwt](http://github.com/teropa/lein-gwt)† Run the Google Web Toolkit compiler
--   [lein-noir](https://github.com/ibdknox/lein-noir) Create and manage [Noir](http://www.webnoir.org) projects
 -   [lein-ring](https://github.com/weavejester/lein-ring) Work with web applications using Ring
--   [leiningen-war](http://github.com/alienscience/leiningen-war)† Create WAR files for use in servlet containers
 
 ## Documentation
 
@@ -96,6 +91,13 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-margauto](https://github.com/kyleburton/lein-margauto)† Watches your source directories for changes to your clojure source files and rebuilds the Marginalia documentation whenever you update your source code
 -   [lein-marginalia](https://github.com/fogus/lein-marginalia) Generate [Marginalia](https://github.com/fogus/marginalia) documentation
 -   [lein-mustache](https://github.com/achin/lein-mustache) Evaluate Mustache templates with Clojure data files (e.g. for creating templatized documentation)
+
+## Deprecated
+-   [fw1-template](https://github.com/seancorfield/fw1-template) Create [FW/1](https://github.com/seancorfield/fw1-clj) projects
+-   [lein-eclipse](https://github.com/abrenk/lein-eclipse)† Create Eclipse project descriptor files (use recent CounterClockwise)
+-   [lein-noir](https://github.com/ibdknox/lein-noir) Create and manage [Noir](http://www.webnoir.org) projects (use `new` task)
+-   [leiningen-war](http://github.com/alienscience/leiningen-war)† Create WAR files for use in servlet containers (use lein-ring)
+-   [radagast](http://github.com/Seajure/radagast)† Get simplistic test coverage (use guzheng)
 
 ## Merged into Leiningen
 
