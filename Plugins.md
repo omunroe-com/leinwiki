@@ -81,6 +81,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-conjure](http://github.com/macourtney/Conjure)† Create a Conjure project and run it
 -   [lein-gwt](http://github.com/teropa/lein-gwt)† Run the Google Web Toolkit compiler
 -   [lein-ring](https://github.com/weavejester/lein-ring) Work with web applications using Ring
+-   [lein-servlet](https://github.com/kumarshantanu/lein-servlet) Work with servlet-based webapps
 
 ## Documentation
 
