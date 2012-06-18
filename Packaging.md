@@ -6,7 +6,7 @@ Leiningen is available in a number of package managers:
 
 [homebrew](https://github.com/mxcl/homebrew/blob/master/Library/Formula/leiningen.rb)
 
-[portage](https://github.com/Sholy/nengraphy/blob/master/dev-lang/leiningen/leiningen-9999.ebuild)
+[portage](https://github.com/Nensha/nengraphy/blob/master/dev-lang/leiningen/leiningen-9999.ebuild)
 
 It's also packaged for MacPorts and Arch Linux, but both of these
 packages are unmaintained and have had several bugs reported; it's
