@@ -73,7 +73,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-otf](https://github.com/timmc/lein-otf)† Create non-AOT uberjars
 -   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies, formerly lein-release
 -   [pallet-lein](http://github.com/pallet/pallet-lein)† Launch nodes and deploy "crate" packages to the cloud
-
+-   [lein-cloudbees](https://clojars.org/lein-cloudbees) Deploy clojure apps to cloudbees
 ## Web
 
 -   [lein-axis](https://github.com/jaley/lein-axis)† Generate Apache Axis stubs from a WSDL file
