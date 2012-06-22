@@ -31,6 +31,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
 -   [slamhound](http://github.com/technomancy/slamhound)† Reconstruct ns forms with needed :use/:require/:import clauses
 -   [lein-gitify](https://github.com/Raynes/lein-gitify) Create and initialize Github/git in your new Leiningen projects.
+-   [configleaf](https://github.com/davidsantiago/configleaf) Manage Leiningen profiles in a persistent way and access your project map at runtime.
 
 ## Compilers
 
