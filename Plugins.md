@@ -28,6 +28,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-sub](https://github.com/kumarshantanu/lein-sub) Execute tasks on sub-projects
 -   [lein-swank](http://github.com/technomancy/swank-clojure) Launch a Swank server for Emacs integration
 -   [lein-tarsier](https://github.com/sattvik/lein-tarsier) Add a [VimClojure](http://www.vim.org/scripts/script.php?script_id=2501) server to your project
+-   [lein-vanity](https://github.com/dgtized/lein-vanity) Vanity clojure lines of code metrics
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
 -   [slamhound](http://github.com/technomancy/slamhound)† Reconstruct ns forms with needed :use/:require/:import clauses
 -   [lein-gitify](https://github.com/Raynes/lein-gitify) Create and initialize Github/git in your new Leiningen projects.
