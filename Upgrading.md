@@ -93,6 +93,8 @@ under "Authentication" for details.
 
 ## Gotchas
 
+Leiningen 2 uses jars straight from the local maven repository (`~/.m2`), rather than also copying jars into the project's `lib` directory as 1.x does.
+
 While Leiningen 2 is fairly stable, it's not quite ready for a release
 candidate yet; there are still a few features missing. In particular
 if you need shell wrappers or the ability to selectively clean
