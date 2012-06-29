@@ -76,6 +76,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies, formerly lein-release
 -   [pallet-lein](http://github.com/pallet/pallet-lein)† Launch nodes and deploy "crate" packages to the cloud
 -   [lein-cloudbees](https://clojars.org/lein-cloudbees) Deploy clojure apps to cloudbees
+
 ## Web
 
 -   [lein-axis](https://github.com/jaley/lein-axis)† Generate Apache Axis stubs from a WSDL file
@@ -84,6 +85,10 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-gwt](http://github.com/teropa/lein-gwt)† Run the Google Web Toolkit compiler
 -   [lein-ring](https://github.com/weavejester/lein-ring) Work with web applications using Ring
 -   [lein-servlet](https://github.com/kumarshantanu/lein-servlet) Work with servlet-based webapps
+
+## External tools
+
+-   [lein-embongo](https://github.com/joelittlejohn/lein-embongo) Create a managed/embedded instance of MongoDB during a lein build (e.g. for integration testing).
 
 ## Documentation
 
