@@ -9,6 +9,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 -   [drift](http://github.com/macourtney/drift)† Create and run Rails like database migrations in Clojure
 -   [lein-checkouts](https://github.com/guv/lein-checkouts)† Build all dependency "checkouts" projects before the current project is build
+-   [lein-clean-m2](https://github.com/technomancy/lein-clean-m2) Remove all artifacts from local repo not used by current project
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher) Generate a namespace dependency graph as an svg file
 -   [lein-diagnostics](https://github.com/robwolfe/lein-diagnostics/)† Get diagnostic info regarding versions of libraries
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
@@ -28,6 +29,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-sub](https://github.com/kumarshantanu/lein-sub) Execute tasks on sub-projects
 -   [lein-swank](http://github.com/technomancy/swank-clojure) Launch a Swank server for Emacs integration
 -   [lein-tarsier](https://github.com/sattvik/lein-tarsier) Add a [VimClojure](http://www.vim.org/scripts/script.php?script_id=2501) server to your project
+-   [lein-thrush](https://github.com/technomancy/lein-thrush) Feed the return value of one task into the input of another
 -   [lein-vanity](https://github.com/dgtized/lein-vanity) Lines of code statistics for vanity's sake
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
 -   [slamhound](http://github.com/technomancy/slamhound)† Reconstruct ns forms with needed :use/:require/:import clauses
@@ -56,7 +58,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-fail-fast](http://github.com/pjstadig/lein-fail-fast)† Stop testing run upon to save time in CI situations
 -   [lein-junit](https://github.com/febeling/lein-junit)† Run JUnit tests
 -   [lein-midje](https://github.com/marick/lein-midje) Run [Midje](http://github.com/marick/Midje/blob/master/README.md) tests
--   [lein-play](http://github.com/technomancy/lein-play)† Play a different sound at the end of your test runs depending on whether they pass or fail
+-   [lein-play](http://github.com/technomancy/lein-play) Play a different sound at the end of your test runs depending on whether they pass or fail
 -   [lein-reload](https://github.com/paraseba/lein-reload)† Reload modified files automatically every time you run your tests
 -   [lein-test-bang-bang](https://github.com/joegallo/lein-test-bang-bang)† Run each test namespace in a separate JVM
 -   [lein-test-out](https://github.com/arohner/lein-test-out)† Run all tests and outputs to a file in junit XML or TAP format
@@ -83,6 +85,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) Deploy to Amazon’s Elastic Beanstalk service
 -   [lein-conjure](http://github.com/macourtney/Conjure)† Create a Conjure project and run it
 -   [lein-gwt](http://github.com/teropa/lein-gwt)† Run the Google Web Toolkit compiler
+-   [lein-heroku](https://github.com/technomancy/lein-heroku) Generate and manage Heroku apps.
 -   [lein-ring](https://github.com/weavejester/lein-ring) Work with web applications using Ring
 -   [lein-servlet](https://github.com/kumarshantanu/lein-servlet) Work with servlet-based webapps
 
@@ -99,6 +102,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-margauto](https://github.com/kyleburton/lein-margauto)† Watches your source directories for changes to your clojure source files and rebuilds the Marginalia documentation whenever you update your source code
 -   [lein-marginalia](https://github.com/fogus/lein-marginalia) Generate [Marginalia](https://github.com/fogus/marginalia) documentation
 -   [lein-mustache](https://github.com/achin/lein-mustache) Evaluate Mustache templates with Clojure data files (e.g. for creating templatized documentation)
+-   [lein0precate](https://github.com/technomancy/lein-precate) Transform project.clj into Leiningen 2.x-compatible form.
 
 ## Deprecated
 -   [fw1-template](https://github.com/seancorfield/fw1-template) Create [FW/1](https://github.com/seancorfield/fw1-clj) projects
