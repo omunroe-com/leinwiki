@@ -88,6 +88,8 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-heroku](https://github.com/technomancy/lein-heroku) Generate and manage Heroku apps.
 -   [lein-ring](https://github.com/weavejester/lein-ring) Work with web applications using Ring
 -   [lein-servlet](https://github.com/kumarshantanu/lein-servlet) Work with servlet-based webapps
+-   [lein-joodo](https://github.com/slagyr/joodo) Simple web app library.  Tasks to create, test, generate, your code.
+-   [lein-gaeshi](https://github.com/slagyr/gaeshi) Google App Engine webs apps using Joodo. 
 
 ## External tools
 
