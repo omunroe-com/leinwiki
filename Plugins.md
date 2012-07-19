@@ -62,7 +62,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-reload](https://github.com/paraseba/lein-reload)† Reload modified files automatically every time you run your tests
 -   [lein-test-bang-bang](https://github.com/joegallo/lein-test-bang-bang)† Run each test namespace in a separate JVM
 -   [lein-test-out](https://github.com/arohner/lein-test-out)† Run all tests and outputs to a file in junit XML or TAP format
--   [speclj](https://github.com/slagyr/speclj)† (pronounced “speckle”) TDD/BDD framework, with auto-runner, based on [rspec](http://rspec.info/)
+-   [speclj](https://github.com/slagyr/speclj) (pronounced “speckle”) TDD/BDD framework, with auto-runner, based on [rspec](http://rspec.info/)
 -   [guzheng](http://github.com/dgrnbrg/lein-guzheng) Branch coverage analysis usable with any testing framefork
 
 ## Deployment
