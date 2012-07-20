@@ -67,6 +67,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 ## Deployment
 
+-   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk)† Deploy to AWS Elastic Beanstalk
 -   [lein-bin](https://github.com/Raynes/lein-bin) Generate cross-platform standalone executables of your project
 -   [lein-clojars](https://github.com/ato/lein-clojars) Deploy to Clojars
 -   [lein-condor](http://github.com/gilesc/lein-condor)† Execute Clojure code on a Condor cluster
