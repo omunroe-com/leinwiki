@@ -28,16 +28,16 @@ stored in the `:user` profile instead of being manually installed. So
 if you have the following:
 
     $ ls ~/.lein/plugins
-    lein-difftest-1.3.7.jar  lein-marginalia-0.7.0.jar lein-swank-1.4.3.jar
+    lein-difftest-1.3.8.jar  lein-marginalia-0.7.1.jar lein-swank-1.4.4.jar
 
 You'll have to translate that into a `~/.lein/profiles.clj` file that
 looks like this:
 
 ```clj
-{:user {:plugins [[lein-difftest "1.3.7"]
-                  [lein-marginalia "0.7.0"]
+{:user {:plugins [[lein-difftest "1.3.8"]
+                  [lein-marginalia "0.7.1"]
                   [lein-pprint "1.1.1"]
-                  [lein-swank "1.4.3"] ]}}
+                  [lein-swank "1.4.4"] ]}}
 ```
 
 This mechanism means that there is only ever one list of plugins, so
@@ -79,10 +79,10 @@ it's no longer checked for settings. Most user-level settings should
 be copied to the `:user` profile:
 
 ```clj
-{:user {:plugins [[lein-difftest "1.3.7"]
-                  [lein-marginalia "0.7.0"]
+{:user {:plugins [[lein-difftest "1.3.8"]
+                  [lein-marginalia "0.7.1"]
                   [lein-pprint "1.1.1"]
-                  [lein-swank "1.4.3"]]
+                  [lein-swank "1.4.4"]]
         :search-page-size 30
         :repl-options {:prompt (fn [ns] (str "your command, master? "))}}}
 ```
