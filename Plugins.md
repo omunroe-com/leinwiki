@@ -56,7 +56,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-cuke](http://github.com/mjul/lein-cuke)† Run Cucumber BDD tests
 -   [lein-difftest](http://github.com/brentonashworth/lein-difftest) Display diffs when a test fails
 -   [lein-fail-fast](http://github.com/pjstadig/lein-fail-fast)† Stop testing run upon to save time in CI situations
--   [lein-junit](https://github.com/febeling/lein-junit)† Run JUnit tests
+-   [lein-junit](https://github.com/febeling/lein-junit) Run JUnit tests
 -   [lein-midje](https://github.com/marick/lein-midje) Run [Midje](http://github.com/marick/Midje/blob/master/README.md) tests
 -   [lein-play](http://github.com/technomancy/lein-play) Play a different sound at the end of your test runs depending on whether they pass or fail
 -   [lein-reload](https://github.com/paraseba/lein-reload)† Reload modified files automatically every time you run your tests
