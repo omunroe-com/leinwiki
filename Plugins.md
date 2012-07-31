@@ -7,19 +7,15 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 ## Development Tools
 
--   [drift](http://github.com/macourtney/drift)† Create and run Rails like database migrations in Clojure
 -   [lein-checkouts](https://github.com/guv/lein-checkouts)† Build all dependency "checkouts" projects before the current project is build
 -   [lein-clean-m2](https://github.com/technomancy/lein-clean-m2) Remove all artifacts from local repo not used by current project
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher) Generate a namespace dependency graph as an svg file
 -   [lein-diagnostics](https://github.com/robwolfe/lein-diagnostics/)† Get diagnostic info regarding versions of libraries
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
--   [lein-flyway](https://github.com/teropa/lein-flyway)† Run [Flyway database migrations](http://code.google.com/p/flyway)
 -   [lein-gentags](https://github.com/snewman/lein-gentags)† Create TAGS files using etags for use in emacs code navigation
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps)† Pull dependencies via git
 -   [lein-iclojure](https://github.com/cosmin/lein-iclojure)† for running an [IClojure](https://github.com/cosmin/IClojure) REPL
--   [lein-lb](https://bitbucket.org/kumarshantanu/lein-lb)† Database migrations using [Clj-Liquibase](https://bitbucket.org/kumarshantanu/clj-liquibase)
 -   [lein-localrepo](https://github.com/kumarshantanu/lein-localrepo) Work with the local Maven repository
--   [lein-nailgun](https://github.com/mrowl/lein-nailgun)† Launch a vimclojure nailgun server
 -   [lein-nevam](https://github.com/thickey/lein-nevam) Convert Maven pom.xml files to project.clj files
 -   [lein-notes](https://github.com/taweili/lein-notes)† See inline notes from sources
 -   [lein-oneoff](https://github.com/mtyaka/lein-oneoff)† Simplify working with one-off, single-file clojure programs
@@ -43,7 +39,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-cljsbuild](http://github.com/emezeske/lein-cljsbuild) Compile ClojureScript automatically upon modification and share code between Clojure and ClojureScript
 -   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc)† Compile Groovy
 -   [lein-ragel](https://github.com/llasram/lein-ragel) Compile Ragel sources to Java sources
--   [lein-scalac](https://github.com/technomancy/lein-scalac)† Compile Scala
+-   [lein-scalac](https://github.com/technomancy/lein-scalac) Compile Scala
 -   [lein-thrift](https://github.com/kurtharriger/lein-thrift)† Generating Thrift sources
 -   [lein-lesscss](https://github.com/fmancinelli/lein-lesscss) Compile [Less CSS](http://lesscss.org/) resources.
 
@@ -92,8 +88,11 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-joodo](https://github.com/slagyr/joodo) Simple web app library.  Tasks to create, test, generate, your code.
 -   [lein-gaeshi](https://github.com/slagyr/gaeshi) Google App Engine webs apps using Joodo. 
 
-## External tools
+## Databases
 
+-   [lein-flyway](https://github.com/teropa/lein-flyway)† Run [Flyway database migrations](http://code.google.com/p/flyway)
+-   [lein-lb](https://bitbucket.org/kumarshantanu/lein-lb)† Database migrations using [Clj-Liquibase](https://bitbucket.org/kumarshantanu/clj-liquibase)
+-   [drift](http://github.com/macourtney/drift)† Create and run Rails like database migrations in Clojure
 -   [lein-embongo](https://github.com/joelittlejohn/lein-embongo) Create a managed/embedded instance of MongoDB during a lein build (e.g. for integration testing).
 
 ## Documentation
@@ -105,11 +104,12 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-margauto](https://github.com/kyleburton/lein-margauto)† Watches your source directories for changes to your clojure source files and rebuilds the Marginalia documentation whenever you update your source code
 -   [lein-marginalia](https://github.com/fogus/lein-marginalia) Generate [Marginalia](https://github.com/fogus/marginalia) documentation
 -   [lein-mustache](https://github.com/achin/lein-mustache) Evaluate Mustache templates with Clojure data files (e.g. for creating templatized documentation)
--   [lein0precate](https://github.com/technomancy/lein-precate) Transform project.clj into Leiningen 2.x-compatible form.
+-   [lein-precate](https://github.com/technomancy/lein-precate) Transform project.clj into Leiningen 2.x-compatible form.
 
 ## Deprecated
 -   [fw1-template](https://github.com/seancorfield/fw1-template) Create [FW/1](https://github.com/seancorfield/fw1-clj) projects
 -   [lein-eclipse](https://github.com/abrenk/lein-eclipse)† Create Eclipse project descriptor files (use recent CounterClockwise)
+-   [lein-nailgun](https://github.com/mrowl/lein-nailgun)† Launch a vimclojure nailgun server (use lein-tarsier)
 -   [lein-noir](https://github.com/ibdknox/lein-noir) Create and manage [Noir](http://www.webnoir.org) projects (use `new` task)
 -   [leiningen-war](http://github.com/alienscience/leiningen-war)† Create WAR files for use in servlet containers (use lein-ring)
 -   [radagast](http://github.com/Seajure/radagast)† Get simplistic test coverage (use guzheng)
