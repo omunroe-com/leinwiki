@@ -113,6 +113,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-noir](https://github.com/ibdknox/lein-noir) Create and manage [Noir](http://www.webnoir.org) projects (use `new` task)
 -   [leiningen-war](http://github.com/alienscience/leiningen-war)† Create WAR files for use in servlet containers (use lein-ring)
 -   [radagast](http://github.com/Seajure/radagast)† Get simplistic test coverage (use guzheng)
+-   [lein-idea](https://bitbucket.org/bkumar/lein-idea) Generates Intellij IDEA project files
 
 ## Merged into Leiningen
 
