@@ -44,7 +44,7 @@ This mechanism means that there is only ever one list of plugins, so
 de-duplication issues between user-level plugins and project-level
 plugins will never be a problem. It also means your configuration can
 be checked into version control easily instead of having to re-run
-`lein plugin install [...]` on every new machine on which you work.
+`lein1 plugin install [...]` on every new machine on which you work.
 
 For more details on the `:user` profile see `lein help profiles`.
 
@@ -64,19 +64,20 @@ Now that your `:user` profile is in place, it's time to focus on the
 project which you plan to upgrade. We'll install a plugin (using
 Leiningen 1) to help with the process:
 
-    $ lein plugin install lein-precate 0.3.1
+    $ lein1 plugin install lein-precate 0.3.1
 
-Precate, of course, is the opposite of deprecate. Running `lein
+Precate, of course, is the opposite of deprecate. Running `lein1
 precate` in your project will show you a suggested configuration which
 should be compatible with Leiningen 2, so it should just be a matter
 of copying the output to `project.clj`. Of course, no automated
-refactoring is perfect, but this should cover the majority of cases.
+refactoring is perfect, so be sure to review it for a basic sanity
+check. But it should cover the majority of cases.
 
 ## User-level Settings
 
 The `~/.lein/init.clj` file is still loaded at Leiningen startup, but
 it's no longer checked for settings. Most user-level settings should
-be copied to the `:user` profile:
+be moved to the `:user` profile:
 
 ```clj
 {:user {:plugins [[lein-difftest "1.3.8"]
@@ -93,13 +94,17 @@ under "Authentication" for details.
 
 ## Gotchas
 
-Leiningen 2 uses jars straight from the local maven repository (`~/.m2`), rather than also copying jars into the project's `lib` directory as 1.x does.
+Leiningen 2 uses jars straight from the local maven repository
+(`~/.m2`), rather than also copying jars into the project's `lib`
+directory as 1.x does.
 
-While Leiningen 2 is fairly stable, it's not quite ready for a release
-candidate yet; there are still a few features missing. In particular
-if you need shell wrappers or the ability to selectively clean
-`.class` files after compilation, you may want to stick with version 1
-for a little longer. 
+While Leiningen 2's preview releases are very stable, it hasn't seen a
+final 2.0.0 release since the current Clojars repository
+[mingles snapshots with releases](https://github.com/ato/clojars-web/issues/24),
+which is undesirable. Since switching the default repositories to a
+releases-only Clojars (which is still in development) would be a
+breaking change, a series of previews is being released in the mean
+time.
 
 You may find the
 [lein-pprint](https://github.com/technomancy/leiningen/tree/master/lein-pprint)
