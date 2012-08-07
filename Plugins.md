@@ -45,12 +45,13 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 ## Testing
 
--   [lein-autoexpect](https://github.com/jakemcc/lein-autoexpect)† Watch project for changes and automatically run [expectations](https://github.com/jaycfields/expectations)
+-   [lein-autoexpect](https://github.com/jakemcc/lein-autoexpect) Watch project for changes and automatically run [expectations](https://github.com/jaycfields/expectations)
 -   [lein-autotest](http://github.com/dakrone/lein-autotest)† Start Lazytest's watch on your project for automatic testing on code change
 -   [lein-clj-doc-test](https://github.com/newfoundresearch/lein-clj-doc-test)† Enable documentation-based testing like Python's doctest with [clj-doc-test](https://github.com/Kobold/clj-doc-test/)
 -   [lein-cucumber](https://github.com/nilswloka/lein-cucumber)† Run clojure-based cucumber-jvm specifications
 -   [lein-cuke](http://github.com/mjul/lein-cuke)† Run Cucumber BDD tests
 -   [lein-difftest](http://github.com/brentonashworth/lein-difftest) Display diffs when a test fails
+-   [lein-expectations](https://github.com/gar3thjon3s/lein-expectations) Run [Expectations](https://github.com/jaycfields/expectations)-based tests
 -   [lein-fail-fast](http://github.com/pjstadig/lein-fail-fast)† Stop testing run upon to save time in CI situations
 -   [lein-junit](https://github.com/febeling/lein-junit) Run JUnit tests
 -   [lein-midje](https://github.com/marick/lein-midje) Run [Midje](http://github.com/marick/Midje/blob/master/README.md) tests
