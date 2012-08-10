@@ -67,15 +67,16 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk)† Deploy to AWS Elastic Beanstalk
 -   [lein-bin](https://github.com/Raynes/lein-bin) Generate cross-platform standalone executables of your project
 -   [lein-clojars](https://github.com/ato/lein-clojars) Deploy to Clojars
+-   [lein-cloudbees](https://clojars.org/lein-cloudbees) Deploy clojure apps to cloudbees
 -   [lein-condor](http://github.com/gilesc/lein-condor)† Execute Clojure code on a Condor cluster
 -   [lein-daemon](http://github.com/arohner/lein-daemon)† Run app as a daemon
 -   [lein-hadoop](http://github.com/ndimiduk/lein-hadoop)† Generate a jar containing nested libs as required for hadoop jobs
 -   [lein-immutant](https://github.com/immutant/lein-immutant) Manage and deploy applications to an [Immutant](http://immutant.org) server
 -   [lein-init-script](http://github.com/zkim/leiningen-init-script)† Generate **NIX daemon scripts for your project
 -   [lein-otf](https://github.com/timmc/lein-otf)† Create non-AOT uberjars
+-   [lein-release](https://github.com/relaynetwork/lein-release) Bumps your version number and deploys
 -   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies, formerly lein-release
 -   [pallet-lein](http://github.com/pallet/pallet-lein)† Launch nodes and deploy "crate" packages to the cloud
--   [lein-cloudbees](https://clojars.org/lein-cloudbees) Deploy clojure apps to cloudbees
 
 ## Web
 
