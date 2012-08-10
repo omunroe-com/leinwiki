@@ -74,6 +74,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-immutant](https://github.com/immutant/lein-immutant) Manage and deploy applications to an [Immutant](http://immutant.org) server
 -   [lein-init-script](http://github.com/zkim/leiningen-init-script)† Generate **NIX daemon scripts for your project
 -   [lein-otf](https://github.com/timmc/lein-otf)† Create non-AOT uberjars
+-   [lein-package](https://github.com/pliant/lein-package) Allows for the packaging, installing, and deploying of artifacts besides jars, or multiple artifact projects.
 -   [lein-release](https://github.com/relaynetwork/lein-release) Bumps your version number and deploys
 -   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies, formerly lein-release
 -   [pallet-lein](http://github.com/pallet/pallet-lein)† Launch nodes and deploy "crate" packages to the cloud
@@ -83,12 +84,13 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-axis](https://github.com/jaley/lein-axis)† Generate Apache Axis stubs from a WSDL file
 -   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) Deploy to Amazon’s Elastic Beanstalk service
 -   [lein-conjure](http://github.com/macourtney/Conjure)† Create a Conjure project and run it
+-   [lein-gaeshi](https://github.com/slagyr/gaeshi) Google App Engine webs apps using Joodo. 
 -   [lein-gwt](http://github.com/teropa/lein-gwt)† Run the Google Web Toolkit compiler
 -   [lein-heroku](https://github.com/technomancy/lein-heroku) Generate and manage Heroku apps.
+-   [lein-joodo](https://github.com/slagyr/joodo) Simple web app library.  Tasks to create, test, generate, your code.
 -   [lein-ring](https://github.com/weavejester/lein-ring) Work with web applications using Ring
 -   [lein-servlet](https://github.com/kumarshantanu/lein-servlet) Work with servlet-based webapps
--   [lein-joodo](https://github.com/slagyr/joodo) Simple web app library.  Tasks to create, test, generate, your code.
--   [lein-gaeshi](https://github.com/slagyr/gaeshi) Google App Engine webs apps using Joodo. 
+-   [lein-war](https://github.com/pliant/lein-war) Extends lein-ring to create compliant WARs for any servlet container.(2.0+)
 
 ## Databases
 
