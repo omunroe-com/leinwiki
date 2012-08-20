@@ -12,3 +12,5 @@ for official documentation.
 [[Repeatability]]
 
 [[Jenkins]]
+
+[[Lein2 and HTTP Proxy]]
