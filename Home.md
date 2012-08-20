@@ -13,4 +13,4 @@ for official documentation.
 
 [[Jenkins]]
 
-[[Lein2 and HTTP Proxy]]
+[[HTTP Proxies]]
