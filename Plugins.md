@@ -16,6 +16,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps)† Pull dependencies via git
 -   [lein-iclojure](https://github.com/cosmin/lein-iclojure)† for running an [IClojure](https://github.com/cosmin/IClojure) REPL
 -   [lein-localrepo](https://github.com/kumarshantanu/lein-localrepo) Work with the local Maven repository
+-   [lein-maven](https://github.com/pallet/lein-maven) Support for maven projects in checkouts
 -   [lein-nevam](https://github.com/thickey/lein-nevam) Convert Maven pom.xml files to project.clj files
 -   [lein-notes](https://github.com/taweili/lein-notes)† See inline notes from sources
 -   [lein-oneoff](https://github.com/mtyaka/lein-oneoff)† Simplify working with one-off, single-file clojure programs
