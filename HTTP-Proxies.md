@@ -1,7 +1,7 @@
 If you are using Leiningen 2.x behind an HTTP proxy you need to set
-the `http_proxy` environment variable before launching Leiningen. In a
+the `http_proxy` environment variable before launching Leiningen.
 
-Put this in `~/.profile`:
+In Linux/Unix put this in `~/.profile`:
 
     http_proxy=http://username:password@proxy:port
 
