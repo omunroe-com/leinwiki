@@ -72,6 +72,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-cloudbees](https://clojars.org/lein-cloudbees) Deploy clojure apps to cloudbees
 -   [lein-condor](http://github.com/gilesc/lein-condor)† Execute Clojure code on a Condor cluster
 -   [lein-daemon](http://github.com/arohner/lein-daemon)† Run app as a daemon
+-   [lein-dist](http://github.com/pallet/lein-dist) Create a standalone tarball of your project source and dependencies
 -   [lein-hadoop](http://github.com/ndimiduk/lein-hadoop)† Generate a jar containing nested libs as required for hadoop jobs
 -   [lein-immutant](https://github.com/immutant/lein-immutant) Manage and deploy applications to an [Immutant](http://immutant.org) server
 -   [lein-init-script](http://github.com/zkim/leiningen-init-script)† Generate **NIX daemon scripts for your project
