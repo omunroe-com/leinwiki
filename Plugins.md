@@ -80,6 +80,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-package](https://github.com/pliant/lein-package) Allows for the packaging, installing, and deploying of artifacts besides jars, or multiple artifact projects.
 -   [lein-release](https://github.com/relaynetwork/lein-release) Bumps your version number and deploys
 -   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies, formerly lein-release
+-   [lein-set-version](https://github.com/pallet/lein-set-version) Sets the version number in your project.clj
 -   [pallet-lein](http://github.com/pallet/pallet-lein)† Launch nodes and deploy "crate" packages to the cloud
 
 ## Web
