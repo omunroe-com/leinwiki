@@ -7,6 +7,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 ## Development Tools
 
+-   [configleaf](https://github.com/davidsantiago/configleaf) Manage Leiningen profiles in a persistent way and access your project map at runtime.
 -   [lein-checkouts](https://github.com/guv/lein-checkouts)† Build all dependency "checkouts" projects before the current project is build
 -   [lein-clean-m2](https://github.com/technomancy/lein-clean-m2) Remove all artifacts from local repo not used by current project
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher) Generate a namespace dependency graph as an svg file
@@ -14,6 +15,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
 -   [lein-gentags](https://github.com/snewman/lein-gentags)† Create TAGS files using etags for use in emacs code navigation
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps)† Pull dependencies via git
+-   [lein-gitify](https://github.com/Raynes/lein-gitify) Create and initialize Github/git in your new Leiningen projects.
 -   [lein-iclojure](https://github.com/cosmin/lein-iclojure)† for running an [IClojure](https://github.com/cosmin/IClojure) REPL
 -   [lein-localrepo](https://github.com/kumarshantanu/lein-localrepo) Work with the local Maven repository
 -   [lein-maven](https://github.com/pallet/lein-maven) Support for maven projects in checkouts
@@ -30,8 +32,6 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-vanity](https://github.com/dgtized/lein-vanity) Lines of code statistics for vanity's sake
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
 -   [slamhound](http://github.com/technomancy/slamhound)† Reconstruct ns forms with needed :use/:require/:import clauses
--   [lein-gitify](https://github.com/Raynes/lein-gitify) Create and initialize Github/git in your new Leiningen projects.
--   [configleaf](https://github.com/davidsantiago/configleaf) Manage Leiningen profiles in a persistent way and access your project map at runtime.
 
 ## Compilers
 
@@ -40,10 +40,10 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-debian](https://github.com/erickg/lein-debian)† Package build products and/or dependencies as Debian (.deb) packages
 -   [lein-cljsbuild](http://github.com/emezeske/lein-cljsbuild) Compile ClojureScript automatically upon modification and share code between Clojure and ClojureScript
 -   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc)† Compile Groovy
+-   [lein-lesscss](https://github.com/fmancinelli/lein-lesscss) Compile [Less CSS](http://lesscss.org/) resources.
 -   [lein-ragel](https://github.com/llasram/lein-ragel) Compile Ragel sources to Java sources
 -   [lein-scalac](https://github.com/technomancy/lein-scalac) Compile Scala
 -   [lein-thrift](https://github.com/kurtharriger/lein-thrift)† Generating Thrift sources
--   [lein-lesscss](https://github.com/fmancinelli/lein-lesscss) Compile [Less CSS](http://lesscss.org/) resources.
 
 ## Testing
 
@@ -55,6 +55,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-difftest](http://github.com/brentonashworth/lein-difftest) Display diffs when a test fails
 -   [lein-expectations](https://github.com/gar3thjon3s/lein-expectations) Run [Expectations](https://github.com/jaycfields/expectations)-based tests
 -   [lein-fail-fast](http://github.com/pjstadig/lein-fail-fast)† Stop testing run upon to save time in CI situations
+-   [lein-guzheng](http://github.com/dgrnbrg/lein-guzheng) Branch coverage analysis usable with any testing framefork
 -   [lein-junit](https://github.com/febeling/lein-junit) Run JUnit tests
 -   [lein-midje](https://github.com/marick/lein-midje) Run [Midje](http://github.com/marick/Midje/blob/master/README.md) tests
 -   [lein-play](http://github.com/technomancy/lein-play) Play a different sound at the end of your test runs depending on whether they pass or fail
@@ -62,7 +63,6 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-test-bang-bang](https://github.com/joegallo/lein-test-bang-bang)† Run each test namespace in a separate JVM
 -   [lein-test-out](https://github.com/arohner/lein-test-out)† Run all tests and outputs to a file in junit XML or TAP format
 -   [speclj](https://github.com/slagyr/speclj) (pronounced “speckle”) TDD/BDD framework, with auto-runner, based on [rspec](http://rspec.info/)
--   [guzheng](http://github.com/dgrnbrg/lein-guzheng) Branch coverage analysis usable with any testing framefork
 
 ## Deployment
 
