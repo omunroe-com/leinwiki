@@ -33,6 +33,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-vanity](https://github.com/dgtized/lein-vanity) Lines of code statistics for vanity's sake
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
 -   [slamhound](http://github.com/technomancy/slamhound)† Reconstruct ns forms with needed :use/:require/:import clauses
+-   [lein-git-version](https://github.com/cvillecsteele/lein-git-version) Middleware DRYs up versions by substituting version info found in git tags into project map.
 
 ## Compilers
 
