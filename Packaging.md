@@ -5,6 +5,7 @@ Leiningen is available in a number of package managers:
 * [homebrew](https://github.com/mxcl/homebrew/blob/master/Library/Formula/leiningen.rb)
 * [yum](https://fedoraproject.org/wiki/Features/Clojure) (in progress)
 * [Arch AUR](http://aur.archlinux.org/packages.php?ID=37278)
+* [Chocolatey](http://chocolatey.org/packages/leiningen) (Windows)
 
 It's also packaged for MacPorts, but it is unmaintained and have had several bugs reported; it's
 advised that you avoid them.
