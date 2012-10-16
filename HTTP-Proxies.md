@@ -13,4 +13,4 @@ Or in Windows:
 
 For unexpected behaviours could be useful to check the
 _get-proxy-settings_ function on
-http://github.com/technomancy/leiningen/blob/master/leiningen-core/src/leiningen/core/classpath.clj#L81
+http://github.com/technomancy/leiningen/blob/master/leiningen-core/src/leiningen/core/classpath.clj#L86
