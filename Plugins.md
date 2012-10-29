@@ -42,7 +42,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-aggravate](https://github.com/byels/lein-aggravate) Aggregate & compress .css files, general file aggregation options
 -   [lein-antlr](http://github.com/alexhall/lein-antlr)† Generate source code from ANTLR grammars
 -   [lein-cljsbuild](http://github.com/emezeske/lein-cljsbuild) Compile ClojureScript automatically upon modification and share code between Clojure and ClojureScript
--   [lein-clr](https://github.com/kumarshantanu/lein-clr) Automate build tasks for ClojureCLR projects
+-   [lein-clr](https://github.com/kumarshantanu/lein-clr) Automate build tasks for ClojureCLR projects on .NET and Mono
 -   [lein-cssgenbuild](https://github.com/MichaelDrogalis/lein-cssgenbuild) Generate stylesheets from cssgen
 -   [lein-debian](https://github.com/erickg/lein-debian) Package build products and/or dependencies as Debian (.deb) packages
 -   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc)† Compile Groovy
