@@ -110,6 +110,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-lb](https://bitbucket.org/kumarshantanu/lein-lb)† Database migrations using [Clj-Liquibase](https://bitbucket.org/kumarshantanu/clj-liquibase)
 -   [drift](http://github.com/macourtney/drift)† Create and run Rails like database migrations in Clojure
 -   [lein-embongo](https://github.com/joelittlejohn/lein-embongo) Create a managed/embedded instance of MongoDB during a lein build (e.g. for integration testing).
+-   [lein-dbmaintain](https://github.com/mysema/lein-dbmaintain) DbMaintain integration for Leiningen
 
 ## Documentation
 
