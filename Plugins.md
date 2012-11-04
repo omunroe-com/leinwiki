@@ -8,6 +8,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 ## Development Tools
 
 -   [configleaf](https://github.com/davidsantiago/configleaf) Manage Leiningen profiles in a persistent way and access your project map at runtime.
+-   [hiccup-bridge](https://github.com/hozumi/hiccup-bridge) Hiccup to html, html to hiccup
 -   [lein-checkouts](https://github.com/guv/lein-checkouts)† Build all dependency "checkouts" projects before the current project is build
 -   [lein-clean-m2](https://github.com/technomancy/lein-clean-m2) Remove all artifacts from local repo not used by current project
 -   [lein-create-template](https://github.com/tcw/lein-create-template) Create Leiningen templates from existing skeleton projects
@@ -23,7 +24,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-localrepo](https://github.com/kumarshantanu/lein-localrepo) Work with the local Maven repository
 -   [lein-maven](https://github.com/pallet/lein-maven) Support for maven projects in checkouts
 -   [lein-nevam](https://github.com/thickey/lein-nevam) Convert Maven pom.xml files to project.clj files
--   [lein-notes](https://github.com/taweili/lein-notes)† See inline notes from sources
+-   [lein-notes](https://github.com/myguidingstar/lein-notes) See inline notes from sources
 -   [lein-oneoff](https://github.com/mtyaka/lein-oneoff)† Simplify working with one-off, single-file clojure programs
 -   [lein-outdated](https://github.com/ato/lein-outdated) List newer available versions of dependencies
 -   [lein-project-depends](https://github.com/hugoduncan/lein-namespace-depends)† Output a project’s namespace use/require graph
