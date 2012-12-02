@@ -127,7 +127,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-precate](https://github.com/technomancy/lein-precate) Transform project.clj into Leiningen 2.x-compatible form.
 
 ## Deprecated
--   [fw1-template](https://github.com/seancorfield/fw1-template) Create [FW/1](https://github.com/seancorfield/fw1-clj) projects
+-   [fw1-template](https://github.com/seancorfield/fw1-template) Create [FW/1](https://github.com/seancorfield/fw1-clj) projects (use `lein new fw1 myapp` instead)
 -   [lein-eclipse](https://github.com/abrenk/lein-eclipse)† Create Eclipse project descriptor files (use recent CounterClockwise)
 -   [lein-nailgun](https://github.com/mrowl/lein-nailgun)† Launch a vimclojure nailgun server (use lein-tarsier)
 -   [lein-noir](https://github.com/ibdknox/lein-noir) Create and manage [Noir](http://www.webnoir.org) projects (use `new` task)
