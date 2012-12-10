@@ -85,7 +85,9 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-emr](https://github.com/dpetrovics/lein-emr) Create jobflows on Amazon Elastic MapReduce.
 -   [lein-hadoop](http://github.com/ndimiduk/lein-hadoop)† Generate a jar containing nested libs as required for hadoop jobs
 -   [lein-immutant](https://github.com/immutant/lein-immutant) Manage and deploy applications to an [Immutant](http://immutant.org) server
--   [lein-init-script](http://github.com/zkim/leiningen-init-script)† Generate **NIX daemon scripts for your project
+-   [leiningen-init-script](https://github.com/zkim/leiningen-init-script)† Generate **NIX daemon scripts for your project
+-   [lein-init-script](https://github.com/strongh/lein-init-script) Generate **NIX daemon scripts for your project
+
 -   [lein-otf](https://github.com/timmc/lein-otf)† Create non-AOT uberjars
 -   [lein-package](https://github.com/pliant/lein-package) Allows for the packaging, installing, and deploying of artifacts besides jars, or multiple artifact projects.
 -   [lein-release](https://github.com/relaynetwork/lein-release) Bumps your version number and deploys
