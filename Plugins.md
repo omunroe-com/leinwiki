@@ -90,7 +90,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [leiningen-init-script](https://github.com/zkim/leiningen-init-script)† Generate **NIX daemon scripts for your project
 -   [lein-init-script](https://github.com/strongh/lein-init-script) Generate **NIX daemon scripts for your project
 
--   [lein-otf](https://github.com/timmc/lein-otf)† Create non-AOT uberjars
+-   [lein-otf](https://github.com/timmc/lein-otf) Create non-AOT uberjars
 -   [lein-package](https://github.com/pliant/lein-package) Allows for the packaging, installing, and deploying of artifacts besides jars, or multiple artifact projects.
 -   [lein-release](https://github.com/relaynetwork/lein-release) Bumps your version number and deploys
 -   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies, formerly lein-release
