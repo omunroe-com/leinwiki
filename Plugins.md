@@ -30,6 +30,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-outdated](https://github.com/ato/lein-outdated) List newer available versions of dependencies
 -   [lein-project-depends](https://github.com/hugoduncan/lein-namespace-depends)† Output a project’s namespace use/require graph
 -   [lein-repls](https://github.com/franks42/lein-repls)† Launch a persistent REPL-server and use the lightweight command-line `cljsh` client to interact
+-   [lein-stencil](https://github.com/m0smith/lein-stencil) Copy files and transform using [stencil](https://github.com/davidsantiago/stencil)
 -   [lein-sub](https://github.com/kumarshantanu/lein-sub) Execute tasks on sub-projects
 -   [lein-swank](http://github.com/technomancy/swank-clojure) Launch a Swank server for Emacs integration
 -   [lein-tarsier](https://github.com/sattvik/lein-tarsier) Add a [VimClojure](http://www.vim.org/scripts/script.php?script_id=2501) server to your project
