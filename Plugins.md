@@ -29,6 +29,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-notes](https://github.com/myguidingstar/lein-notes) See inline notes from sources
 -   [lein-oneoff](https://github.com/mtyaka/lein-oneoff)† Simplify working with one-off, single-file clojure programs
 -   [lein-outdated](https://github.com/ato/lein-outdated) List newer available versions of dependencies
+-   [lein-shell](https://github.com/hyPiRion/lein-shell) Run sub-processes from within Leiningen.
 -   [lein-project-depends](https://github.com/hugoduncan/lein-namespace-depends)† Output a project’s namespace use/require graph
 -   [lein-repls](https://github.com/franks42/lein-repls)† Launch a persistent REPL-server and use the lightweight command-line `cljsh` client to interact
 -   [lein-resource](https://github.com/m0smith/lein-resource) Copy files and transform using [stencil](https://github.com/davidsantiago/stencil)
