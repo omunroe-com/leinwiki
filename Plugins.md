@@ -85,7 +85,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-clojars](https://github.com/ato/lein-clojars) Deploy to Clojars
 -   [lein-cloudbees](https://clojars.org/lein-cloudbees) Deploy clojure apps to cloudbees
 -   [lein-condor](http://github.com/gilesc/lein-condor)† Execute Clojure code on a Condor cluster
--   [lein-daemon](http://github.com/arohner/lein-daemon)† Run app as a daemon
+-   [lein-daemon](http://github.com/arohner/lein-daemon) Run app as a daemon
 -   [lein-deploy-deps](https://github.com/neatonk/lein-deploy-deps) Deploy project dependencies to a remote repository
 -   [lein-dist](http://github.com/pallet/lein-dist) Create a standalone tarball of your project source and dependencies
 -   [lein-emr](https://github.com/dpetrovics/lein-emr) Create jobflows on Amazon Elastic MapReduce.
