@@ -82,9 +82,10 @@ suffer from the same repeatability issues as snapshots. Ranges that
 only cover versions that already exist don't have this problem, but
 they do prevent the build from ever working with future versions.
 Leiningen will simply refuse to resolve dependency sets that involve
-non-overlapping version ranges, so unless you know for a fact that
-your project will not work with any future versions of a dependency
-you should absolutely avoid ranges.
+non-overlapping version ranges. In addition, version ranges introduce
+unexpected quirks in the dependency resolution process due to their
+surprising semantics around precedence; it's
+[recommended that you avoid them entirely](http://nelsonmorris.net/2012/07/31/do-not-use-version-ranges-in-project-clj.html).
 
 ## Testing
 
