@@ -2,7 +2,7 @@ Leiningen is available in a number of package managers:
 
 Many package managers still include version 1.x, which is rather
 outdated, so you may be better off installing manually as explained in
-the [README](https://github.com/technomancy/leiningen/blob/preview/README.md).
+the [README](https://github.com/technomancy/leiningen/blob/stable/README.md).
 
 * [nix](https://nixos.org/websvn/nix/nixpkgs/trunk/pkgs/development/tools/build-managers/leiningen/default.nix)
 * [apt-get](http://packages.debian.org/sid/leiningen) (Debian: since wheezy; Ubuntu: since Oneiric; 1.x only)

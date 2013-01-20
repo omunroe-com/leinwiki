@@ -1,7 +1,7 @@
 # Upgrading
 
 Interested in upgrading to Leiningen 2? I don't blame you! Look at
-[all those great features](https://github.com/technomancy/leiningen/blob/master/NEWS.md).
+[all those great features](https://github.com/technomancy/leiningen/blob/stable/NEWS.md).
 Let me offer some tips for getting started.
 
 ## Installation
@@ -11,10 +11,10 @@ If you installed Leiningen 1.x by hand, move it out of the way first:
     $ mv ~/bin/lein ~/bin/lein1
 
 Download
-[`bin/lein`](https://raw.github.com/technomancy/leiningen/preview/bin/lein)
-from the `preview` branch:
+[`bin/lein`](https://raw.github.com/technomancy/leiningen/stable/bin/lein)
+from the `stable` branch:
 
-    $ wget -O ~/bin/lein https://raw.github.com/technomancy/leiningen/preview/bin/lein
+    $ wget -O ~/bin/lein https://raw.github.com/technomancy/leiningen/stable/bin/lein
     $ chmod 755 ~/bin/lein
 
 Ensure `~/bin` is on your `$PATH`.
@@ -98,18 +98,11 @@ Leiningen 2 uses jars straight from the local maven repository
 (`~/.m2`), rather than also copying jars into the project's `lib`
 directory as 1.x does.
 
-While Leiningen 2's preview releases are very stable, it hasn't seen a
-final 2.0.0 release since the current Clojars repository
-[mingles snapshots with releases](https://github.com/ato/clojars-web/issues/24),
-which is undesirable. Since switching the default repositories to a
-releases-only Clojars (which is still in development) would be a
-breaking change, a series of previews is being released in the mean
-time.
-
 You may find the
 [lein-pprint](https://github.com/technomancy/leiningen/tree/master/lein-pprint)
-plugin useful for debugging your project.
+plugin useful for debugging your project, especially the effect of
+various profiles being applied.
 
 Please report any issues you run into to the
-[mailing list](http://groups.google.com/group/leiningen) or the [#leiningen 
+[mailing list](http://librelist.com/browser/leiningen/) or the [#leiningen 
 channel](irc://chat.freenode.net#leiningen) on Freenode.
