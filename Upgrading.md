@@ -1,6 +1,6 @@
 # Upgrading
 
-Interested in upgrading to Leiningen 2? I don't blame you! Look at
+Interested in upgrading from Leiningen 1 to Leiningen 2? I don't blame you! Look at
 [all those great features](https://github.com/technomancy/leiningen/blob/stable/NEWS.md).
 Let me offer some tips for getting started.
 
