@@ -20,6 +20,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps)† Pull dependencies via git
 -   [lein-git-version](https://github.com/cvillecsteele/lein-git-version) Middleware DRYs up versions by substituting version info found in git tags into project map.
 -   [lein-gitify](https://github.com/Raynes/lein-gitify) Create and initialize Github/git in your new Leiningen projects.
+-   [lein-grep](https://github.com/cldwalker/lein-grep) Improved repository searching built off the search subcommand.
 -   [lein-iclojure](https://github.com/cosmin/lein-iclojure)† for running an [IClojure](https://github.com/cosmin/IClojure) REPL
 -   [lein-jdk-tools](https://github.com/pallet/lein-jdk-tools) Add tools.jar to the classpath
 -   [lein-libdir](https://github.com/djpowell/lein-libdir) Copy dependencies to a 'lib' folder in your project
