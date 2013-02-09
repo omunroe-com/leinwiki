@@ -64,6 +64,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-autoexpect](https://github.com/jakemcc/lein-autoexpect) Watch project for changes and automatically run [expectations](https://github.com/jaycfields/expectations)
 -   [lein-autotest](http://github.com/dakrone/lein-autotest)† Start Lazytest's watch on your project for automatic testing on code change
 -   [lein-clj-doc-test](https://github.com/newfoundresearch/lein-clj-doc-test)† Enable documentation-based testing like Python's doctest with [clj-doc-test](https://github.com/Kobold/clj-doc-test/)
+-   [lein-cloverage](https://github.com/lshift/cloverage)† Generate cloverage coverage reports
 -   [lein-cucumber](https://github.com/nilswloka/lein-cucumber)† Run clojure-based cucumber-jvm specifications
 -   [lein-cuke](http://github.com/mjul/lein-cuke)† Run Cucumber BDD tests
 -   [lein-difftest](http://github.com/brentonashworth/lein-difftest) Display diffs when a test fails
