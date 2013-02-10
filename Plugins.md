@@ -31,6 +31,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-oneoff](https://github.com/mtyaka/lein-oneoff)† Simplify working with one-off, single-file clojure programs
 - [lein-open](https://github.com/cldwalker/lein-open) Open any dependency or installed jar in an editor.
 -   [lein-outdated](https://github.com/ato/lein-outdated) List newer available versions of dependencies
+- [lein-pdo](https://github.com/Raynes/lein-pdo) Run lein tasks concurrently in parallel
 -   [lein-shell](https://github.com/hyPiRion/lein-shell) Run sub-processes from within Leiningen.
 -   [lein-project-depends](https://github.com/hugoduncan/lein-namespace-depends)† Output a project’s namespace use/require graph
 -   [lein-repls](https://github.com/franks42/lein-repls)† Launch a persistent REPL-server and use the lightweight command-line `cljsh` client to interact
