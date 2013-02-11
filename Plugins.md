@@ -97,13 +97,12 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-immutant](https://github.com/immutant/lein-immutant) Manage and deploy applications to an [Immutant](http://immutant.org) server
 -   [leiningen-init-script](https://github.com/zkim/leiningen-init-script)† Generate **NIX daemon scripts for your project
 -   [lein-init-script](https://github.com/strongh/lein-init-script) Generate **NIX daemon scripts for your project
-
 -   [lein-otf](https://github.com/timmc/lein-otf) Create non-AOT uberjars
 -   [lein-package](https://github.com/pliant/lein-package) Allows for the packaging, installing, and deploying of artifacts besides jars, or multiple artifact projects.
 -   [lein-release](https://github.com/relaynetwork/lein-release) Bumps your version number and deploys
--   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies, formerly lein-release
 -   [lein-set-version](https://github.com/pallet/lein-set-version) Sets the version number in your project.clj
 -   [lein-sha-version](https://github.com/pallet/lein-sha-version) Middleware to set the project version based on git SHA
+-   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies, formerly lein-release
 -   [pallet-lein](http://github.com/pallet/pallet-lein)† Launch nodes and deploy "crate" packages to the cloud
 
 ## Web
