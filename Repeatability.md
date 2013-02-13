@@ -109,11 +109,12 @@ Non-repeatability usually makes itself known over time, but usually at
 the most inopportune or embarrassing moment. You can save a lot of
 headache by proactively detecting it with a bit of continuous
 integration infrastructure. The most common tools for this are
-[[Jenkins]] and [Travis](http://travis-ci.org), the latter being
-currently suitable only for open source projects. Travis will run your
-tests after every commit in a completely fresh environment, which
-helps a lot with dependency issues; the local `~/.m2/repository` cache
-is rebuilt afresh every time. With Jenkins you can do that yourself; a
+[Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/leiningen+plugin)
+and [Travis](http://travis-ci.org), the latter being currently
+suitable only for open source projects. Travis will run your tests
+after every commit in a completely fresh environment, which helps a
+lot with dependency issues; the local `~/.m2/repository` cache is
+rebuilt afresh every time. With Jenkins you can do that yourself; a
 cron job that clears out the local repository every day is probably
 your best bet.
 

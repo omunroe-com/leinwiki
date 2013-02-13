@@ -11,6 +11,4 @@ for official documentation.
 
 [[Repeatability]]
 
-[[Jenkins]]
-
 [[HTTP Proxies]]
