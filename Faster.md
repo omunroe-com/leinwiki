@@ -1,5 +1,3 @@
-There are a number of strategies for reducing Leiningen's launch time.
-
 Part of what makes Leiningen's boot take a while is the fact that
 Leiningen's code is completely isolated from project code. This means
 that two JVMs are necessary to complete any task that has to execute
@@ -16,10 +14,10 @@ session is a lot more convenient than running `lein` afresh over and
 over.
 
 Of course, as you build up state in your process during development,
-there's a chance that old definitions you've removed will stick around
-in memory, so it's always a good idea to do a fresh `lein test` run
-before any major milestones like merging a long-running branch or
-deploying.
+there's a chance that old definitions you've removed that stick around
+in memory will cause bugs, so it's always a good idea to do a fresh
+`lein test` run before any major milestones like merging a
+long-running branch or deploying.
 
 ## Fast Trampoline
 
@@ -65,10 +63,14 @@ You can do this within `project.clj` as well:
 In Leiningen 2.1.0 (currently unreleased at the time of this writing),
 you can add `:eval-in :nrepl` to re-use an existing project JVM over
 nREPL rather than launching a new one. This acts a bit like Cake's
-"persistent JVMs" feature, but you have to manage the lifecycle of the
+persistent JVMs feature, but you have to manage the lifecycle of the
 project JVM yourself. This can be done by simply running `lein repl`
-in a separate terminal. If Leiningen determines there's no project
-nREPL server to connect to it will fall back to launching a subprocess.
+in a separate terminal. 
+
+This will still incur the penalty for launching Leiningen itself, just
+not the project JVM. If Leiningen determines there's no project nREPL
+server to connect to it will fall back to launching a subprocess. Note
+that it does not stack with fast trampolines.
 
 ## Drip
 
