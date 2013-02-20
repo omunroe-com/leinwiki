@@ -1,0 +1,97 @@
+There are a number of strategies for reducing Leiningen's launch time.
+
+Part of what makes Leiningen's boot take a while is the fact that
+Leiningen's code is completely isolated from project code. This means
+that two JVMs are necessary to complete any task that has to execute
+anything in the project: one for Leiningen itself, and a subprocess
+for the project. There are various strategies to address this:
+
+## Don't Exit
+
+The most obvious is simply to adjust your workflow so you don't start
+Leiningen very often. Most people simply launch a REPL once and leave
+it up for their whole hacking session. You still need to restart when
+you change your `:dependencies`, but working from within a single REPL
+session is a lot more convenient than running `lein` afresh over and
+over.
+
+Of course, as you build up state in your process during development,
+there's a chance that old definitions you've removed will stick around
+in memory, so it's always a good idea to do a fresh `lein test` run
+before any major milestones like merging a long-running branch or
+deploying.
+
+## Fast Trampoline
+
+As of Leiningen 2.0.0 you can perform fast trampolines. You can think
+of any task invocation as a pure-ish function of the command-line
+arguments, project.clj file, and repository state. Like any function,
+one way to optimize it is memoization. Setting the
+`LEIN_FAST_TRAMPOLINE` environment variable causes the `bin/lein`
+script to memoize all trampoline calls by saving off the `java`
+process invocation to disk upon the first run. This allows
+successive runs to skip launching a JVM for Leiningen entirely, so
+you will only have to wait for your own application's boot time.
+
+Changing `project.clj` will invalidate the cache, as will deleting the
+`target` directory. Also note that only `trampoline` calls will be
+memoized. Since Leiningen never gets a chance to run itself, it won't
+check for new snapshot versions.
+
+## Tiered Compilation
+
+Leiningen 2 uses a JVM feature called Tiered Compilation which allows
+the JVM to switch between compilation strategies at runtime; it can
+begin with a quick-start setting and switch to optimized compilation
+later once it has identified which sections of the code are hotspots.
+
+Leiningen 2.1.0 onward get a speed boost by disabling the optimized
+compilation (which only benefits long-running processes), but you can
+do this yourself on earlier versions:
+
+    $ export LEIN_JVM_OPTS=-XX:TieredStopAtLevel=1
+
+You can apply the same startup boost to your project, though be aware
+that it could negatively affect performance in the long run:
+
+    $ export JVM_OPTS=-XX:TieredStopAtLevel=1
+
+You can do this within `project.clj` as well:
+
+    :jvm-opts ["-XX:+TieredCompilation" "-XX:TieredStopAtLevel=1"]
+
+## Eval in nREPL
+
+In Leiningen 2.1.0 (currently unreleased at the time of this writing),
+you can add `:eval-in :nrepl` to re-use an existing project JVM over
+nREPL rather than launching a new one. This acts a bit like Cake's
+"persistent JVMs" feature, but you have to manage the lifecycle of the
+project JVM yourself. This can be done by simply running `lein repl`
+in a separate terminal. If Leiningen determines there's no project
+nREPL server to connect to it will fall back to launching a subprocess.
+
+## Drip
+
+TODO: explain https://github.com/flatland/drip/
+
+## Eval in Classloader
+
+TODO: explain
+
+## Bootclasspath
+
+Leiningen places its own code on the JVM's bootclasspath, which allows
+for quicker boot by skipping bytecode verification and a few other
+steps. You can do the same for your own projects:
+
+    :bootclasspath true
+
+Be aware that there are some compatibility issues with this; some
+libraries like Jetty assume they're being loaded from a regular
+classloader rather than the bootstrap classloader.
+
+## lein.el
+
+TODO: make it actually work, explain
+
+https://github.com/technomancy/lein.el
