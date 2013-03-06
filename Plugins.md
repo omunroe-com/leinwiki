@@ -42,6 +42,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-thrush](https://github.com/technomancy/lein-thrush) Feed the return value of one task into the input of another
 -   [lein-vanity](https://github.com/dgtized/lein-vanity) Lines of code statistics for vanity's sake
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
+-   [lein-whimrepl](https://github.com/malyn/lein-whimrepl) Start a REPL session in a Vim-targetable server for use with [vim-slime](https://github.com/jpalardy/vim-slime).
 -   [slamhound](http://github.com/technomancy/slamhound)† Reconstruct ns forms with needed :use/:require/:import clauses
 -   [lein-bikeshed](https://github.com/dakrone/lein-bikeshed) Notify you if your code is bad
 
@@ -115,6 +116,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-gaeshi](https://github.com/slagyr/gaeshi) Google App Engine webs apps using Joodo. 
 -   [lein-gwt](http://github.com/teropa/lein-gwt)† Run the Google Web Toolkit compiler
 -   [lein-heroku](https://github.com/technomancy/lein-heroku) Generate and manage Heroku apps.
+-   [lein-httpd](https://github.com/malyn/lein-httpd) Start a web server in the current directory. 
 -   [lein-joodo](https://github.com/slagyr/joodo) Simple web app library.  Tasks to create, test, generate, your code.
 -   [lein-ring](https://github.com/weavejester/lein-ring) Work with web applications using Ring
 -   [lein-servlet](https://github.com/kumarshantanu/lein-servlet) Work with servlet-based webapps
