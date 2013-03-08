@@ -60,6 +60,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-ragel](https://github.com/llasram/lein-ragel) Compile Ragel sources to Java sources
 -   [lein-scalac](https://github.com/technomancy/lein-scalac) Compile Scala
 -   [lein-thrift](https://github.com/kurtharriger/lein-thrift)† Generating Thrift sources
+-   [lein-beaver](https://github.com/quoll/lein-beaver) Generates source code from Beaver/JFlex grammars
 
 ## Testing
 
