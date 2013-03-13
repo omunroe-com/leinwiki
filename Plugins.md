@@ -80,7 +80,8 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-pjotest](https://github.com/jonpither/lein-pjotest) Run test namespaces in parallel with JUnit XML output
 -   [lein-play](http://github.com/technomancy/lein-play) Play a different sound at the end of your test runs depending on whether they pass or fail
 -   [lein-reload](https://github.com/paraseba/lein-reload)† Reload modified files automatically every time you run your tests
--   [lein-test-bang-bang](https://github.com/joegallo/lein-test-bang-bang)† Run each test namespace in a separate JVM
+-   [lein-test-bang-bang](https://github.com/joegallo/lein-test-bang-bang) Run each test namespace in a separate JVM
+-   [lein-test-from](https://github.com/joegallo/lein-test-from) Run your test namespaces, starting from a particular namespace
 -   [lein-test-out](https://github.com/arohner/lein-test-out)† Run all tests and outputs to a file in junit XML or TAP format
 -   [perforate](https://github.com/davidsantiago/perforate) Painless benchmarking with Leiningen and [Criterium](https://github.com/hugoduncan/criterium)
 -   [speclj](https://github.com/slagyr/speclj) (pronounced “speckle”) TDD/BDD framework, with auto-runner, based on [rspec](http://rspec.info/)
