@@ -58,6 +58,16 @@ You can do this within `project.clj` as well:
 
     :jvm-opts ["-XX:+TieredCompilation" "-XX:TieredStopAtLevel=1"]
 
+If you do have one of the above-mentioned long-running processes and
+want the JVM to fully optimize, you can disable the tiered compilation
+by either:
+
+    $ export JVM_OPTS=
+
+or in `project.clj` with:
+
+    :jvm-opts ^:replace []
+
 ## Eval in nREPL
 
 In Leiningen 2.1.0 (currently unreleased at the time of this writing),
