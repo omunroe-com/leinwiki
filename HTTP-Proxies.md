@@ -17,7 +17,15 @@ To supply a list of hosts for which Lein should bypass the configured proxy, set
 
     http_no_proxy="*.example1.com|*.example2.com|*.example3.com"
 
-Leiningen uses clj-http which is built on the Apache HttpComponents Client. This means that to set non-proxy hosts you're required to use the Java format, and Lein is unable to use the value/format found in the standard `NO_PROXY` environment variable.
+Leiningen uses clj-http which is built on the Apache HttpComponents Client. This means that to set non-proxy hosts you're required to use the Java format (pipe-delimited).
+
+Since 2.1.2, if `http_no_proxy` is not set then Leiningen will attempt to use your system's existing `no_proxy` environment variable to define non-proxy hosts. The format of the `no_proxy` value is likely to be incompatible with the clj-http proxy selector, so Leiningen will attempt to convert the value. An example of the conversion:
+
+    no_proxy="example1.com,example2.com,example3.com"
+
+becomes
+
+    "*example1.com|*example2.com|*example3.com"
 
 ***
 
