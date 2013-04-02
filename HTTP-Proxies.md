@@ -25,7 +25,7 @@ Since 2.1.2, if `http_no_proxy` is not set then Leiningen will attempt to use yo
 
 becomes
 
-    "*example1.com|*example2.com|*example3.com"
+    *example1.com|*example2.com|*example3.com
 
 ***
 
