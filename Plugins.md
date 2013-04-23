@@ -124,7 +124,6 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-joodo](https://github.com/slagyr/joodo) Simple web app library.  Tasks to create, test, generate, your code.
 -   [lein-ring](https://github.com/weavejester/lein-ring) Work with web applications using Ring
 -   [lein-servlet](https://github.com/kumarshantanu/lein-servlet) Work with servlet-based webapps
--   [lein-war](https://github.com/pliant/lein-war) Extends lein-ring to create compliant WARs for any servlet container.(2.0+)
 
 ## Databases
 
