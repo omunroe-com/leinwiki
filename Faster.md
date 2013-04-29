@@ -84,7 +84,7 @@ that it does not stack with fast trampolines.
 
 ## Drip
 
-TODO: explain https://github.com/flatland/drip/
+[Drip](https://github.com/flatland/drip/) is a script intended to speed up JVM start times. Installation details and an explanation of how Drip works are in the [Drip Readme](https://github.com/flatland/drip/blob/develop/README.md).  Leiningen will make use of a Drip installation if the LEIN_JAVA_CMD environment variable is set to the location of the drip script.
 
 ## Eval in Classloader
 
