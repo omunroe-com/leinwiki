@@ -12,3 +12,5 @@ for official documentation.
 [[Repeatability]]
 
 [[HTTP Proxies]]
+
+[[Faster]]
