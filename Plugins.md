@@ -119,6 +119,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-conjure](http://github.com/macourtney/Conjure)† Create a Conjure project and run it
 -   [lein-gaeshi](https://github.com/slagyr/gaeshi) Google App Engine webs apps using Joodo. 
 -   [lein-gwt](http://github.com/teropa/lein-gwt)† Run the Google Web Toolkit compiler
+-   [lein-gwt-plugin](https://github.com/galdolber/gwt-plugin) Runs and compiles GWT applications
 -   [lein-heroku](https://github.com/technomancy/lein-heroku) Generate and manage Heroku apps.
 -   [lein-httpd](https://github.com/malyn/lein-httpd) Start a web server in the current directory. 
 -   [lein-joodo](https://github.com/slagyr/joodo) Simple web app library.  Tasks to create, test, generate, your code.
