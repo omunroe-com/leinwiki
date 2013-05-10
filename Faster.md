@@ -102,6 +102,12 @@ Be aware that there are some compatibility issues with this; some
 libraries like Jetty assume they're being loaded from a regular
 classloader rather than the bootstrap classloader.
 
+## Check your :main
+
+When starting the REPL, Leiningen loads the project's :main namespace.
+If the :main namespace takes significant time to load, the user's perception
+is that Leiningen is slow.
+
 ## lein.el
 
 TODO: make it actually work, explain
