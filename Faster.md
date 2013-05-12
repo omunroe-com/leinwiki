@@ -70,12 +70,11 @@ or in `project.clj` with:
 
 ## Eval in nREPL
 
-In Leiningen 2.1.0 (currently unreleased at the time of this writing),
-you can add `:eval-in :nrepl` to re-use an existing project JVM over
-nREPL rather than launching a new one. This acts a bit like Cake's
-persistent JVMs feature, but you have to manage the lifecycle of the
-project JVM yourself. This can be done by simply running `lein repl`
-in a separate terminal. 
+In Leiningen 2.1.0 and on you can add `:eval-in :nrepl` to re-use an
+existing project JVM over nREPL rather than launching a new one. This
+acts a bit like Cake's persistent JVMs feature, but you have to manage
+the lifecycle of the project JVM yourself. This can be done by simply
+running `lein repl` in a separate terminal.
 
 This will still incur the penalty for launching Leiningen itself, just
 not the project JVM. If Leiningen determines there's no project nREPL
