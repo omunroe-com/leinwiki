@@ -15,6 +15,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-create-template](https://github.com/tcw/lein-create-template) Create Leiningen templates from existing skeleton projects
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher) Generate a namespace dependency graph as an svg file
 -   [lein-diagnostics](https://github.com/robwolfe/lein-diagnostics/)† Get diagnostic info regarding versions of libraries
+-   [lein-expand-resource-paths](https://github.com/dchelimsky/lein-expand-resource-paths) Expand glob patterns in `:resource-paths` to work alongside alternative dependency managers
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
 -   [lein-gentags](https://github.com/snewman/lein-gentags)† Create TAGS files using etags for use in emacs code navigation
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps)† Pull dependencies via git
