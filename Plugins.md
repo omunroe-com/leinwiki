@@ -10,13 +10,15 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [configleaf](https://github.com/davidsantiago/configleaf) Manage Leiningen profiles in a persistent way and access your project map at runtime.
 -   [hiccup-bridge](https://github.com/hozumi/hiccup-bridge) Hiccup to html, html to hiccup
 -   [lein-aot-filter](https://github.com/pallet/lein-aot-filter) Filtering of AOT compiled class files
+-   [lein-autoreload](https://github.com/pyronicide/lein-autoreload) Reload your source in the background while running the repl.
+-   [lein-bikeshed](https://github.com/dakrone/lein-bikeshed) Notify you if your code is bad
 -   [lein-checkouts](https://github.com/guv/lein-checkouts) Build all dependency "checkouts" projects before the current project is build
 -   [lein-clean-m2](https://github.com/technomancy/lein-clean-m2) Remove all artifacts from local repo not used by current project
 -   [lein-create-template](https://github.com/tcw/lein-create-template) Create Leiningen templates from existing skeleton projects
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher) Generate a namespace dependency graph as an svg file
 -   [lein-diagnostics](https://github.com/robwolfe/lein-diagnostics/)† Get diagnostic info regarding versions of libraries
--   [lein-expand-resource-paths](https://github.com/dchelimsky/lein-expand-resource-paths) Expand glob patterns in `:resource-paths` to work alongside alternative dependency managers
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
+-   [lein-expand-resource-paths](https://github.com/dchelimsky/lein-expand-resource-paths) Expand glob patterns in `:resource-paths` to work alongside alternative dependency managers
 -   [lein-gentags](https://github.com/snewman/lein-gentags)† Create TAGS files using etags for use in emacs code navigation
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps)† Pull dependencies via git
 -   [lein-git-version](https://github.com/cvillecsteele/lein-git-version) Middleware DRYs up versions by substituting version info found in git tags into project map.
@@ -30,13 +32,13 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-nevam](https://github.com/thickey/lein-nevam) Convert Maven pom.xml files to project.clj files
 -   [lein-notes](https://github.com/myguidingstar/lein-notes) See inline notes from sources
 -   [lein-oneoff](https://github.com/mtyaka/lein-oneoff)† Simplify working with one-off, single-file clojure programs
-- [lein-open](https://github.com/cldwalker/lein-open) Open any dependency or installed jar in an editor.
+-   [lein-open](https://github.com/cldwalker/lein-open) Open any dependency or installed jar in an editor.
 -   [lein-outdated](https://github.com/ato/lein-outdated) List newer available versions of dependencies
-- [lein-pdo](https://github.com/Raynes/lein-pdo) Run lein tasks concurrently in parallel
--   [lein-shell](https://github.com/hyPiRion/lein-shell) Run sub-processes from within Leiningen.
+-   [lein-pdo](https://github.com/Raynes/lein-pdo) Run lein tasks concurrently in parallel
 -   [lein-project-depends](https://github.com/hugoduncan/lein-namespace-depends)† Output a project’s namespace use/require graph
 -   [lein-repls](https://github.com/franks42/lein-repls)† Launch a persistent REPL-server and use the lightweight command-line `cljsh` client to interact
 -   [lein-resource](https://github.com/m0smith/lein-resource) Copy files and transform using [stencil](https://github.com/davidsantiago/stencil)
+-   [lein-shell](https://github.com/hyPiRion/lein-shell) Run sub-processes from within Leiningen.
 -   [lein-sub](https://github.com/kumarshantanu/lein-sub) Execute tasks on sub-projects
 -   [lein-swank](http://github.com/technomancy/swank-clojure) Launch a Swank server for Emacs integration
 -   [lein-tarsier](https://github.com/sattvik/lein-tarsier) Add a [VimClojure](http://www.vim.org/scripts/script.php?script_id=2501) server to your project
@@ -45,8 +47,6 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
 -   [lein-whimrepl](https://github.com/malyn/lein-whimrepl) Start a REPL session in a Vim-targetable server for use with [vim-slime](https://github.com/jpalardy/vim-slime).
 -   [slamhound](http://github.com/technomancy/slamhound)† Reconstruct ns forms with needed :use/:require/:import clauses
--   [lein-bikeshed](https://github.com/dakrone/lein-bikeshed) Notify you if your code is bad
--   [lein-autoreload](https://github.com/pyronicide/lein-autoreload) Reload your source in the background while running the repl.
 
 ## Compilers
 
