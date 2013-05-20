@@ -10,6 +10,3 @@ the [README](https://github.com/technomancy/leiningen/blob/stable/README.md).
 * [yum](https://fedoraproject.org/wiki/Features/Clojure) (in progress)
 * [Arch AUR](http://aur.archlinux.org/packages.php?ID=37278)
 * [Chocolatey](http://chocolatey.org/packages/leiningen) (Windows)
-
-It's also packaged for MacPorts, but it is unmaintained and have had
-several bugs reported; it's advised that you avoid them.

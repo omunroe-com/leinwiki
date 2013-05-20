@@ -7,8 +7,9 @@ configuration serving as its lexical environment. The return value is
 the output, exit code, and artifact files produced.
 
 Anything that increases the chance of the build behaving differently
-on different machines is repeatability poison and should be
-eliminated. Here are a few of the most common offenders.
+on different machines or at different points in time is repeatability
+poison and should be eliminated. Here are a few of the most common
+offenders.
 
 ## User-level Repositories
 
@@ -17,13 +18,13 @@ build to fetch all its dependencies from the repositories configured
 in project.clj every time. However, this is too slow to be practical,
 so dependencies get cached in the local repository inside `~/.m2/`.
 
-One common problem is to check in configuration that accidentally
-depends upon the local repository on your own machine; perhaps you
-pulled in a dependency X from a third-party repo like Sonatype while
-working on project A and then declared X as a dependency of project B
-without adding Sonatype to project B's repository list. As soon as
-someone tries working on project B on another machine that hasn't had
-its local repo primed the same way it will fail.
+One common problem is accidentally depending upon the state of the
+local repository on your own machine; perhaps you pulled in a
+dependency X from a third-party repo like Sonatype while working on
+project A and then declared X as a dependency of project B without
+adding Sonatype to project B's repository list. As soon as someone
+tries working on project B on another machine that hasn't had its
+local repo primed the same way it will fail.
 
 In Leiningen 2 it's possible to add a `:repositories` key to your
 `:user` profile, but this exacerbates all the same problems you get
@@ -31,20 +32,19 @@ with the local repository. You'll get a warning if you try to do this.
 
 ## Free-Floating Jars
 
-It may be desirable to add dependencies on jars which haven't been
-published to any repository. While it's possible to install them
-locally with things like
-[lein-localrepo](https://github.com/kumarshantanu/lein-localrepo),
-doing so adds the requirement of a manual step to your build, which is
-counter to our goals of repeatability and automation. It may be
-acceptable if you are working on a project in isolation rather than on
-a team, but in most cases it's best to get it into a repository.
+It may be desirable to add dependencies on jars which haven't been yet
+published to any public repository. While it's possible to install
+them to your local cache with the `deploy` task as of 2.2.0, doing so
+adds the requirement of a manual step to your build, which is counter
+to our goals of repeatability and automation. It may be acceptable if
+you are working on a project in isolation rather than on a team, but
+in most cases it's best to get it into a repository.
 
-If the code is public, you should open a bug report with upstream to
-get them to publish it in a public repository like Clojars, Sonatype,
-or Maven Central, depending on the project. If they are resistant or
-too slow it's always possible to publish "Clojars forks"; see `lein
-help deploying` for further details there.
+If the code is public, you should open a bug report with the upstream
+project to get them to publish it in a public repository like Clojars,
+Sonatype, or Maven Central, depending on the project. If they are
+resistant or too slow it's always possible to publish "Clojars forks";
+see `lein help deploying` for further details there.
 
 Private jars are similar; if your company has an internal Nexus or
 Archiva server that's a natural place for them. If you'd like
@@ -71,9 +71,7 @@ snapshots with `lein deps :tree`:
        [...]
 
 So now you can replace `[compojure "1.1.0-SNAPSHOT]` with
-`[compojure "1.1.0-20120509.203749-1"]` inside project.clj. If you use
-Leiningen 1.x you can find the number in the filename of the jar
-inside the `lib` directory.
+`[compojure "1.1.0-20120509.203749-1"]` inside project.clj.
 
 ## Version Ranges
 
@@ -86,6 +84,10 @@ non-overlapping version ranges. In addition, version ranges introduce
 unexpected quirks in the dependency resolution process due to their
 surprising semantics around precedence; it's
 [recommended that you avoid them entirely](http://nelsonmorris.net/2012/07/31/do-not-use-version-ranges-in-project-clj.html).
+
+Newer versions of Leiningen will warn you about version ranges when
+you run `lein deps :tree`, so checking this is recommended if you find
+yourself debugging unexpected dependency behaviour.
 
 ## Testing
 
@@ -110,8 +112,7 @@ the most inopportune or embarrassing moment. You can save a lot of
 headache by proactively detecting it with a bit of continuous
 integration infrastructure. The most common tools for this are
 [Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/leiningen+plugin)
-and [Travis](http://travis-ci.org), the latter being currently
-suitable only for open source projects. Travis will run your tests
+and [Travis](http://travis-ci.org). Travis will run your tests
 after every commit in a completely fresh environment, which helps a
 lot with dependency issues; the local `~/.m2/repository` cache is
 rebuilt afresh every time. With Jenkins you can do that yourself; a

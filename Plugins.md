@@ -40,7 +40,6 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-resource](https://github.com/m0smith/lein-resource) Copy files and transform using [stencil](https://github.com/davidsantiago/stencil)
 -   [lein-shell](https://github.com/hyPiRion/lein-shell) Run sub-processes from within Leiningen.
 -   [lein-sub](https://github.com/kumarshantanu/lein-sub) Execute tasks on sub-projects
--   [lein-swank](http://github.com/technomancy/swank-clojure) Launch a Swank server for Emacs integration
 -   [lein-tarsier](https://github.com/sattvik/lein-tarsier) Add a [VimClojure](http://www.vim.org/scripts/script.php?script_id=2501) server to your project
 -   [lein-thrush](https://github.com/technomancy/lein-thrush) Feed the return value of one task into the input of another
 -   [lein-vanity](https://github.com/dgtized/lein-vanity) Lines of code statistics for vanity's sake
@@ -91,7 +90,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 ## Deployment
 
--   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk)† Deploy to AWS Elastic Beanstalk
+-   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) Deploy to AWS Elastic Beanstalk
 -   [lein-bin](https://github.com/Raynes/lein-bin) Generate cross-platform standalone executables of your project
 -   [lein-clojars](https://github.com/ato/lein-clojars) Deploy to Clojars
 -   [lein-cloudbees](https://clojars.org/lein-cloudbees) Deploy clojure apps to cloudbees
@@ -122,7 +121,6 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-gaeshi](https://github.com/slagyr/gaeshi) Google App Engine webs apps using Joodo. 
 -   [lein-gwt](http://github.com/teropa/lein-gwt)† Run the Google Web Toolkit compiler
 -   [lein-gwt-plugin](https://github.com/galdolber/gwt-plugin) Runs and compiles GWT applications
--   [lein-heroku](https://github.com/technomancy/lein-heroku) Generate and manage Heroku apps.
 -   [lein-httpd](https://github.com/malyn/lein-httpd) Start a web server in the current directory. 
 -   [lein-joodo](https://github.com/slagyr/joodo) Simple web app library.  Tasks to create, test, generate, your code.
 -   [lein-ring](https://github.com/weavejester/lein-ring) Work with web applications using Ring
@@ -149,13 +147,16 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-precate](https://github.com/technomancy/lein-precate) Transform project.clj into Leiningen 2.x-compatible form.
 
 ## Deprecated
+
 -   [fw1-template](https://github.com/seancorfield/fw1-template) Create [FW/1](https://github.com/seancorfield/fw1-clj) projects (use `lein new fw1 myapp` instead)
 -   [lein-eclipse](https://github.com/abrenk/lein-eclipse)† Create Eclipse project descriptor files (use recent CounterClockwise)
+-   [lein-heroku](https://github.com/technomancy/lein-heroku) Generate and manage Heroku apps (use [https://toolbelt.herokuapp.com](the toolbelt) instead)
+-   [lein-idea](https://bitbucket.org/bkumar/lein-idea) Generates Intellij IDEA project files
 -   [lein-nailgun](https://github.com/mrowl/lein-nailgun)† Launch a vimclojure nailgun server (use lein-tarsier)
 -   [lein-noir](https://github.com/ibdknox/lein-noir) Create and manage [Noir](http://www.webnoir.org) projects (use `new` task)
+-   [lein-swank](http://github.com/technomancy/swank-clojure) Launch a Swank server for Emacs integration (nrepl or ritz is recommended)
 -   [leiningen-war](http://github.com/alienscience/leiningen-war)† Create WAR files for use in servlet containers (use lein-ring)
 -   [radagast](http://github.com/Seajure/radagast)† Get simplistic test coverage (use guzheng)
--   [lein-idea](https://bitbucket.org/bkumar/lein-idea) Generates Intellij IDEA project files
 
 ## Merged into Leiningen
 
