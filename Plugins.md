@@ -31,7 +31,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-maven](https://github.com/pallet/lein-maven) Support for maven projects in checkouts
 -   [lein-nevam](https://github.com/thickey/lein-nevam) Convert Maven pom.xml files to project.clj files
 -   [lein-notes](https://github.com/myguidingstar/lein-notes) See inline notes from sources
--   [lein-oneoff](https://github.com/mtyaka/lein-oneoff)† Simplify working with one-off, single-file clojure programs
+-   [lein-oneoff](https://github.com/mtyaka/lein-oneoff) Simplify working with one-off, single-file clojure programs
 -   [lein-open](https://github.com/cldwalker/lein-open) Open any dependency or installed jar in an editor.
 -   [lein-outdated](https://github.com/ato/lein-outdated) List newer available versions of dependencies
 -   [lein-pdo](https://github.com/Raynes/lein-pdo) Run lein tasks concurrently in parallel
