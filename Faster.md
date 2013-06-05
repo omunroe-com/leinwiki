@@ -101,6 +101,20 @@ Be aware that there are some compatibility issues with this; some
 libraries like Jetty assume they're being loaded from a regular
 classloader rather than the bootstrap classloader.
 
+## Disable bytecode verification
+
+If you can't use the bootclasspath for compatibility reasons you can
+just disable bytecode verification by itself. This gives you slightly
+under half the speedup of the bootclasspath:
+
+    :jvm-opts ["-Xverify:none"]
+
+Technically this could open you up to problems where the results of
+loading corrupt bytecode would be undefined. Leiningen already
+performs checksumming of jars when they are downloaded over the
+network, but there are other potential sources of corruption which
+could still affect you.
+
 ## Check your :main
 
 When starting the REPL, Leiningen loads the project's :main namespace.
