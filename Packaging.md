@@ -9,4 +9,4 @@ the [README](https://github.com/technomancy/leiningen/blob/stable/README.md).
 * [homebrew](https://github.com/mxcl/homebrew/blob/master/Library/Formula/leiningen.rb) (2.2.0)
 * [yum](https://fedoraproject.org/wiki/Features/Clojure) (in progress)
 * [Arch AUR](http://aur.archlinux.org/packages.php?ID=37278)
-* [Chocolatey](http://chocolatey.org/packages/leiningen) (Windows)
+* [Chocolatey](http://chocolatey.org/packages/lein) (Windows)
