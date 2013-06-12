@@ -110,6 +110,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-release](https://github.com/relaynetwork/lein-release) Bumps your version number and deploys
 -   [lein-set-version](https://github.com/pallet/lein-set-version) Sets the version number in your project.clj
 -   [lein-sha-version](https://github.com/pallet/lein-sha-version) Middleware to set the project version based on git SHA
+-   [lein-sitemap](https://github.com/hashobject/lein-sitemap) Plugin for resubmitting sitemaps to Google Webmaster Tools. 
 -   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies, formerly lein-release
 -   [pallet-lein](http://github.com/pallet/pallet-lein)† Launch nodes and deploy "crate" packages to the cloud
 -   [lein-heroku-deploy](https://github.com/juggler/lein-heroku-deploy) Simplify your Heroku deploy
