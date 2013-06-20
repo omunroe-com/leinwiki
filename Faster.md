@@ -44,13 +44,26 @@ begin with a quick-start setting and switch to optimized compilation
 later once it has identified which sections of the code are hotspots.
 
 Leiningen 2.1.0 onward get a speed boost by disabling the optimized
-compilation (which only benefits long-running processes), but you can
-do this yourself on earlier versions:
+compilation (which only benefits long-running processes) for both 
+your project and Leiningen itself.  
+
+Be aware that this can negatively affect performance in the long run 
+(or lead to inaccurate benchmarking results).  If you do have a 
+long-running processes and want the JVM to fully optimize, you can 
+disable tiered compilation by either:
+
+    $ export JVM_OPTS=
+
+or in `project.clj` with:
+
+    :jvm-opts ^:replace []
+
+In earlier versions of Leiningen, you can enable this speed boost yourself:
 
     $ export LEIN_JVM_OPTS=-XX:TieredStopAtLevel=1
 
-You can apply the same startup boost to your project, though be aware
-that it could negatively affect performance in the long run:
+And you can apply the same startup boost to your project (though be aware
+of the above performance implications for long-running processes):
 
     $ export JVM_OPTS=-XX:TieredStopAtLevel=1
 
@@ -58,15 +71,6 @@ You can do this within `project.clj` as well:
 
     :jvm-opts ["-XX:+TieredCompilation" "-XX:TieredStopAtLevel=1"]
 
-If you do have one of the above-mentioned long-running processes and
-want the JVM to fully optimize, you can disable the tiered compilation
-by either:
-
-    $ export JVM_OPTS=
-
-or in `project.clj` with:
-
-    :jvm-opts ^:replace []
 
 ## Eval in nREPL
 
