@@ -157,6 +157,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-idea](https://bitbucket.org/bkumar/lein-idea) Generates Intellij IDEA project files
 -   [lein-nailgun](https://github.com/mrowl/lein-nailgun)† Launch a vimclojure nailgun server (use lein-tarsier)
 -   [lein-noir](https://github.com/ibdknox/lein-noir) Create and manage [Noir](http://www.webnoir.org) projects (use `new` task)
+-   [lein-outdated](https://github.com/ato/lein-outdated) List newer available versions of dependencies (use [lein-ancient](https://github.com/xsc/lein-ancient) instead)
 -   [lein-swank](http://github.com/technomancy/swank-clojure) Launch a Swank server for Emacs integration (nrepl or ritz is recommended)
 -   [leiningen-war](http://github.com/alienscience/leiningen-war)† Create WAR files for use in servlet containers (use lein-ring)
 -   [radagast](http://github.com/Seajure/radagast)† Get simplistic test coverage (use guzheng)
