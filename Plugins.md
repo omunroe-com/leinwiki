@@ -94,7 +94,6 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 -   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) Deploy to AWS Elastic Beanstalk
 -   [lein-bin](https://github.com/Raynes/lein-bin) Generate cross-platform standalone executables of your project
--   [lein-clojars](https://github.com/ato/lein-clojars) Deploy to Clojars
 -   [lein-cloudbees](https://clojars.org/lein-cloudbees) Deploy clojure apps to cloudbees
 -   [lein-condor](http://github.com/gilesc/lein-condor)† Execute Clojure code on a Condor cluster
 -   [lein-daemon](http://github.com/arohner/lein-daemon) Run app as a daemon
@@ -152,6 +151,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 ## Deprecated
 
 -   [fw1-template](https://github.com/seancorfield/fw1-template) Create [FW/1](https://github.com/seancorfield/fw1-clj) projects (use `lein new fw1 myapp` instead)
+-   [lein-clojars](https://github.com/ato/lein-clojars) Deploy to Clojars (use `lein deploy clojars` instead)
 -   [lein-eclipse](https://github.com/abrenk/lein-eclipse)† Create Eclipse project descriptor files (use recent CounterClockwise)
 -   [lein-heroku](https://github.com/technomancy/lein-heroku) Generate and manage Heroku apps (use [https://toolbelt.herokuapp.com](the toolbelt) instead)
 -   [lein-idea](https://bitbucket.org/bkumar/lein-idea) Generates Intellij IDEA project files
