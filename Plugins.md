@@ -9,6 +9,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 -   [configleaf](https://github.com/davidsantiago/configleaf) Manage Leiningen profiles in a persistent way and access your project map at runtime.
 -   [hiccup-bridge](https://github.com/hozumi/hiccup-bridge) Hiccup to html, html to hiccup
+-   [lein-ancient](https://github.com/xsc/lein-ancient) Check your projects and plugins for outdated dependencies.
 -   [lein-annotations](https://github.com/bbatsov/lein-annotations) Displays comment annotations in your project.
 -   [lein-aot-filter](https://github.com/pallet/lein-aot-filter) Filtering of AOT compiled class files
 -   [lein-autoreload](https://github.com/pyronicide/lein-autoreload) Reload your source in the background while running the repl.
