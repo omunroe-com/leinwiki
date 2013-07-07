@@ -128,6 +128,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-joodo](https://github.com/slagyr/joodo) Simple web app library.  Tasks to create, test, generate, your code.
 -   [lein-ring](https://github.com/weavejester/lein-ring) Work with web applications using Ring
 -   [lein-servlet](https://github.com/kumarshantanu/lein-servlet) Work with servlet-based webapps
+-   [lein-simpleton](https://github.com/fogus/lein-simpleton) Serve files via http out of a local directory.
 
 ## Databases
 
