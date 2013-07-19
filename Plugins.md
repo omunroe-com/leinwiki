@@ -117,6 +117,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [pallet-lein](http://github.com/pallet/pallet-lein)† Launch nodes and deploy "crate" packages to the cloud
 -   [lein-heroku-deploy](https://github.com/juggler/lein-heroku-deploy) Simplify your Heroku deploy
 -   [lein-jelastic] (https://github.com/mysema/lein-jelastic) Deploy to Jelastic
+-   [lein-aws](https://github.com/sorenmacbeth/lein-aws) A leiningen plugin to interact with Amazon Web Services
 
 ## Web
 
