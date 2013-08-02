@@ -110,6 +110,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-package](https://github.com/pliant/lein-package) Allows for the packaging, installing, and deploying of artifacts besides jars, or multiple artifact projects.
 -   [lein-ping](https://github.com/hashobject/lein-ping) Leiningen plugin that pings websites/urls. 
 -   [lein-release](https://github.com/relaynetwork/lein-release) Bumps your version number and deploys
+-   [lein-runproject](https://github.com/weissjeffm/lein-runproject) Run any project's -main function directly from the repository
 -   [lein-set-version](https://github.com/pallet/lein-set-version) Sets the version number in your project.clj
 -   [lein-sha-version](https://github.com/pallet/lein-sha-version) Middleware to set the project version based on git SHA
 -   [lein-sitemap](https://github.com/hashobject/lein-sitemap) Plugin for resubmitting sitemaps to Google Webmaster Tools. 
