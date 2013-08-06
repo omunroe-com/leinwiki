@@ -44,6 +44,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-sub](https://github.com/kumarshantanu/lein-sub) Execute tasks on sub-projects
 -   [lein-tarsier](https://github.com/sattvik/lein-tarsier) Add a [VimClojure](http://www.vim.org/scripts/script.php?script_id=2501) server to your project
 -   [lein-thrush](https://github.com/technomancy/lein-thrush) Feed the return value of one task into the input of another
+-   [lein-try](https://github.com/rkneufeld/lein-try) Try out libraries without creating a dummy project/dependency.
 -   [lein-vanity](https://github.com/dgtized/lein-vanity) Lines of code statistics for vanity's sake
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
 -   [lein-whimrepl](https://github.com/malyn/lein-whimrepl) Start a REPL session in a Vim-targetable server for use with [vim-slime](https://github.com/jpalardy/vim-slime).
