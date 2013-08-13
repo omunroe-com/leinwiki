@@ -147,6 +147,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 ## Documentation
 
+-   [codox](https://github.com/weavejester/codox) A tool for generating API documentation from Clojure source code. (html)
 -   [lein-autodoc](https://github.com/tomfaulhaber/lein-autodoc)† Generate autodoc documentation
 -   [lein-docbkx](https://github.com/kumarshantanu/lein-docbkx)† Render Docbook XML documents as PDF, EPUB, HTML etc. using Docbkx-tools
 -   [lein-html5-docs](https://github.com/tsdh/lein-html5-docs) Generate HTML5 API docs
