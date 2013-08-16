@@ -7,7 +7,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 ## Development Tools
 
--   [configleaf](https://github.com/davidsantiago/configleaf) Manage Leiningen profiles in a persistent way and access your project map at runtime.
+-   [configleaf](https://github.com/davidsantiago/configleaf) Manage Leiningen profiles in a persistent way and access your project map at runtime. (see 'slothcfg' entry below for an updated fork)
 -   [hiccup-bridge](https://github.com/hozumi/hiccup-bridge) Hiccup to html, html to hiccup
 -   [lein-ancient](https://github.com/xsc/lein-ancient) Check your projects and plugins for outdated dependencies.
 -   [lein-annotations](https://github.com/bbatsov/lein-annotations) Displays comment annotations in your project.
@@ -49,6 +49,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
 -   [lein-whimrepl](https://github.com/malyn/lein-whimrepl) Start a REPL session in a Vim-targetable server for use with [vim-slime](https://github.com/jpalardy/vim-slime).
 -   [slamhound](https://github.com/technomancy/slamhound)† Reconstruct ns forms with needed :use/:require/:import clauses
+-   [slothcfg](https://github.com/taoeffect/slothcfg) Build profiles and access to project.clj at runtime. Updated fork of 'configleaf'.
 -   [varspotting](https://github.com/michalmarczyk/varspotting) Count public Vars meeting certain criteria (holding functions, macros etc.)
 -   [lein-clique](https://github.com/Hendekagon/lein-clique) Generate a graph of dependencies between the functions in your project
 
