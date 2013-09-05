@@ -136,6 +136,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-servlet](https://github.com/kumarshantanu/lein-servlet) Work with servlet-based webapps
 -   [lein-simpleton](https://github.com/fogus/lein-simpleton) Serve files via http out of a local directory.
 -   [lein-misaki](github.com/skuro/lein-misaki) Helps you building web sites using the [Misaki](liquidz.github.com/misaki/) static site generator
+-   [lein-bower](https://github.com/wokier/lein-bower) Bower web lib dependency management 
 
 ## Databases
 
