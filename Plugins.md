@@ -52,6 +52,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [slothcfg](https://github.com/taoeffect/slothcfg) Build profiles and access to project.clj at runtime. Updated fork of 'configleaf'.
 -   [varspotting](https://github.com/michalmarczyk/varspotting) Count public Vars meeting certain criteria (holding functions, macros etc.)
 -   [lein-clique](https://github.com/Hendekagon/lein-clique) Generate a graph of dependencies between the functions in your project
+- [lein-extend-cp](https://github.com/nickgieschen/lein-extend-cp) Adds paths to the classpath
 
 ## Compilers
 
