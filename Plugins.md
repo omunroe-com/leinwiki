@@ -14,6 +14,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-aot-filter](https://github.com/pallet/lein-aot-filter) Filtering of AOT compiled class files
 -   [lein-autoreload](https://github.com/pyronicide/lein-autoreload) Reload your source in the background while running the repl.
 -   [lein-bikeshed](https://github.com/dakrone/lein-bikeshed) Notify you if your code is bad
+-   [lein-cascade](https://github.com/kumarshantanu/lein-cascade) Execute cascading task dependencies
 -   [lein-checkouts](https://github.com/guv/lein-checkouts) Build all dependency "checkouts" projects before the current project is build
 -   [lein-clean-m2](https://github.com/technomancy/lein-clean-m2) Remove all artifacts from local repo not used by current project
 -   [lein-create-template](https://github.com/tcw/lein-create-template) Create Leiningen templates from existing skeleton projects
