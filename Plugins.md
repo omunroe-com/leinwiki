@@ -64,6 +64,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-cssgenbuild](https://github.com/MichaelDrogalis/lein-cssgenbuild) Generate stylesheets from cssgen
 -   [lein-debian](https://github.com/erickg/lein-debian) Package build products and/or dependencies as Debian (.deb) packages
 -   [lein-droid](https://github.com/clojure-android/lein-droid) Compile Android projects
+-   [lein-fruit](https://github.com/oakes/lein-fruit) Compile iOS projects
 -   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc)† Compile Groovy
 -   [lein-lesscss](https://github.com/fmancinelli/lein-lesscss) Compile [Less CSS](http://lesscss.org/) resources.
 -   [lein-ragel](https://github.com/llasram/lein-ragel) Compile Ragel sources to Java sources
