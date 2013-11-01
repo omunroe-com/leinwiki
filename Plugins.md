@@ -94,6 +94,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-test-bang-bang](https://github.com/joegallo/lein-test-bang-bang) Run each test namespace in a separate JVM
 -   [lein-test-from](https://github.com/joegallo/lein-test-from) Run your test namespaces, starting from a particular namespace
 -   [lein-test-out](https://github.com/arohner/lein-test-out)† Run all tests and outputs to a file in junit XML or TAP format
+-   [lein-test-refresh](https://github.com/jakemcc/lein-test-refresh) Watch project for changes and automatically reload namespaces and run `clojure.test` tests.
 -   [perforate](https://github.com/davidsantiago/perforate) Painless benchmarking with Leiningen and [Criterium](https://github.com/hugoduncan/criterium)
 -   [quickie](https://github.com/jakepearson/quickie) Autotest clojure.test files.  Filters stacktraces to skip over some of the clojure cruft.
 -   [speclj](https://github.com/slagyr/speclj) (pronounced “speckle”) TDD/BDD framework, with auto-runner, based on [rspec](http://rspec.info/)
