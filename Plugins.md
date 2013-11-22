@@ -147,6 +147,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-bower](https://github.com/wokier/lein-bower) Bower web lib dependency management 
 -   [lein-karma](https://github.com/behrica/leiningen-karma-plugin) Runs JavaScript tests with Karma   
 -   [lein-protractor](https://github.com/behrica/lein-protractor) Runs AngularJS e2e tests with Protractor 
+-   [touchme](https://github.com/sogilis/touchme) Touch files when html (by example) files are modified. Can be used to update enlive templates.
 
 ## Databases
 
