@@ -52,7 +52,7 @@ Be aware that this can negatively affect performance in the long run
 long-running processes and want the JVM to fully optimize, you can 
 disable tiered compilation by either:
 
-    $ export JVM_OPTS=
+    $ export LEIN_JVM_OPTS=
 
 or in `project.clj` with:
 
@@ -65,7 +65,7 @@ In earlier versions of Leiningen, you can enable this speed boost yourself:
 And you can apply the same startup boost to your project (though be aware
 of the above performance implications for long-running processes):
 
-    $ export JVM_OPTS=-XX:TieredStopAtLevel=1
+    $ export LEIN_JVM_OPTS=-XX:TieredStopAtLevel=1
 
 You can do this within `project.clj` as well:
 
