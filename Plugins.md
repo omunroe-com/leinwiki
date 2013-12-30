@@ -91,7 +91,6 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-guzheng](http://github.com/dgrnbrg/lein-guzheng) Branch coverage analysis usable with any testing framefork
 -   [lein-junit](https://github.com/febeling/lein-junit) Run JUnit tests
 -   [lein-midje](https://github.com/marick/lein-midje) Run [Midje](http://github.com/marick/Midje/blob/master/README.md) tests
--   [lein-midje-lazytest](https://github.com/myguidingstar/lein-midje-lazytest) Run Midje/Clojure tests on top of lazytest (Just a meta-package!)
 -   [lein-pjotest](https://github.com/jonpither/lein-pjotest) Run test namespaces in parallel with JUnit XML output
 -   [lein-play](http://github.com/technomancy/lein-play) Play a different sound at the end of your test runs depending on whether they pass or fail
 -   [lein-prism](https://github.com/aphyr/prism/) Auto-reload and rerun tests, works with vanilla clojure.test unlike the others mentioned here.
@@ -182,6 +181,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-eclipse](https://github.com/abrenk/lein-eclipse)† Create Eclipse project descriptor files (use recent CounterClockwise)
 -   [lein-heroku](https://github.com/technomancy/lein-heroku) Generate and manage Heroku apps (use [https://toolbelt.herokuapp.com](the toolbelt) instead)
 -   [lein-idea](https://bitbucket.org/bkumar/lein-idea) Generates Intellij IDEA project files
+-   [lein-midje-lazytest](https://github.com/myguidingstar/lein-midje-lazytest) Run Midje/Clojure tests on top of lazytest (Just a meta-package!)
 -   [lein-nailgun](https://github.com/mrowl/lein-nailgun)† Launch a vimclojure nailgun server (use lein-tarsier)
 -   [lein-noir](https://github.com/ibdknox/lein-noir) Create and manage [Noir](http://www.webnoir.org) projects (use `new` task)
 -   [lein-outdated](https://github.com/ato/lein-outdated) List newer available versions of dependencies (use [lein-ancient](https://github.com/xsc/lein-ancient) instead)
