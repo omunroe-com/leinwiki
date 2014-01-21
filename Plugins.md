@@ -130,6 +130,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-heroku-deploy](https://github.com/juggler/lein-heroku-deploy) Simplify your Heroku deploy
 -   [lein-jelastic] (https://github.com/mysema/lein-jelastic) Deploy to Jelastic
 -   [lein-aws](https://github.com/sorenmacbeth/lein-aws) A leiningen plugin to interact with Amazon Web Services
+-   [lein-version-spec](https://github.com/circleci/lein-version-spec) Set the version number of your project according to rules
 
 ## Web
 
