@@ -125,8 +125,9 @@ When starting the REPL, Leiningen loads the project's :main namespace.
 If the :main namespace takes significant time to load, the user's perception
 is that Leiningen is slow.
 
-## lein.el
+## Grenchman
 
-TODO: make it actually work, explain
-
-https://github.com/technomancy/lein.el
+Grenchman is a fast-launching command-line client that can connect to
+already-running nREPL servers to evaluate code. You can use it both to
+avoid startup time of Leiningen itself (`grench lein $TASK`) or to
+connect directly to a project repl server.
