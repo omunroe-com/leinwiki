@@ -127,7 +127,8 @@ is that Leiningen is slow.
 
 ## Grenchman
 
-Grenchman is a fast-launching command-line client that can connect to
-already-running nREPL servers to evaluate code. You can use it both to
-avoid startup time of Leiningen itself (`grench lein $TASK`) or to
-connect directly to a project repl server.
+[Grenchman](http://leiningen.org/grench.html) is a fast-launching
+command-line client that can connect to already-running nREPL servers
+to evaluate code. You can use it both to avoid startup time of
+Leiningen itself (`grench lein $TASK`) or to connect directly to a
+project repl server.
