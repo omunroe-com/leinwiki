@@ -152,7 +152,8 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-karma](https://github.com/behrica/leiningen-karma-plugin) Runs JavaScript tests with Karma   
 -   [lein-protractor](https://github.com/behrica/lein-protractor) Runs AngularJS e2e tests with Protractor 
 -   [touchme](https://github.com/sogilis/touchme) Touch files when html (by example) files are modified. Can be used to update enlive templates.
--   [hiccup-watch](https://github.com/twashing/hiccup-watch) Watches for changes in your Hiccup source files. 
+-   [hiccup-watch](https://github.com/twashing/hiccup-watch) Watches for changes in your Hiccup (edn (HTML)) source files.
+-   [garden-watch](https://github.com/twashing/garden-watch) Watches for changes in your Garden (edn (CSS)) source files. 
 
 ## Databases
 
