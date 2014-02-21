@@ -6,7 +6,7 @@ the [README](https://github.com/technomancy/leiningen/blob/stable/README.md).
 
 * [nix](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/tools/build-managers/leiningen/default.nix)
 * [apt-get](http://packages.debian.org/sid/leiningen) (Debian: since wheezy; Ubuntu: since Oneiric; 1.x only)
-* [homebrew](https://github.com/mxcl/homebrew/blob/master/Library/Formula/leiningen.rb) (2.3.2)
+* [homebrew](https://github.com/mxcl/homebrew/blob/master/Library/Formula/leiningen.rb) (2.3.4)
 * [yum](https://fedoraproject.org/wiki/Features/Clojure) (in progress)
 * [Arch AUR](http://aur.archlinux.org/packages.php?ID=37278)
 * [Chocolatey](http://chocolatey.org/packages/lein) (Windows)
