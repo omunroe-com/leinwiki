@@ -23,6 +23,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
 -   [lein-expand-resource-paths](https://github.com/dchelimsky/lein-expand-resource-paths) Expand glob patterns in `:resource-paths` to work alongside alternative dependency managers
 -   [lein-externs](https://github.com/ejlo/lein-externs) Generate externs for your ClojureScript project
+-   [lein-filegen](https://github.com/ThoughtWorksInc/lein-filegen) Generate files from data and a template
 -   [lein-gentags](https://github.com/snewman/lein-gentags)† Create TAGS files using etags for use in emacs code navigation
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps)† Pull dependencies via git
 -   [lein-git-version](https://github.com/cvillecsteele/lein-git-version) Middleware DRYs up versions by substituting version info found in git tags into project map.
