@@ -125,6 +125,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-ping](https://github.com/hashobject/lein-ping) Leiningen plugin that pings websites/urls. 
 -   [lein-release](https://github.com/relaynetwork/lein-release) Bumps your version number and deploys
 -   [lein-runproject](https://github.com/weissjeffm/lein-runproject) Run any project's -main function directly from the repository
+-   [lein-s3-static-deploy](https://github.com/ThoughtWorksInc/lein-s3-static-deploy) Deploy a local directory as a static website on s3
 -   [lein-set-version](https://github.com/pallet/lein-set-version) Sets the version number in your project.clj
 -   [lein-sha-version](https://github.com/pallet/lein-sha-version) Middleware to set the project version based on git SHA
 -   [lein-sitemap](https://github.com/hashobject/lein-sitemap) Plugin for resubmitting sitemaps to Google Webmaster Tools. 
@@ -147,6 +148,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-httpd](https://github.com/malyn/lein-httpd) Start a web server in the current directory. 
 -   [lein-joodo](https://github.com/slagyr/joodo) Simple web app library.  Tasks to create, test, generate, your code.
 -   [lein-ring](https://github.com/weavejester/lein-ring) Work with web applications using Ring
+-   [lein-s3-static-deploy](https://github.com/ThoughtWorksInc/lein-s3-static-deploy) Deploy a local directory as a static website on s3
 -   [lein-servlet](https://github.com/kumarshantanu/lein-servlet) Work with servlet-based webapps
 -   [lein-simpleton](https://github.com/fogus/lein-simpleton) Serve files via http out of a local directory.
 -   [lein-misaki](https://github.com/skuro/lein-misaki) Helps you building web sites using the [Misaki](https://liquidz.github.com/misaki/) static site generator
