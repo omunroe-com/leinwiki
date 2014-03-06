@@ -18,6 +18,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-checkouts](https://github.com/guv/lein-checkouts) Build all dependency "checkouts" projects before the current project is build
 -   [lein-clean-m2](https://github.com/technomancy/lein-clean-m2) Remove all artifacts from local repo not used by current project
 -   [lein-create-template](https://github.com/tcw/lein-create-template) Create Leiningen templates from existing skeleton projects
+-   [datomic-schema-grapher](https://github.com/felixflores/datomic_schema_grapher) A library and lein plugin for graphing datomic schemas
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher) Generate a namespace dependency graph as an svg file
 -   [lein-diagnostics](https://github.com/robwolfe/lein-diagnostics/)† Get diagnostic info regarding versions of libraries
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
@@ -167,6 +168,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [clj-sql-up](https://github.com/ckuttruff/clj-sql-up) A simple plugin for running SQL database migrations
 -   [lein-embongo](https://github.com/joelittlejohn/lein-embongo) Create a managed/embedded instance of MongoDB during a lein build (e.g. for integration testing).
 -   [lein-dbmaintain](https://github.com/mysema/lein-dbmaintain) DbMaintain integration for Leiningen
+-   [datomic-schema-grapher](https://github.com/felixflores/datomic_schema_grapher) A library and lein plugin for graphing datomic schemas
 
 ## Documentation
 
