@@ -9,6 +9,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 -   [configleaf](https://github.com/davidsantiago/configleaf) Build profiles and access to project.clj at runtime. (see also 'slothcfg', an updated fork)
 -   [hiccup-bridge](https://github.com/hozumi/hiccup-bridge) Hiccup to html, html to hiccup
+-   [lein-4clj](https://github.com/aengelberg/lein-4clj) An unofficial companion to [4clojure](http://www.4clojure.com), a Clojure kata site.
 -   [lein-ancient](https://github.com/xsc/lein-ancient) Check your projects and plugins for outdated dependencies.
 -   [lein-annotations](https://github.com/bbatsov/lein-annotations) Displays comment annotations in your project.
 -   [lein-aot-filter](https://github.com/pallet/lein-aot-filter) Filtering of AOT compiled class files
