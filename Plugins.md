@@ -24,6 +24,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-diagnostics](https://github.com/robwolfe/lein-diagnostics/)† Get diagnostic info regarding versions of libraries
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
 -   [lein-expand-resource-paths](https://github.com/dchelimsky/lein-expand-resource-paths) Expand glob patterns in `:resource-paths` to work alongside alternative dependency managers
+-   [lein-extend-cp](https://github.com/nickgieschen/lein-extend-cp) Adds paths to the classpath
 -   [lein-externs](https://github.com/ejlo/lein-externs) Generate externs for your ClojureScript project
 -   [lein-filegen](https://github.com/ThoughtWorksInc/lein-filegen) Generate files from data and a template
 -   [lein-gentags](https://github.com/snewman/lein-gentags)† Create TAGS files using etags for use in emacs code navigation
@@ -38,6 +39,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-libdir](https://github.com/djpowell/lein-libdir) Copy dependencies to a 'lib' folder in your project
 -   [lein-localrepo](https://github.com/kumarshantanu/lein-localrepo) Work with the local Maven repository
 -   [lein-maven](https://github.com/pallet/lein-maven) Support for maven projects in checkouts
+-   [lein-modules](https://github.com/jcrossley3/lein-modules) An alternative to Maven multi-module projects
 -   [lein-nevam](https://github.com/thickey/lein-nevam) Convert Maven pom.xml files to project.clj files
 -   [lein-notes](https://github.com/myguidingstar/lein-notes) See inline notes from sources
 -   [lein-ns-dep-graph](https://github.com/hilverd/lein-ns-dep-graph) Show namespace dependencies of Clojure project sources as a graph
@@ -60,14 +62,12 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [slamhound](https://github.com/technomancy/slamhound)† Reconstruct ns forms with needed :use/:require/:import clauses
 -   [slothcfg](https://github.com/taoeffect/slothcfg) Build profiles and access to project.clj at runtime. Updated fork of 'configleaf'.
 -   [varspotting](https://github.com/michalmarczyk/varspotting) Count public Vars meeting certain criteria (holding functions, macros etc.)
--   [lein-clique](https://github.com/Hendekagon/lein-clique) Generate a graph of dependencies between the functions in your project
--   [lein-extend-cp](https://github.com/nickgieschen/lein-extend-cp) Adds paths to the classpath
--   [lein-modules](https://github.com/jcrossley3/lein-modules) An alternative to Maven multi-module projects
 
 ## Compilers
 
 -   [lein-aggravate](https://github.com/byels/lein-aggravate) Aggregate & compress .css files, general file aggregation options
 -   [lein-antlr](http://github.com/alexhall/lein-antlr)† Generate source code from ANTLR grammars
+-   [lein-beaver](https://github.com/quoll/lein-beaver) Generates source code from Beaver/JFlex grammars
 -   [lein-cljsbuild](http://github.com/emezeske/lein-cljsbuild) Compile ClojureScript automatically upon modification and share code between Clojure and ClojureScript
 -   [lein-cl2c](http://github.com/chlorinejs/lein-cl2c) Compile Chlorine (a subset of Clojure) and Hiccup to Javascript/HTML files
 -   [lein-clr](https://github.com/kumarshantanu/lein-clr) Automate build tasks for ClojureCLR projects on .NET and Mono
@@ -81,7 +81,6 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-scalac](https://github.com/technomancy/lein-scalac) Compile Scala
 -   [lein-thrift](https://github.com/kurtharriger/lein-thrift)† Generating Thrift sources
 -   [lein-thriftc](https://github.com/xsc/lein-thriftc) Compile Thrift
--   [lein-beaver](https://github.com/quoll/lein-beaver) Generates source code from Beaver/JFlex grammars
 
 ## Testing
 
@@ -174,8 +173,10 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 
 ## Documentation
 
+-   [cloc](https://github.com/jaley/cloc) Generate API docs for your project and dependencies and serve them through a local web server, with a fast Lucene full-text search.
 -   [codox](https://github.com/weavejester/codox) A tool for generating API documentation from Clojure source code. (html)
 -   [lein-autodoc](https://github.com/tomfaulhaber/lein-autodoc)† Generate autodoc documentation
+-   [lein-clique](https://github.com/Hendekagon/lein-clique) Generate a graph of dependencies between the functions in your project
 -   [lein-docbkx](https://github.com/kumarshantanu/lein-docbkx)† Render Docbook XML documents as PDF, EPUB, HTML etc. using Docbkx-tools
 -   [lein-html5-docs](https://github.com/tsdh/lein-html5-docs) Generate HTML5 API docs
 -   [lein-javadoc](https://github.com/davidsantiago/lein-javadoc) Automatically run javadoc on the java sources in your project
@@ -185,7 +186,6 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-mustache](https://github.com/achin/lein-mustache) Evaluate Mustache templates with Clojure data files (e.g. for creating templatized documentation)
 -   [lein-precate](https://github.com/technomancy/lein-precate) Transform project.clj into Leiningen 2.x-compatible form.
 -   [lein-sphinx](https://github.com/SnootyMonkey/lein-sphinx) Generate documentation from [reStructuredText](http://docutils.sourceforge.net/rst.html) using [Sphinx](http://sphinx-doc.org/).
--   [cloc](https://github.com/jaley/cloc) Generate API docs for your project and dependencies and serve them through a local web server, with a fast Lucene full-text search.
 
 ## Deprecated
 
