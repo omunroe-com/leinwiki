@@ -186,6 +186,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-mustache](https://github.com/achin/lein-mustache) Evaluate Mustache templates with Clojure data files (e.g. for creating templatized documentation)
 -   [lein-precate](https://github.com/technomancy/lein-precate) Transform project.clj into Leiningen 2.x-compatible form.
 -   [lein-sphinx](https://github.com/SnootyMonkey/lein-sphinx) Generate documentation from [reStructuredText](http://docutils.sourceforge.net/rst.html) using [Sphinx](http://sphinx-doc.org/).
+-   [nephila](https://github.com/timmc/nephila) Show a graph of your Clojure namespaces
 
 ## Deprecated
 
