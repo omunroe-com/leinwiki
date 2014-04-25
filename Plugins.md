@@ -55,7 +55,9 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-tarsier](https://github.com/sattvik/lein-tarsier) Add a [VimClojure](http://www.vim.org/scripts/script.php?script_id=2501) server to your project
 -   [lein-teamcity](https://github.com/nd/lein-teamcity) Add an on-the-fly stages, artifacts and tests reporting in TeamCity
 -   [lein-thrush](https://github.com/technomancy/lein-thrush) Feed the return value of one task into the input of another
--   [lein-try](https://github.com/rkneufeld/lein-try) Try out libraries without creating a dummy project/dependency.
+-   [lein-try](https://github.com/rkneufeld/lein-try) Try out libraries without creating a dummy 
+project/dependency.
+-   [lein-ubersource](https://github.com/puppetlabs/lein-ubersource) Download the source code for all of the project's (transitive) dependencies.
 -   [lein-vanity](https://github.com/dgtized/lein-vanity) Lines of code statistics for vanity's sake
 -   [lein-webdav](https://github.com/tobias/lein-webdav) Enables uploading of deployments to webdav repos
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
