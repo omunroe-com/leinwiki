@@ -18,6 +18,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-cascade](https://github.com/kumarshantanu/lein-cascade) Execute cascading task dependencies
 -   [lein-checkouts](https://github.com/guv/lein-checkouts) Build all dependency "checkouts" projects before the current project is build
 -   [lein-clean-m2](https://github.com/technomancy/lein-clean-m2) Remove all artifacts from local repo not used by current project
+-   [lein-cprint](https://github.com/greglook/lein-cprint) Like lein-pprint, but with color.
 -   [lein-create-template](https://github.com/tcw/lein-create-template) Create Leiningen templates from existing skeleton projects
 -   [datomic-schema-grapher](https://github.com/felixflores/datomic_schema_grapher) A library and lein plugin for graphing datomic schemas
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher) Generate a namespace dependency graph as an svg file
@@ -33,6 +34,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-gitify](https://github.com/Raynes/lein-gitify) Create and initialize Github/git in your new Leiningen projects.
 -   [lein-grep](https://github.com/cldwalker/lein-grep) Improved repository searching built off the search subcommand.
 -   [lein-hadoop-cluster](https://github.com/llasram/lein-hadoop-cluster) Run Leiningen tasks with the configuration necessary to access a live Hadoop cluster.
+-   [lein-hiera](https://github.com/greglook/lein-hiera) Generate namespace dependency graphs from Leiningen projects.
 -   [lein-iclojure](https://github.com/cosmin/lein-iclojure)† for running an [IClojure](https://github.com/cosmin/IClojure) REPL
 -   [lein-idefiles](https://github.com/kumarshantanu/lein-idefiles) Generate IDE files (Eclipse, IDEA) for Leiningen projects
 -   [lein-jdk-tools](https://github.com/pallet/lein-jdk-tools) Add tools.jar to the classpath
