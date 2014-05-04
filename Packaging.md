@@ -10,3 +10,4 @@ the [README](https://github.com/technomancy/leiningen/blob/stable/README.md).
 * [yum](https://fedoraproject.org/wiki/Features/Clojure) (in progress)
 * [Arch AUR](http://aur.archlinux.org/packages.php?ID=37278)
 * [Chocolatey](http://chocolatey.org/packages/lein) (Windows)
+* [FreeBSD Ports](http://www.freshports.org/devel/leiningen/)
