@@ -176,6 +176,7 @@ project/dependency.
 -   [clj-sql-up](https://github.com/ckuttruff/clj-sql-up) A simple plugin for running SQL database migrations
 -   [lein-embongo](https://github.com/joelittlejohn/lein-embongo) Create a managed/embedded instance of MongoDB during a lein build (e.g. for integration testing).
 -   [lein-dbmaintain](https://github.com/mysema/lein-dbmaintain) DbMaintain integration for Leiningen
+-   [zookem](https://github.com/joelittlejohn/zookem) Create a embedded instance of Zookeeper during a lein build (e.g. for integration testing)
 
 ## Documentation
 
