@@ -191,10 +191,10 @@ project/dependency.
 -   [lein-margauto](https://github.com/tranchis/lein-margauto) Watches your source directories for changes to your clojure source files and rebuilds the Marginalia documentation whenever you update your source code
 -   [lein-marginalia](https://github.com/fogus/lein-marginalia) Generate [Marginalia](https://github.com/fogus/marginalia) documentation
 -   [lein-mustache](https://github.com/achin/lein-mustache) Evaluate Mustache templates with Clojure data files (e.g. for creating templatized documentation)
+-   [lein-plantuml](https://github.com/vbauer/lein-plantuml) Generate UML diagrams using [PlantUML](http://plantuml.sourceforge.net)
 -   [lein-precate](https://github.com/technomancy/lein-precate) Transform project.clj into Leiningen 2.x-compatible form.
 -   [lein-sphinx](https://github.com/SnootyMonkey/lein-sphinx) Generate documentation from [reStructuredText](http://docutils.sourceforge.net/rst.html) using [Sphinx](http://sphinx-doc.org/).
 -   [nephila](https://github.com/timmc/nephila) Show a graph of your Clojure namespaces
--   [lein-plantuml](https://github.com/vbauer/lein-plantuml) Generate UML diagrams using [PlantUML](http://plantuml.sourceforge.net)
 
 ## Deprecated
 
