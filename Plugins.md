@@ -28,6 +28,7 @@ _Plugins marked with † have **not** been confirmed to work with Leiningen 2._
 -   [lein-expand-resource-paths](https://github.com/dchelimsky/lein-expand-resource-paths) Expand glob patterns in `:resource-paths` to work alongside alternative dependency managers
 -   [lein-extend-cp](https://github.com/nickgieschen/lein-extend-cp) Adds paths to the classpath
 -   [lein-externs](https://github.com/ejlo/lein-externs) Generate externs for your ClojureScript project
+-   [lein-file-replace](https://github.com/jcrossley3/lein-file-replace) Replace text in files with other text, possibly from a project map
 -   [lein-filegen](https://github.com/ThoughtWorksInc/lein-filegen) Generate files from data and a template
 -   [lein-jshint](https://github.com/vbauer/lein-jshint) static code analysis for JS, based on JSHint
 -   [lein-jslint](https://github.com/vbauer/lein-jslint) static code analysis for JS, based on JSLint
