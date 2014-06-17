@@ -38,6 +38,11 @@ This happens when NTML block certain terminal commands (e.g. wget)
 
 One solution is to install cntlm [http://cntlm.sourceforge.net/](http://cntlm.sourceforge.net/), an intermediate proxy, which forwards requests through to the NTLM proxy with domain authentication. You will need to configure your proxy url, username, password (or better, hashed versions, see the "cntlm -H" option) and your domain in the cntlm.conf file. Your system proxy settings (e.g. $http_proxy env variable) must then be changed to point to the cntlm proxy (default http://localhost:3128).
 
+Another solution is to edit your lein shell script or lein.bat windows batch file and modify the curl command to use ntlm authentication
+
+    if type -p curl >/dev/null 2>&1; then
+    HTTP_CLIENT="curl -v --proxy-ntlm -x <proxyhost>:<port> -U <user>:<password> --insecure -f -L -o"  
+
 ***
 
 For unexpected behaviours could be useful to check the
