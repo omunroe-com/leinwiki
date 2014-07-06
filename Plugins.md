@@ -8,6 +8,7 @@ Please note that inclusion on this list does not constitude endorsement by the L
 ## Development Tools
 
 -   [configleaf](https://github.com/davidsantiago/configleaf) Build profiles and access to project.clj at runtime. (see also 'slothcfg', an updated fork)
+-   [datomic-schema-grapher](https://github.com/felixflores/datomic_schema_grapher) A library and lein plugin for graphing datomic schemas
 -   [hiccup-bridge](https://github.com/hozumi/hiccup-bridge) Hiccup to html, html to hiccup
 -   [lein-4clj](https://github.com/aengelberg/lein-4clj) An unofficial companion to [4clojure](http://www.4clojure.com), a Clojure kata site.
 -   [lein-amp](https://github.com/pmonks/lein-amp) Leiningen plugin for generating Alfresco Module Package (AMP) files.
@@ -21,7 +22,6 @@ Please note that inclusion on this list does not constitude endorsement by the L
 -   [lein-clean-m2](https://github.com/technomancy/lein-clean-m2) Remove all artifacts from local repo not used by current project
 -   [lein-cprint](https://github.com/greglook/lein-cprint) Like lein-pprint, but with color.
 -   [lein-create-template](https://github.com/tcw/lein-create-template) Create Leiningen templates from existing skeleton projects
--   [datomic-schema-grapher](https://github.com/felixflores/datomic_schema_grapher) A library and lein plugin for graphing datomic schemas
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher) Generate a namespace dependency graph as an svg file
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
 -   [lein-expand-resource-paths](https://github.com/dchelimsky/lein-expand-resource-paths) Expand glob patterns in `:resource-paths` to work alongside alternative dependency managers
@@ -29,8 +29,6 @@ Please note that inclusion on this list does not constitude endorsement by the L
 -   [lein-externs](https://github.com/ejlo/lein-externs) Generate externs for your ClojureScript project
 -   [lein-file-replace](https://github.com/jcrossley3/lein-file-replace) Replace text in files with other text, possibly from a project map
 -   [lein-filegen](https://github.com/ThoughtWorksInc/lein-filegen) Generate files from data and a template
--   [lein-jshint](https://github.com/vbauer/lein-jshint) static code analysis for JS, based on JSHint
--   [lein-jslint](https://github.com/vbauer/lein-jslint) static code analysis for JS, based on JSLint
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps) Pull dependencies via git
 -   [lein-git-version](https://github.com/cvillecsteele/lein-git-version) Middleware DRYs up versions by substituting version info found in git tags into project map.
 -   [lein-gitify](https://github.com/Raynes/lein-gitify) Create and initialize Github/git in your new Leiningen projects.
@@ -39,6 +37,8 @@ Please note that inclusion on this list does not constitude endorsement by the L
 -   [lein-hiera](https://github.com/greglook/lein-hiera) Generate namespace dependency graphs from Leiningen projects.
 -   [lein-idefiles](https://github.com/kumarshantanu/lein-idefiles) Generate IDE files (Eclipse, IDEA) for Leiningen projects
 -   [lein-jdk-tools](https://github.com/pallet/lein-jdk-tools) Add tools.jar to the classpath
+-   [lein-jshint](https://github.com/vbauer/lein-jshint) static code analysis for JS, based on JSHint
+-   [lein-jslint](https://github.com/vbauer/lein-jslint) static code analysis for JS, based on JSLint
 -   [lein-libdir](https://github.com/djpowell/lein-libdir) Copy dependencies to a 'lib' folder in your project
 -   [lein-localrepo](https://github.com/kumarshantanu/lein-localrepo) Work with the local Maven repository
 -   [lein-maven](https://github.com/pallet/lein-maven) Support for maven projects in checkouts
@@ -56,8 +56,7 @@ Please note that inclusion on this list does not constitude endorsement by the L
 -   [lein-tarsier](https://github.com/sattvik/lein-tarsier) Add a [VimClojure](http://www.vim.org/scripts/script.php?script_id=2501) server to your project
 -   [lein-teamcity](https://github.com/nd/lein-teamcity) Add an on-the-fly stages, artifacts and tests reporting in TeamCity
 -   [lein-thrush](https://github.com/technomancy/lein-thrush) Feed the return value of one task into the input of another
--   [lein-try](https://github.com/rkneufeld/lein-try) Try out libraries without creating a dummy 
-project/dependency.
+-   [lein-try](https://github.com/rkneufeld/lein-try) Try out libraries without creating a dummy project/dependency.
 -   [lein-ubersource](https://github.com/puppetlabs/lein-ubersource) Download the source code for all of the project's (transitive) dependencies.
 -   [lein-vanity](https://github.com/dgtized/lein-vanity) Lines of code statistics for vanity's sake
 -   [lein-webdav](https://github.com/tobias/lein-webdav) Enables uploading of deployments to webdav repos
@@ -71,8 +70,8 @@ project/dependency.
 
 -   [lein-aggravate](https://github.com/byels/lein-aggravate) Aggregate & compress .css files, general file aggregation options
 -   [lein-beaver](https://github.com/quoll/lein-beaver) Generates source code from Beaver/JFlex grammars
--   [lein-cljsbuild](http://github.com/emezeske/lein-cljsbuild) Compile ClojureScript automatically upon modification and share code between Clojure and ClojureScript
 -   [lein-cl2c](http://github.com/chlorinejs/lein-cl2c) Compile Chlorine (a subset of Clojure) and Hiccup to Javascript/HTML files
+-   [lein-cljsbuild](http://github.com/emezeske/lein-cljsbuild) Compile ClojureScript automatically upon modification and share code between Clojure and ClojureScript
 -   [lein-clr](https://github.com/kumarshantanu/lein-clr) Automate build tasks for ClojureCLR projects on .NET and Mono
 -   [lein-cssgenbuild](https://github.com/MichaelDrogalis/lein-cssgenbuild) Generate stylesheets from cssgen
 -   [lein-debian](https://github.com/erickg/lein-debian) Package build products and/or dependencies as Debian (.deb) packages
@@ -106,6 +105,7 @@ project/dependency.
 
 ## Deployment
 
+-   [lein-aws](https://github.com/sorenmacbeth/lein-aws) A leiningen plugin to interact with Amazon Web Services
 -   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) Deploy to AWS Elastic Beanstalk
 -   [lein-bin](https://github.com/Raynes/lein-bin) Generate cross-platform standalone executables of your project
 -   [lein-cloudbees](https://clojars.org/lein-cloudbees) Deploy clojure apps to cloudbees
@@ -113,8 +113,10 @@ project/dependency.
 -   [lein-deploy-deps](https://github.com/neatonk/lein-deploy-deps) Deploy project dependencies to a remote repository
 -   [lein-dist](http://github.com/pallet/lein-dist) Create a standalone tarball of your project source and dependencies
 -   [lein-emr](https://github.com/dpetrovics/lein-emr) Create jobflows on Amazon Elastic MapReduce.
+-   [lein-heroku-deploy](https://github.com/juggler/lein-heroku-deploy) Simplify your Heroku deploy
 -   [lein-immutant](https://github.com/immutant/lein-immutant) Manage and deploy applications to an [Immutant](http://immutant.org) server
 -   [lein-init-script](https://github.com/strongh/lein-init-script) Generate **NIX daemon scripts for your project
+-   [lein-jelastic](https://github.com/mysema/lein-jelastic) Deploy to Jelastic
 -   [lein-otf](https://github.com/timmc/lein-otf) Create non-AOT uberjars
 -   [lein-package](https://github.com/pliant/lein-package) Allows for the packaging, installing, and deploying of artifacts besides jars, or multiple artifact projects.
 -   [lein-ping](https://github.com/hashobject/lein-ping) Leiningen plugin that pings websites/urls. 
@@ -125,38 +127,34 @@ project/dependency.
 -   [lein-sha-version](https://github.com/pallet/lein-sha-version) Middleware to set the project version based on git SHA
 -   [lein-sitemap](https://github.com/hashobject/lein-sitemap) Plugin for resubmitting sitemaps to Google Webmaster Tools. 
 -   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies, formerly lein-release
--   [lein-heroku-deploy](https://github.com/juggler/lein-heroku-deploy) Simplify your Heroku deploy
--   [lein-jelastic] (https://github.com/mysema/lein-jelastic) Deploy to Jelastic
--   [lein-aws](https://github.com/sorenmacbeth/lein-aws) A leiningen plugin to interact with Amazon Web Services
 -   [lein-version-spec](https://github.com/circleci/lein-version-specs) Set the version number of your project according to rules
 -   [lein-worker](https://github.com/devth/lein-worker) Upload worker jars to IronWorker
 
 ## Web
 
--   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) Deploy to Amazon’s Elastic Beanstalk service
+-   [garden-watch](https://github.com/twashing/garden-watch) Watches for changes in your Garden (edn (CSS)) source files. 
+-   [hiccup-watch](https://github.com/twashing/hiccup-watch) Watches for changes in your Hiccup (edn (HTML)) source files.
+-   [lein-bower](https://github.com/wokier/lein-bower) Bower web lib dependency management 
 -   [lein-gaeshi](https://github.com/slagyr/gaeshi) Google App Engine webs apps using Joodo. 
 -   [lein-gwt-plugin](https://github.com/galdolber/gwt-plugin) Runs and compiles GWT applications
 -   [lein-httpd](https://github.com/malyn/lein-httpd) Start a web server in the current directory. 
 -   [lein-joodo](https://github.com/slagyr/joodo) Simple web app library.  Tasks to create, test, generate, your code.
+-   [lein-karma](https://github.com/behrica/leiningen-karma-plugin) Runs JavaScript tests with Karma   
+-   [lein-misaki](https://github.com/skuro/lein-misaki) Helps you building web sites using the [Misaki](https://liquidz.github.com/misaki/) static site generator
+-   [lein-protractor](https://github.com/behrica/lein-protractor) Runs AngularJS e2e tests with Protractor 
 -   [lein-ring](https://github.com/weavejester/lein-ring) Work with web applications using Ring
 -   [lein-s3-static-deploy](https://github.com/ThoughtWorksInc/lein-s3-static-deploy) Deploy a local directory as a static website on s3
 -   [lein-servlet](https://github.com/kumarshantanu/lein-servlet) Work with servlet-based webapps
 -   [lein-simpleton](https://github.com/fogus/lein-simpleton) Serve files via http out of a local directory.
--   [lein-misaki](https://github.com/skuro/lein-misaki) Helps you building web sites using the [Misaki](https://liquidz.github.com/misaki/) static site generator
--   [lein-bower](https://github.com/wokier/lein-bower) Bower web lib dependency management 
--   [lein-karma](https://github.com/behrica/leiningen-karma-plugin) Runs JavaScript tests with Karma   
--   [lein-protractor](https://github.com/behrica/lein-protractor) Runs AngularJS e2e tests with Protractor 
 -   [touchme](https://github.com/sogilis/touchme) Touch files when html (by example) files are modified. Can be used to update enlive templates.
--   [hiccup-watch](https://github.com/twashing/hiccup-watch) Watches for changes in your Hiccup (edn (HTML)) source files.
--   [garden-watch](https://github.com/twashing/garden-watch) Watches for changes in your Garden (edn (CSS)) source files. 
 
 ## Databases
 
+-   [clj-sql-up](https://github.com/ckuttruff/clj-sql-up) A simple plugin for running SQL database migrations
 -   [datomic-schema-grapher](https://github.com/felixflores/datomic_schema_grapher) A library and lein plugin for graphing datomic schemas
 -   [drift](http://github.com/macourtney/drift) Create and run Rails like database migrations in Clojure
--   [clj-sql-up](https://github.com/ckuttruff/clj-sql-up) A simple plugin for running SQL database migrations
--   [lein-embongo](https://github.com/joelittlejohn/lein-embongo) Create a managed/embedded instance of MongoDB during a lein build (e.g. for integration testing).
 -   [lein-dbmaintain](https://github.com/mysema/lein-dbmaintain) DbMaintain integration for Leiningen
+-   [lein-embongo](https://github.com/joelittlejohn/lein-embongo) Create a managed/embedded instance of MongoDB during a lein build (e.g. for integration testing).
 -   [zookem](https://github.com/joelittlejohn/zookem) Create a embedded instance of Zookeeper during a lein build (e.g. for integration testing)
 
 ## Documentation
