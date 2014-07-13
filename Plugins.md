@@ -36,6 +36,7 @@ Please note that inclusion on this list does not constitude endorsement by the L
 -   [lein-hadoop-cluster](https://github.com/llasram/lein-hadoop-cluster) Run Leiningen tasks with the configuration necessary to access a live Hadoop cluster.
 -   [lein-hiera](https://github.com/greglook/lein-hiera) Generate namespace dependency graphs from Leiningen projects.
 -   [lein-idefiles](https://github.com/kumarshantanu/lein-idefiles) Generate IDE files (Eclipse, IDEA) for Leiningen projects
+-   [lein-javac-resources](https://github.com/kumarshantanu/lein-javac-resources) Copy resources from `:java-source-paths` to compile path (hooks into `lein javac`)
 -   [lein-jdk-tools](https://github.com/pallet/lein-jdk-tools) Add tools.jar to the classpath
 -   [lein-jshint](https://github.com/vbauer/lein-jshint) static code analysis for JS, based on JSHint
 -   [lein-jslint](https://github.com/vbauer/lein-jslint) static code analysis for JS, based on JSLint
