@@ -8,6 +8,6 @@ the [README](https://github.com/technomancy/leiningen/blob/stable/README.md).
 * [apt-get](http://packages.debian.org/sid/leiningen) (Debian: since wheezy; Ubuntu: since Oneiric; 1.x only)
 * [homebrew](https://github.com/mxcl/homebrew/blob/master/Library/Formula/leiningen.rb) (2.3.4)
 * [yum](https://apps.fedoraproject.org/packages/leiningen/overview/)
-* [Arch AUR](http://aur.archlinux.org/packages.php?ID=37278)
+* [Arch AUR](https://aur.archlinux.org/packages/leiningen2-git)
 * [Chocolatey](http://chocolatey.org/packages/lein) (Windows)
 * [FreeBSD Ports](http://www.freshports.org/devel/leiningen/)
