@@ -32,7 +32,7 @@ If they check out, copy them from `~/.m2/repository` into your project
 directory and sign them:
 
 ```
-$ cp ~/.m2/repository/mylib/mylib/1.3.1/mylib-1.3.1.{jar,pom}
+$ cp ~/.m2/repository/mylib/mylib/1.3.1/mylib-1.3.1.{jar,pom} .
 $ gpg -ab mylib-1.3.1.jar
 $ gpg -ab mylib-1.3.1.pom
 ```
