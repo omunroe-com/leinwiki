@@ -17,10 +17,17 @@ and force them to be re-fetched. Create a dummy project that depends
 on the artifacts you want to sign and run `lein deps :verify` to force
 them to get pulled in. Before you sign them, you should open up the
 jar file and pom file to confirm that their contents are
-correct. Signing artifacts you have not confirmed that you trust
-defeats the whole purpose of the signature. If the jar file contains
+correct.
+
+**Signing artifacts you have not confirmed that you trust
+defeats the whole purpose of the signature.** If the jar file contains
 .class files, then it's basically impossible to inspect, and you
-should not sign it.
+should not sign it. Instead simply deploy a new version that is signed.
+
+TODO: write a lein plugin that can check out a git tag, generate a
+jar, and diff the contents of the jar with Clojars's copy of the jar,
+prompt the user to say whether the diff is trivial (timestamp,
+generated-by versions, etc) and deploy the signature if so.
 
 What you don't want to do is simply re-generate the jar files and pom
 files from your checkout and deploy those signatures, because the
