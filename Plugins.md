@@ -27,6 +27,7 @@ Please note that inclusion on this list does not constitude endorsement by the L
 -   [lein-expand-resource-paths](https://github.com/dchelimsky/lein-expand-resource-paths) Expand glob patterns in `:resource-paths` to work alongside alternative dependency managers
 -   [lein-extend-cp](https://github.com/nickgieschen/lein-extend-cp) Adds paths to the classpath
 -   [lein-externs](https://github.com/ejlo/lein-externs) Generate externs for your ClojureScript project
+-   [lein-cljs-externs](https://github.com/bbbates/lein-cljs-externs) Generate externs for your Clojurescript project, specified via metadata
 -   [lein-file-replace](https://github.com/jcrossley3/lein-file-replace) Replace text in files with other text, possibly from a project map
 -   [lein-filegen](https://github.com/ThoughtWorksInc/lein-filegen) Generate files from data and a template
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps) Pull dependencies via git
