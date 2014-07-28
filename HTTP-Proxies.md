@@ -38,7 +38,13 @@ This happens when NTML block certain terminal commands (e.g. wget)
 
 One solution is to install cntlm [http://cntlm.sourceforge.net/](http://cntlm.sourceforge.net/), an intermediate proxy, which forwards requests through to the NTLM proxy with domain authentication. You will need to configure your proxy url, username, password (or better, hashed versions, see the "cntlm -H" option) and your domain in the cntlm.conf file. Your system proxy settings (e.g. $http_proxy env variable) must then be changed to point to the cntlm proxy (default http://localhost:3128).
 
-  
+## SOCKS Proxies
+
+If you are using Leiningen 2.x behind a SOCKS proxy, you might find that getting the JVM to cooperate with your proxy can be very frustrating. It is easiest, then, to turn your SOCKS proxy into an HTTP proxy using Privoxy. Go to [http://privoxy.org/](http://privoxy.org) and install the latest version, and at the end of the configuration file (found at `/etc/privoxy/config` on most Linux systems), add the following:
+
+    forward-socks5 / proxy_host:proxy_port
+
+Replacing `proxy_host` with your SOCKS proxy's hostname or IP, and `proxy_port` with your SOCKS proxy's port. Then, follow the directions above for HTTP proxies.
 
 ***
 
