@@ -42,9 +42,9 @@ One solution is to install cntlm [http://cntlm.sourceforge.net/](http://cntlm.so
 
 If you are using Leiningen 2.x behind a SOCKS proxy, you might find that getting the JVM to cooperate with your proxy can be very frustrating. It is easiest, then, to turn your SOCKS proxy into an HTTP proxy using Privoxy. Go to [http://privoxy.org/](http://privoxy.org) and install the latest version, and at the end of the configuration file (found at `/etc/privoxy/config` on most Linux systems), add the following:
 
-    forward-socks5 / proxy_host:proxy_port
+    forward-socks5 / proxy_host:proxy_port .
 
-Replacing `proxy_host` with your SOCKS proxy's hostname or IP, and `proxy_port` with your SOCKS proxy's port. Then, follow the directions above for HTTP proxies.
+Replacing `proxy_host` with your SOCKS proxy's hostname or IP, and `proxy_port` with your SOCKS proxy's port. Don't forget the period at the end! Then, follow the directions above for HTTP proxies.
 
 ***
 
