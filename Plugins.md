@@ -53,6 +53,7 @@ Please note that inclusion on this list does not constitude endorsement by the L
 -   [lein-open](https://github.com/cldwalker/lein-open) Open any dependency or installed jar in an editor.
 -   [lein-parent](https://github.com/achin/lein-parent) Inherit properties from a parent project
 -   [lein-pdo](https://github.com/Raynes/lein-pdo) Run lein tasks concurrently in parallel
+-   [lein-plz](https://github.com/johnwalker/lein-plz) Add dependencies to projects quickly
 -   [lein-resource](https://github.com/m0smith/lein-resource) Copy files and transform using [stencil](https://github.com/davidsantiago/stencil)
 -   [lein-shell](https://github.com/hyPiRion/lein-shell) Run sub-processes from within Leiningen.
 -   [lein-sub](https://github.com/kumarshantanu/lein-sub) Execute tasks on sub-projects
