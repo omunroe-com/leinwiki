@@ -79,13 +79,13 @@ Please note that inclusion on this list does not constitude endorsement by the L
 -   [lein-clr](https://github.com/kumarshantanu/lein-clr) Automate build tasks for ClojureCLR projects on .NET and Mono
 -   [lein-cssgenbuild](https://github.com/MichaelDrogalis/lein-cssgenbuild) Generate stylesheets from cssgen
 -   [lein-debian](https://github.com/erickg/lein-debian) Package build products and/or dependencies as Debian (.deb) packages
--   [lein-fpm](https://github.com/bts/lein-fpm) Builds packages for multiple platforms (rpm, deb, etc.) using [fpm](https://github.com/jordansissel/fpm)
 -   [lein-droid](https://github.com/clojure-android/lein-droid) Compile Android projects
+-   [lein-fpm](https://github.com/bts/lein-fpm) Builds packages for multiple platforms (rpm, deb, etc.) using [fpm](https://github.com/jordansissel/fpm)
 -   [lein-fruit](https://github.com/oakes/lein-fruit) Compile iOS projects
+-   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc) Compile Groovy
 -   [lein-lesscss](https://github.com/fmancinelli/lein-lesscss) Compile [Less CSS](http://lesscss.org/) resources.
 -   [lein-ragel](https://github.com/llasram/lein-ragel) Compile Ragel sources to Java sources
 -   [lein-scalac](https://github.com/technomancy/lein-scalac) Compile Scala
--   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc) Compile Groovy
 -   [lein-thriftc](https://github.com/xsc/lein-thriftc) Compile Thrift
 
 ## Testing
