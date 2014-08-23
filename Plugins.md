@@ -168,7 +168,7 @@ Please note that inclusion on this list does not constitude endorsement by the L
 
 -   [cloc](https://github.com/jaley/cloc) Generate API docs for your project and dependencies and serve them through a local web server, with a fast Lucene full-text search.
 -   [codox](https://github.com/weavejester/codox) A tool for generating API documentation from Clojure source code. (html)
--   [lein-asciidoc](https://github.com/vbauer/lein-asciidoc) Generate documentation using [Asciidoctor](http://asciidoctor.org)
+-   [lein-asciidoctor](https://github.com/asciidoctor/asciidoctor-lein-plugin) Generate documentation using [Asciidoctor](http://asciidoctor.org)
 -   [lein-clique](https://github.com/Hendekagon/lein-clique) Generate a graph of dependencies between the functions in your project
 -   [lein-html5-docs](https://github.com/tsdh/lein-html5-docs) Generate HTML5 API docs
 -   [lein-javadoc](https://github.com/davidsantiago/lein-javadoc) Automatically run javadoc on the java sources in your project
