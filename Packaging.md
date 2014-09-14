@@ -11,3 +11,4 @@ the [README](https://github.com/technomancy/leiningen/blob/stable/README.md).
 * [Arch AUR](https://aur.archlinux.org/packages/leiningen2-git)
 * [Chocolatey](http://chocolatey.org/packages/lein) (Windows)
 * [FreeBSD Ports](http://www.freshports.org/devel/leiningen/)
+* [Gentoo](http://gpo.zugaina.org/dev-lang/leiningen-bin) (it is not official at the moment, available only in overlay)
