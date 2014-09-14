@@ -18,12 +18,14 @@ Please note that inclusion on this list does not constitude endorsement by the L
 -   [lein-autoreload](https://github.com/pyronicide/lein-autoreload) Reload your source in the background while running the repl.
 -   [lein-bikeshed](https://github.com/dakrone/lein-bikeshed) Notify you if your code is bad
 -   [lein-cascade](https://github.com/kumarshantanu/lein-cascade) Execute cascading task dependencies
+-   [lein-checkall](https://github.com/itang/lein-checkall) lein check && lein kibit && lein eastwood && lein bikeshed
 -   [lein-checkouts](https://github.com/guv/lein-checkouts) Build all dependency "checkouts" projects before the current project is build
 -   [lein-clean-m2](https://github.com/technomancy/lein-clean-m2) Remove all artifacts from local repo not used by current project
 -   [lein-cooper](https://github.com/kouphax/lein-cooper) Foreman style plugin for Leiningen for running long running dev tasks in parallel. 
 -   [lein-cprint](https://github.com/greglook/lein-cprint) Like lein-pprint, but with color.
 -   [lein-create-template](https://github.com/tcw/lein-create-template) Create Leiningen templates from existing skeleton projects
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher) Generate a namespace dependency graph as an svg file
+-   [lein-eastwood](https://github.com/jonase/eastwood) A Clojure linting tool that inspects Clojure code and reports possible problems.
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
 -   [lein-expand-resource-paths](https://github.com/dchelimsky/lein-expand-resource-paths) Expand glob patterns in `:resource-paths` to work alongside alternative dependency managers
 -   [lein-extend-cp](https://github.com/nickgieschen/lein-extend-cp) Adds paths to the classpath
@@ -42,6 +44,7 @@ Please note that inclusion on this list does not constitude endorsement by the L
 -   [lein-jdk-tools](https://github.com/pallet/lein-jdk-tools) Add tools.jar to the classpath
 -   [lein-jshint](https://github.com/vbauer/lein-jshint) static code analysis for JS, based on JSHint
 -   [lein-jslint](https://github.com/vbauer/lein-jslint) static code analysis for JS, based on JSLint
+-   [lein-kibit](https://github.com/jonase/kibit) static code analysis to find more idiomatic ways to write your Clojure code.
 -   [lein-libdir](https://github.com/djpowell/lein-libdir) Copy dependencies to a 'lib' folder in your project
 -   [lein-localrepo](https://github.com/kumarshantanu/lein-localrepo) Work with the local Maven repository
 -   [lein-maven](https://github.com/pallet/lein-maven) Support for maven projects in checkouts
