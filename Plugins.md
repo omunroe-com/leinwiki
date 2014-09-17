@@ -66,6 +66,7 @@ Please note that inclusion on this list does not constitude endorsement by the L
 -   [lein-try](https://github.com/rkneufeld/lein-try) Try out libraries without creating a dummy project/dependency.
 -   [lein-ubersource](https://github.com/puppetlabs/lein-ubersource) Download the source code for all of the project's (transitive) dependencies.
 -   [lein-vanity](https://github.com/dgtized/lein-vanity) Lines of code statistics for vanity's sake
+-   [lein-vertx](https://github.com/isaiah/lein-vertx) Develop vertx applications in clojure
 -   [lein-webdav](https://github.com/tobias/lein-webdav) Enables uploading of deployments to webdav repos
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
 -   [lein-whimrepl](https://github.com/malyn/lein-whimrepl) Start a REPL session in a Vim-targetable server for use with [vim-slime](https://github.com/jpalardy/vim-slime).
