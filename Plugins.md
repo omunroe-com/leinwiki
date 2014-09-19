@@ -113,6 +113,7 @@ Please note that inclusion on this list does not constitude endorsement by the L
 -   [quickie](https://github.com/jakepearson/quickie) Autotest clojure.test files.  Filters stacktraces to skip over some of the clojure cruft.
 -   [speclj](https://github.com/slagyr/speclj) (pronounced “speckle”) TDD/BDD framework, with auto-runner, based on [rspec](http://rspec.info/)
 -   [test2junit](https://github.com/ruedigergad/test2junit) Write test results to JUnit XML format suited for creating HTML reports. Allows automation of report generation as well.
+-   [parallel-test](https://github.com/aredington/parallel-test) Run clojure.test tests in parallel with lein test style output. Supports fine grained configuration of what tests are executed in parallel, and how.
 
 ## Deployment
 
