@@ -74,6 +74,7 @@ Please note that inclusion on this list does not constitude endorsement by the L
 -   [reloadable-app](https://github.com/mowat27/reloadable-app) Leiningen template for a new component based app implementing the reloaded workflow.
 -   [slothcfg](https://github.com/taoeffect/slothcfg) Build profiles and access to project.clj at runtime. Updated fork of 'configleaf'.
 -   [varspotting](https://github.com/michalmarczyk/varspotting) Count public Vars meeting certain criteria (holding functions, macros etc.)
+-   [mranderson](https://github.com/benedekfazekas/mranderson) Download and use some dependencies as source.
 
 ## Compilers
 
