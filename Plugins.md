@@ -33,6 +33,7 @@ Please note that inclusion on this list does not constitude endorsement by the L
 -   [lein-cljs-externs](https://github.com/bbbates/lein-cljs-externs) Generate externs for your Clojurescript project, specified via metadata
 -   [lein-file-replace](https://github.com/jcrossley3/lein-file-replace) Replace text in files with other text, possibly from a project map
 -   [lein-filegen](https://github.com/ThoughtWorksInc/lein-filegen) Generate files from data and a template
+-   [lein-fore-prob](https://github.com/bfontaine/probs-from-4clj) Import problems from [4clojure](http://www.4clojure.com)
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps) Pull dependencies via git
 -   [lein-git-version](https://github.com/cvillecsteele/lein-git-version) Middleware DRYs up versions by substituting version info found in git tags into project map.
 -   [lein-gitify](https://github.com/Raynes/lein-gitify) Create and initialize Github/git in your new Leiningen projects.
