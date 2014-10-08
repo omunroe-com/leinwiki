@@ -3,7 +3,7 @@
 
 If you’ve created a plugin for Leiningen, please add it here!
 
-Please note that inclusion on this list does not constitude endorsement by the Leiningen maintainers.
+Please note that inclusion on this list does not constitute endorsement by the Leiningen maintainers.
 
 ## Development Tools
 
