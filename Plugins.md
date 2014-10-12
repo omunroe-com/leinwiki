@@ -15,6 +15,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-ancient](https://github.com/xsc/lein-ancient) Check your projects and plugins for outdated dependencies.
 -   [lein-annotations](https://github.com/bbatsov/lein-annotations) Displays comment annotations in your project.
 -   [lein-aot-filter](https://github.com/pallet/lein-aot-filter) Filtering of AOT compiled class files
+-   [lein-auto](https://github.com/weavejester/lein-auto) Automatically perform a task when source files change
 -   [lein-autoreload](https://github.com/pyronicide/lein-autoreload) Reload your source in the background while running the repl.
 -   [lein-bikeshed](https://github.com/dakrone/lein-bikeshed) Notify you if your code is bad
 -   [lein-cascade](https://github.com/kumarshantanu/lein-cascade) Execute cascading task dependencies
