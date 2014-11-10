@@ -134,6 +134,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-immutant](https://github.com/immutant/lein-immutant) Manage and deploy applications to an [Immutant](http://immutant.org) server
 -   [lein-init-script](https://github.com/strongh/lein-init-script) Generate **NIX daemon scripts for your project
 -   [lein-jelastic](https://github.com/mysema/lein-jelastic) Deploy to Jelastic
+-   [lein-launch4j](https://github.com/RadicalZephyr/lein-launch4j) Wrap your project into a Windows `.exe` from any platform.
 -   [lein-otf](https://github.com/timmc/lein-otf) Create non-AOT uberjars
 -   [lein-package](https://github.com/pliant/lein-package) Allows for the packaging, installing, and deploying of artifacts besides jars, or multiple artifact projects.
 -   [lein-ping](https://github.com/hashobject/lein-ping) Leiningen plugin that pings websites/urls. 
