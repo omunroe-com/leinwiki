@@ -27,14 +27,14 @@ is equivalent to:
 
     http_no_proxy="*example1.com|*example2.com|*example3.com"
 
-## NTML proxies
+## NTLM proxies
 
-If you are running a linux system behind an NTML proxy the initial install may fail with a message containing the following:
+If you are running a linux system behind an NTLM proxy the initial install may fail with a message containing the following:
 
     org.apache.http.client.protocol.RequestAuthenticationBase process
     WARNING: NTLM authentication error: Credentials cannot be used for NTLM authentication: org.apache.http.auth.UsernamePasswordCredentials
 
-This happens when NTML block certain terminal commands (e.g. wget)
+This happens when NTLM block certain terminal commands (e.g. wget)
 
 One solution is to install cntlm [http://cntlm.sourceforge.net/](http://cntlm.sourceforge.net/), an intermediate proxy, which forwards requests through to the NTLM proxy with domain authentication. You will need to configure your proxy url, username, password (or better, hashed versions, see the "cntlm -H" option) and your domain in the cntlm.conf file. Your system proxy settings (e.g. $http_proxy env variable) must then be changed to point to the cntlm proxy (default http://localhost:3128).
 
