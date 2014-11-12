@@ -91,7 +91,7 @@ that it does not stack with fast trampolines.
 
 ## Eval in Classloader
 
-TODO: explain
+Setting `:eval-in :classloader` will run the project's code in the same JVM as Leiningen, albeit in a separate classloader.  However, the bootclasspath optimizations used by Leiningen can interfere with classloader isolation, so this mode is not recommended.  If you do use this mode and start to experience strange, seemingly unexplainable issues, then remove this setting.
 
 ## Bootclasspath
 
