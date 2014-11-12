@@ -2,7 +2,8 @@ Part of what makes Leiningen's boot take a while is the fact that
 Leiningen's code is completely isolated from project code. This means
 that two JVMs are necessary to complete any task that has to execute
 anything in the project: one for Leiningen itself, and a subprocess
-for the project. There are various strategies to address this:
+for the project. There are various strategies to address this. Some of
+them can provide cumulative benefit, while some are mutually exclusive.
 
 ## Don't Exit
 
@@ -84,6 +85,24 @@ This will still incur the penalty for launching Leiningen itself, just
 not the project JVM. If Leiningen determines there's no project nREPL
 server to connect to it will fall back to launching a subprocess. Note
 that it does not stack with fast trampolines.
+
+## Avoiding nREPL with clojure.main
+
+A good portion of the delay involved in getting a repl up comes from
+launching a `tools.nrepl` server. Clojure ships with its own primitive
+repl, that lacks fancy features but still gets the basics done. In
+cases were you're already using fast trampoline (see above), using the
+`clojure.main` repl instead of nREPL can boost launch time by a factor
+of up to 5x:
+
+    $ LEIN_FAST_TRAMPOLINE=y lein trampoline run -m clojure.main
+    Clojure 1.6.0
+    user=> 
+
+Note that this is not compatible with nrepl-based tools like cider or
+grenchman. It also lacks tab completion and line editing. The latter
+can be addressed using `rlwrap` or by running it inside Emacs using
+`M-x shell` or `inferior-lisp`.
 
 ## Drip
 
