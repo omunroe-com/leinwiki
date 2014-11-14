@@ -174,6 +174,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [drift](http://github.com/macourtney/drift) Create and run Rails like database migrations in Clojure
 -   [lein-dbmaintain](https://github.com/mysema/lein-dbmaintain) DbMaintain integration for Leiningen
 -   [lein-embongo](https://github.com/joelittlejohn/lein-embongo) Create a managed/embedded instance of MongoDB during a lein build (e.g. for integration testing).
+-   [lein-tern](http://github.com/bugsbio/lein-tern) - DB migrations as Clojure data.
 -   [zookem](https://github.com/joelittlejohn/zookem) Create a embedded instance of Zookeeper during a lein build (e.g. for integration testing)
 
 ## Documentation
