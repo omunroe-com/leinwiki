@@ -21,6 +21,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-cascade](https://github.com/kumarshantanu/lein-cascade) Execute cascading task dependencies
 -   [lein-checkall](https://github.com/itang/lein-checkall) lein check && lein kibit && lein eastwood && lein bikeshed
 -   [lein-checkouts](https://github.com/guv/lein-checkouts) Build all dependency "checkouts" projects before the current project is build
+-   [lein-chromebuild](https://github.com/clumsyjedi/lein-chromebuild) Create chrome extensions from clojurescript
 -   [lein-clean-m2](https://github.com/technomancy/lein-clean-m2) Remove all artifacts from local repo not used by current project
 -   [lein-cooper](https://github.com/kouphax/lein-cooper) Foreman style plugin for Leiningen for running long running dev tasks in parallel. 
 -   [lein-cprint](https://github.com/greglook/lein-cprint) Like lein-pprint, but with color.
