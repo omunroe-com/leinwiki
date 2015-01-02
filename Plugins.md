@@ -168,6 +168,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-servlet](https://github.com/kumarshantanu/lein-servlet) Work with servlet-based webapps
 -   [lein-simpleton](https://github.com/fogus/lein-simpleton) Serve files via http out of a local directory.
 -   [touchme](https://github.com/sogilis/touchme) Touch files when html (by example) files are modified. Can be used to update enlive templates.
+-   [lein-sitecompiler](https://github.com/dbushenko/lein-sitecompiler) The plugin allows generate a static website. Supports many template engines such as Mustache, Hiccup, Cuma, Fleet, Markdown.
 
 ## Databases
 
