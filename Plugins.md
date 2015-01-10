@@ -104,6 +104,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-autoexpect](https://github.com/jakemcc/lein-autoexpect) Watch project for changes and automatically run [expectations](https://github.com/jaycfields/expectations)
 -   [lein-cloverage](https://github.com/lshift/cloverage) Generate cloverage coverage reports
 -   [lein-cucumber](https://github.com/nilswloka/lein-cucumber) Run clojure-based cucumber-jvm specifications
+-   [org.clojars.punkisdead/lein-cucumber](https://github.com/punkisdead/lein-cucumber) Run clojure-based cucumber-jvm specifications (an up to date fork of the lein-cucumber plugin)
 -   [lein-difftest](http://github.com/brentonashworth/lein-difftest) Display diffs when a test fails
 -   [lein-expectations](https://github.com/gar3thjon3s/lein-expectations) Run [Expectations](https://github.com/jaycfields/expectations)-based tests
 -   [lein-guzheng](http://github.com/dgrnbrg/lein-guzheng) Branch coverage analysis usable with any testing framefork
