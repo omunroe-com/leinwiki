@@ -1,7 +1,7 @@
 <!-- -*- auto-fill-function: nil -*-
     In order to support sorting plugins alphabetically, please keep each plugin on its own line. -->
 
-If you’ve created a plugin for Leiningen, please add it here!
+If you’ve created a [plugin](https://github.com/technomancy/leiningen/blob/master/doc/PLUGINS.md) for Leiningen, please add it here!
 
 Please note that inclusion on this list does not constitute endorsement by the Leiningen maintainers.
 
