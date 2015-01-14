@@ -78,6 +78,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [slothcfg](https://github.com/taoeffect/slothcfg) Build profiles and access to project.clj at runtime. Updated fork of 'configleaf'.
 -   [varspotting](https://github.com/michalmarczyk/varspotting) Count public Vars meeting certain criteria (holding functions, macros etc.)
 -   [mranderson](https://github.com/benedekfazekas/mranderson) Download and use some dependencies as source.
+-   [gargamel](https://github.com/MailOnline/gargamel) generates pretty (with links etc) changelog based on git commit messages in multiple formats
 
 ## Compilers
 
@@ -198,6 +199,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-precate](https://github.com/technomancy/lein-precate) Transform project.clj into Leiningen 2.x-compatible form.
 -   [lein-sphinx](https://github.com/SnootyMonkey/lein-sphinx) Generate documentation from [reStructuredText](http://docutils.sourceforge.net/rst.html) using [Sphinx](http://sphinx-doc.org/).
 -   [nephila](https://github.com/timmc/nephila) Show a graph of your Clojure namespaces
+-   [gargamel](https://github.com/MailOnline/gargamel) generates pretty (with links etc) changelog based on git commit messages in multiple formats
 
 ## Deprecated
 
