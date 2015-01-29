@@ -38,6 +38,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-fore-prob](https://github.com/bfontaine/probs-from-4clj) Import problems from [4clojure](http://www.4clojure.com)
 -   [lein-git-deps](https://github.com/tobyhede/lein-git-deps) Pull dependencies via git
 -   [lein-git-version](https://github.com/cvillecsteele/lein-git-version) Middleware DRYs up versions by substituting version info found in git tags into project map.
+-   [lein-githooks](https://github.com/gmorpheme/lein-githooks) Manage git hooks in `project.clj`.
 -   [lein-gitify](https://github.com/Raynes/lein-gitify) Create and initialize Github/git in your new Leiningen projects.
 -   [lein-grep](https://github.com/cldwalker/lein-grep) Improved repository searching built off the search subcommand.
 -   [lein-hadoop-cluster](https://github.com/llasram/lein-hadoop-cluster) Run Leiningen tasks with the configuration necessary to access a live Hadoop cluster.
