@@ -86,6 +86,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 
 -   [funcgo-lein](https://github.com/eobrain/funcgo-lein) Funcgo is a compiler that converts Functional Go into Clojure, to run on the JVM or as JavaScript.
 -   [lein-aggravate](https://github.com/byels/lein-aggravate) Aggregate & compress .css files, general file aggregation options
+-   [lein-antlr](https://github.com/alexhall/lein-antlr) Generates source code from ANTLR grammars
 -   [lein-beaver](https://github.com/quoll/lein-beaver) Generates source code from Beaver/JFlex grammars
 -   [lein-cl2c](http://github.com/chlorinejs/lein-cl2c) Compile Chlorine (a subset of Clojure) and Hiccup to Javascript/HTML files
 -   [lein-cljsbuild](http://github.com/emezeske/lein-cljsbuild) Compile ClojureScript automatically upon modification and share code between Clojure and ClojureScript
