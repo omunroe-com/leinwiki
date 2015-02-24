@@ -95,7 +95,6 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-cssgenbuild](https://github.com/MichaelDrogalis/lein-cssgenbuild) Generate stylesheets from cssgen
 -   [lein-debian](https://github.com/erickg/lein-debian) Package build products and/or dependencies as Debian (.deb) packages
 -   [lein-droid](https://github.com/clojure-android/lein-droid) Compile Android projects
--   [lein-fpm](https://github.com/bts/lein-fpm) Builds packages for multiple platforms (rpm, deb, etc.) using [fpm](https://github.com/jordansissel/fpm)
 -   [lein-fruit](https://github.com/oakes/lein-fruit) Compile iOS projects
 -   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc) Compile Groovy
 -   [lein-lesscss](https://github.com/fmancinelli/lein-lesscss) Compile [Less CSS](http://lesscss.org/) resources.
@@ -137,6 +136,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-deploy-deps](https://github.com/neatonk/lein-deploy-deps) Deploy project dependencies to a remote repository
 -   [lein-dist](http://github.com/pallet/lein-dist) Create a standalone tarball of your project source and dependencies
 -   [lein-emr](https://github.com/dpetrovics/lein-emr) Create jobflows on Amazon Elastic MapReduce.
+-   [lein-fpm](https://github.com/bts/lein-fpm) Build packages for multiple platforms (rpm, deb, etc.) using [fpm](https://github.com/jordansissel/fpm)
 -   [lein-heroku-deploy](https://github.com/juggler/lein-heroku-deploy) Simplify your Heroku deploy
 -   [lein-immutant](https://github.com/immutant/lein-immutant) Manage and deploy applications to an [Immutant](http://immutant.org) server
 -   [lein-init-script](https://github.com/strongh/lein-init-script) Generate **NIX daemon scripts for your project
