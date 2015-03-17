@@ -122,3 +122,21 @@ your best bet.
 Forgetting to check in files is another common source of
 non-repeatability, but it can easily be addressed with
 [pre-commit hooks](http://book.git-scm.com/5_git_hooks.html).
+
+## Corporate artifact repository
+
+To get artifacts from corporate artifact repository you need to 
+define this repository in `profiles.clj`  
+
+```clojure
+{:user 
+  {:repositories [["repository-name" {:url "https://repository.url.com"}]]}}. 
+```
+
+Please bear in mind that having artifacts from corporate repository
+already downloaded in local repository by other project management 
+application (e.g. [`mvn`]()) isn't enough. You still need to define 
+corporate repository in `profiles.clj` (the name is what matters). 
+This is due to how `aether` resolves artifacts in local repository. 
+There's no equivalent whatsoever in leingingen of `--legacy-local-repository` 
+option that can be found in `mvn`.
