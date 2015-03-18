@@ -125,18 +125,17 @@ non-repeatability, but it can easily be addressed with
 
 ## Corporate artifact repository
 
-To get artifacts from corporate artifact repository you need to 
-define this repository in `profiles.clj`  
+To get artifacts from your corporate artifact repository, you need to 
+define this repository in `profiles.clj`:
 
 ```clojure
 {:user 
   {:repositories [["repository-name" {:url "https://repository.url.com"}]]}}. 
 ```
 
-Please bear in mind that having artifacts from corporate repository
-already downloaded in local repository by other project management 
-application (e.g. [`mvn`]()) isn't enough. You still need to define 
-corporate repository in `profiles.clj` (the name is what matters). 
-This is due to how `aether` resolves artifacts in local repository. 
-There's no equivalent whatsoever in leingingen of `--legacy-local-repository` 
-option that can be found in `mvn`.
+Please bear in mind that having artifacts from a corporate repository
+already downloaded in your local repository by other project management 
+applications (e.g. [Apache Maven](http://maven.apache.org/)) is not enough.
+You would still need to define the corporate repository in `profiles.clj`
+– the name is what matters. This is due to how Aether resolves artifacts in local repositories. 
+There are no equivalent of the `--legacy-local-repository` option from Maven.
