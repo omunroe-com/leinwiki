@@ -137,6 +137,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-daemon](http://github.com/arohner/lein-daemon) Run app as a daemon
 -   [lein-deploy-deps](https://github.com/neatonk/lein-deploy-deps) Deploy project dependencies to a remote repository
 -   [lein-dist](http://github.com/pallet/lein-dist) Create a standalone tarball of your project source and dependencies
+-   [lein-docker](https://github.com/sarnowski/lein-docker) Build and push Docker images
 -   [lein-emr](https://github.com/dpetrovics/lein-emr) Create jobflows on Amazon Elastic MapReduce.
 -   [lein-fpm](https://github.com/bts/lein-fpm) Build packages for multiple platforms (rpm, deb, etc.) using [fpm](https://github.com/jordansissel/fpm)
 -   [lein-heroku-deploy](https://github.com/juggler/lein-heroku-deploy) Simplify your Heroku deploy
