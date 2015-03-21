@@ -99,6 +99,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-fruit](https://github.com/oakes/lein-fruit) Compile iOS projects
 -   [lein-groovyc](https://github.com/kurtharriger/lein-groovyc) Compile Groovy
 -   [lein-lesscss](https://github.com/fmancinelli/lein-lesscss) Compile [Less CSS](http://lesscss.org/) resources.
+-   [lein-less4j](https://github.com/Deraen/lein-less4j) Compile [Less CSS](http://lesscss.org/) using [Less4j](https://github.com/SomMeri/less4j). Supports reading imports from classpath.
 -   [lein-ragel](https://github.com/llasram/lein-ragel) Compile Ragel sources to Java sources
 -   [lein-sassy](https://github.com/vladh/lein-sassy) Use [Sass](http://sass-lang.com/) with Clojure.
 -   [lein-scalac](https://github.com/technomancy/lein-scalac) Compile Scala
