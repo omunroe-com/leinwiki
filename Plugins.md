@@ -104,6 +104,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-sassy](https://github.com/vladh/lein-sassy) Use [Sass](http://sass-lang.com/) with Clojure.
 -   [lein-scalac](https://github.com/technomancy/lein-scalac) Compile Scala
 -   [lein-thriftc](https://github.com/xsc/lein-thriftc) Compile Thrift
+-   [lein-typescript](https://github.com/vbauer/lein-typescript) Compile [TypeScript](https://github.com/Microsoft/TypeScript)
 -   [lein-zinc](https://github.com/k2n/lein-zinc) Compile Scala and Java with [Typesafe zinc](https://github.com/typesafehub/zinc) incremental compiler.
 
 ## Testing
