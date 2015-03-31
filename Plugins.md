@@ -191,6 +191,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-tern](http://github.com/bugsbio/lein-tern) - DB migrations as Clojure data.
 -   [zookem](https://github.com/joelittlejohn/zookem) Create a embedded instance of Zookeeper during a lein build (e.g. for integration testing)
 -   [lein-flyway](https://github.com/metaphor/lein-flyway) - Flyway Migration Tool ported to Leiningen
+-   [lein-ldapimem](https://github.com/mdaley/lein-ldapimem) - Create an embedded instance of unboundID's LDAP service (e.g. for integration testing)
 
 ## Documentation
 
