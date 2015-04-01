@@ -160,6 +160,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-tar](http://github.com/technomancy/lein-tar) Create a tarball of your project and its dependencies, formerly lein-release
 -   [lein-uberimage](http://github.com/palletops/lein-uberimage) Create a docker image with your project's uberjar
 -   [lein-version-spec](https://github.com/circleci/lein-version-specs) Set the version number of your project according to rules
+-   [lein-wagon-ssh-external](https://github.com/ToBeReplaced/lein-wagon-ssh-external) Use the apache wagon-ssh-external provider
 -   [lein-worker](https://github.com/devth/lein-worker) Upload worker jars to IronWorker
 
 ## Web
