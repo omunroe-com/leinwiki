@@ -72,6 +72,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-try](https://github.com/rkneufeld/lein-try) Try out libraries without creating a dummy project/dependency.
 -   [lein-ubersource](https://github.com/puppetlabs/lein-ubersource) Download the source code for all of the project's (transitive) dependencies.
 -   [lein-vanity](https://github.com/dgtized/lein-vanity) Lines of code statistics for vanity's sake
+-   [lein-var-file](https://github.com/orend/lein-var-file) Creates an environment variables file. Works great with [environ](https://github.com/weavejester/environ) and useful when running Docker containers.
 -   [lein-vertx](https://github.com/isaiah/lein-vertx) Develop vertx applications in clojure
 -   [lein-webdav](https://github.com/tobias/lein-webdav) Enables uploading of deployments to webdav repos
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
