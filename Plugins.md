@@ -138,6 +138,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) Deploy to AWS Elastic Beanstalk
 -   [lein-bin](https://github.com/Raynes/lein-bin) Generate cross-platform standalone executables of your project
 -   [lein-cloudbees](https://clojars.org/lein-cloudbees) Deploy clojure apps to cloudbees
+-   [lein-cljs-lambda](https://github.com/nervous-systems/cljs-lambda) Template, plugin & library for deploying Clojurescript functions to AWS Lambda.
 -   [lein-daemon](http://github.com/arohner/lein-daemon) Run app as a daemon
 -   [lein-deploy-deps](https://github.com/neatonk/lein-deploy-deps) Deploy project dependencies to a remote repository
 -   [lein-dist](http://github.com/pallet/lein-dist) Create a standalone tarball of your project source and dependencies
