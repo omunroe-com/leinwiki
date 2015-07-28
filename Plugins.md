@@ -191,6 +191,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [datomic-schema-grapher](https://github.com/felixflores/datomic_schema_grapher) A library and lein plugin for graphing datomic schemas
 -   [drift](http://github.com/macourtney/drift) Create and run Rails like database migrations in Clojure
 -   [lein-dbmaintain](https://github.com/mysema/lein-dbmaintain) DbMaintain integration for Leiningen
+-   [lein-dynamodb-local](https://github.com/dmcgillen/lein-dynamodb-local) Download and run an instance of DynamoDB Local
 -   [lein-embongo](https://github.com/joelittlejohn/lein-embongo) Create a managed/embedded instance of MongoDB during a lein build (e.g. for integration testing).
 -   [lein-flyway](https://github.com/metaphor/lein-flyway) - Flyway Migration Tool ported to Leiningen
 -   [lein-ldapimem](https://github.com/mdaley/lein-ldapimem) - Create an embedded instance of unboundID's LDAP service (e.g. for testing) 
