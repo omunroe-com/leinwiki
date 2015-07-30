@@ -117,6 +117,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [org.clojars.punkisdead/lein-cucumber](https://github.com/punkisdead/lein-cucumber) Run clojure-based cucumber-jvm specifications (an up to date fork of the lein-cucumber plugin)
 -   [lein-difftest](http://github.com/brentonashworth/lein-difftest) Display diffs when a test fails
 -   [lein-expectations](https://github.com/gar3thjon3s/lein-expectations) Run [Expectations](https://github.com/jaycfields/expectations)-based tests
+-   [lein-fixtures-sql](https://github.com/sc13-bioinf/lein-fixtures-sql) Generate sql fixtures from your db.
 -   [lein-guzheng](http://github.com/dgrnbrg/lein-guzheng) Branch coverage analysis usable with any testing framefork
 -   [lein-junit](https://github.com/febeling/lein-junit) Run JUnit tests
 -   [lein-midje](https://github.com/marick/lein-midje) Run [Midje](http://github.com/marick/Midje/blob/master/README.md) tests
