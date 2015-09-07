@@ -106,7 +106,7 @@ can be addressed using `rlwrap` or by running it inside Emacs using
 
 ## Drip
 
-[Drip](https://github.com/flatland/drip/) is a script intended to speed up JVM start times. Installation details and an explanation of how Drip works are in the [Drip Readme](https://github.com/flatland/drip/blob/develop/README.md).  Leiningen will make use of a Drip installation if the LEIN_JAVA_CMD environment variable is set to the location of the drip script.
+[Drip](https://github.com/ninjudd/drip) is a script intended to speed up JVM start times. Installation details and an explanation of how Drip works are in the [Drip Readme](https://github.com/ninjudd/drip/blob/master/README.md).  Leiningen will make use of a Drip installation if the LEIN_JAVA_CMD environment variable is set to the location of the drip script.
 
 ## Eval in Classloader
 
