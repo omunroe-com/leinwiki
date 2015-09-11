@@ -18,6 +18,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-auto](https://github.com/weavejester/lein-auto) Automatically perform a task when source files change
 -   [lein-autoreload](https://github.com/pyronicide/lein-autoreload) Reload your source in the background while running the repl.
 -   [lein-bikeshed](https://github.com/dakrone/lein-bikeshed) Notify you if your code is bad
+-   [lein-capsule](https://github.com/circlespainter/lein-capsule) [Capsule](http://www.capsule.io) plugin for Leiningen
 -   [lein-cascade](https://github.com/kumarshantanu/lein-cascade) Execute cascading task dependencies
 -   [lein-checkall](https://github.com/itang/lein-checkall) lein check && lein kibit && lein eastwood && lein bikeshed
 -   [lein-checkouts](https://github.com/guv/lein-checkouts) Build all dependency "checkouts" projects before the current project is build
