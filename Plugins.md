@@ -148,6 +148,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-docker](https://github.com/sarnowski/lein-docker) Build and push Docker images
 -   [lein-emr](https://github.com/dpetrovics/lein-emr) Create jobflows on Amazon Elastic MapReduce.
 -   [lein-fpm](https://github.com/bts/lein-fpm) Build packages for multiple platforms (rpm, deb, etc.) using [fpm](https://github.com/jordansissel/fpm)
+-   [lein-heroku](https://github.com/heroku/lein-heroku) The official Heroku Leiningen plugin. Deploy locally built artifacts to Heroku.
 -   [lein-heroku-deploy](https://github.com/juggler/lein-heroku-deploy) Simplify your Heroku deploy
 -   [lein-immutant](https://github.com/immutant/lein-immutant) Manage and deploy applications to an [Immutant](http://immutant.org) server
 -   [lein-init-script](https://github.com/strongh/lein-init-script) Generate **NIX daemon scripts for your project
@@ -225,7 +226,6 @@ Please note that inclusion on this list does not constitute endorsement by the L
 
 -   [fw1-template](https://github.com/seancorfield/fw1-template) Create [FW/1](https://github.com/seancorfield/fw1-clj) projects (use `lein new fw1 myapp` instead)
 -   [lein-clojars](https://github.com/ato/lein-clojars) Deploy to Clojars (use `lein deploy clojars` instead)
--   [lein-heroku](https://github.com/technomancy/lein-heroku) Generate and manage Heroku apps (use [https://toolbelt.herokuapp.com](the toolbelt) instead)
 -   [lein-idea](https://bitbucket.org/bkumar/lein-idea) Generates Intellij IDEA project files
 -   [lein-midje-lazytest](https://github.com/myguidingstar/lein-midje-lazytest) Run Midje/Clojure tests on top of lazytest (Just a meta-package!)
 -   [lein-noir](https://github.com/ibdknox/lein-noir) Create and manage [Noir](http://www.webnoir.org) projects (use `new` task)
