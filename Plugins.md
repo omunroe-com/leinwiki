@@ -137,6 +137,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 ## Deployment
 
 -   [jar-copier](https://carouselapps.com/jar-copier/) A Leiningen plugin to copy a jar from your dependencies into your resources.
+-   [lein-assemble] (https://github.com/chartbeat-labs/lein-assembly) A maven-assembly like plugin for leiningen
 -   [lein-aws](https://github.com/sorenmacbeth/lein-aws) A leiningen plugin to interact with Amazon Web Services
 -   [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) Deploy to AWS Elastic Beanstalk
 -   [lein-bin](https://github.com/Raynes/lein-bin) Generate cross-platform standalone executables of your project
