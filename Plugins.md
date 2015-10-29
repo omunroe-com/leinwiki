@@ -105,6 +105,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-less4j](https://github.com/Deraen/lein-less4j) Compile [Less CSS](http://lesscss.org/) using [Less4j](https://github.com/SomMeri/less4j). Supports reading imports from classpath.
 -   [lein-ragel](https://github.com/llasram/lein-ragel) Compile Ragel sources to Java sources
 -   [lein-sassy](https://github.com/vladh/lein-sassy) Use [Sass](http://sass-lang.com/) with Clojure.
+-   [lein-scss](https://github.com/bluegray/lein-scss) Watch and compile scss files with sassc.
 -   [lein-scalac](https://github.com/technomancy/lein-scalac) Compile Scala
 -   [lein-thriftc](https://github.com/xsc/lein-thriftc) Compile Thrift
 -   [lein-typescript](https://github.com/vbauer/lein-typescript) Compile [TypeScript](https://github.com/Microsoft/TypeScript)
