@@ -92,6 +92,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-aggravate](https://github.com/byels/lein-aggravate) Aggregate & compress .css files, general file aggregation options
 -   [lein-antlr](https://github.com/alexhall/lein-antlr) Generates source code from ANTLR grammars
 -   [lein-beaver](https://github.com/quoll/lein-beaver) Generates source code from Beaver/JFlex grammars
+-   [lein-cirru-sepal](https://github.com/Cirru/lein-cirru-sepal) Compile Cirru code into Clojure subset.
 -   [lein-cl2c](http://github.com/chlorinejs/lein-cl2c) Compile Chlorine (a subset of Clojure) and Hiccup to Javascript/HTML files
 -   [lein-cljsbuild](http://github.com/emezeske/lein-cljsbuild) Compile ClojureScript automatically upon modification and share code between Clojure and ClojureScript
 -   [lein-clr](https://github.com/kumarshantanu/lein-clr) Automate build tasks for ClojureCLR projects on .NET and Mono
