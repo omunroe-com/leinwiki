@@ -85,6 +85,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [mranderson](https://github.com/benedekfazekas/mranderson) Download and use some dependencies as source.
 -   [gargamel](https://github.com/MailOnline/gargamel) generates pretty (with links etc) changelog based on git commit messages in multiple formats
 -   [ultra](https://github.com/venantius/ultra) A Leiningen plugin for a superior development environment
+-   [walmart/shared-deps](https://github.com/walmartlabs/shared-deps) allow sub-modules to more easiy share common dependencies 
 
 ## Compilers
 
