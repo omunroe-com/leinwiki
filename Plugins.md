@@ -163,6 +163,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-package](https://github.com/pliant/lein-package) Allows for the packaging, installing, and deploying of artifacts besides jars, or multiple artifact projects.
 -   [lein-ping](https://github.com/hashobject/lein-ping) Leiningen plugin that pings websites/urls. 
 -   [lein-release](https://github.com/relaynetwork/lein-release) Bumps your version number and deploys
+-   [lein-release-4digit-version](https://github.com/puppetlabs/lein-release-4digit-version) Leiningen plugin that enhances `lein release` and `lein change` with 4 digit version numbering schemes.
 -   [lein-runit](https://github.com/danielsz/lein-runit) Integration with [runit](http://smarden.org/runit/), a UNIX init scheme with service supervision
 -   [lein-runproject](https://github.com/weissjeffm/lein-runproject) Run any project's -main function directly from the repository
 -   [lein-s3-static-deploy](https://github.com/ThoughtWorksInc/lein-s3-static-deploy) Deploy a local directory as a static website on s3
