@@ -86,6 +86,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [gargamel](https://github.com/MailOnline/gargamel) generates pretty (with links etc) changelog based on git commit messages in multiple formats
 -   [ultra](https://github.com/venantius/ultra) A Leiningen plugin for a superior development environment
 -   [walmartlabs/shared-deps](https://github.com/walmartlabs/shared-deps) allow sub-modules to more easily share common dependencies 
+-   [weavejester/cljfmt](https://github.com/weavejester/cljfmt) A tool for formatting Clojure code
 
 ## Compilers
 
