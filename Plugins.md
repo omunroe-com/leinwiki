@@ -12,7 +12,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-eastwood](https://github.com/jonase/eastwood) A Clojure linting tool that inspects Clojure code and reports possible problems.
 -   [lein-bikeshed](https://github.com/dakrone/lein-bikeshed) Notify you if your code is bad
 -   [ultra](https://github.com/venantius/ultra) A Leiningen plugin for a superior development environment
--   [weavejester/cljfmt](https://github.com/weavejester/cljfmt) A tool for formatting Clojure code
+-   [lein-cljfmt](https://github.com/weavejester/cljfmt) A tool for formatting Clojure code
 -   [configleaf](https://github.com/davidsantiago/configleaf) Build profiles and access to project.clj at runtime. (see also 'slothcfg', an updated fork)
 -   [datomic-schema-grapher](https://github.com/felixflores/datomic_schema_grapher) A library and lein plugin for graphing datomic schemas
 -   [hiccup-bridge](https://github.com/hozumi/hiccup-bridge) Hiccup to html, html to hiccup
