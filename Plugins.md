@@ -7,17 +7,21 @@ Please note that inclusion on this list does not constitute endorsement by the L
 
 ## Development Tools
 
+-   [lein-ancient](https://github.com/xsc/lein-ancient) Check your projects and plugins for outdated dependencies.
+-   [lein-kibit](https://github.com/jonase/kibit) static code analysis to find more idiomatic ways to write your Clojure code.
+-   [lein-eastwood](https://github.com/jonase/eastwood) A Clojure linting tool that inspects Clojure code and reports possible problems.
+-   [lein-bikeshed](https://github.com/dakrone/lein-bikeshed) Notify you if your code is bad
+-   [ultra](https://github.com/venantius/ultra) A Leiningen plugin for a superior development environment
+-   [weavejester/cljfmt](https://github.com/weavejester/cljfmt) A tool for formatting Clojure code
 -   [configleaf](https://github.com/davidsantiago/configleaf) Build profiles and access to project.clj at runtime. (see also 'slothcfg', an updated fork)
 -   [datomic-schema-grapher](https://github.com/felixflores/datomic_schema_grapher) A library and lein plugin for graphing datomic schemas
 -   [hiccup-bridge](https://github.com/hozumi/hiccup-bridge) Hiccup to html, html to hiccup
 -   [lein-4clj](https://github.com/aengelberg/lein-4clj) An unofficial companion to [4clojure](http://www.4clojure.com), a Clojure kata site.
 -   [lein-amp](https://github.com/pmonks/lein-amp) Leiningen plugin for generating Alfresco Module Package (AMP) files.
--   [lein-ancient](https://github.com/xsc/lein-ancient) Check your projects and plugins for outdated dependencies.
 -   [lein-annotations](https://github.com/bbatsov/lein-annotations) Displays comment annotations in your project.
 -   [lein-aot-filter](https://github.com/pallet/lein-aot-filter) Filtering of AOT compiled class files
 -   [lein-auto](https://github.com/weavejester/lein-auto) Automatically perform a task when source files change
 -   [lein-autoreload](https://github.com/pyronicide/lein-autoreload) Reload your source in the background while running the repl.
--   [lein-bikeshed](https://github.com/dakrone/lein-bikeshed) Notify you if your code is bad
 -   [lein-capsule](https://github.com/circlespainter/lein-capsule) [Capsule](http://www.capsule.io) plugin for Leiningen
 -   [lein-cascade](https://github.com/kumarshantanu/lein-cascade) Execute cascading task dependencies
 -   [lein-checkall](https://github.com/itang/lein-checkall) lein check && lein kibit && lein eastwood && lein bikeshed
@@ -29,7 +33,6 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-cprint](https://github.com/greglook/lein-cprint) Like lein-pprint, but with color.
 -   [lein-create-template](https://github.com/tcw/lein-create-template) Create Leiningen templates from existing skeleton projects
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher) Generate a namespace dependency graph as an svg file
--   [lein-eastwood](https://github.com/jonase/eastwood) A Clojure linting tool that inspects Clojure code and reports possible problems.
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
 -   [lein-expand-resource-paths](https://github.com/dchelimsky/lein-expand-resource-paths) Expand glob patterns in `:resource-paths` to work alongside alternative dependency managers
 -   [lein-extend-cp](https://github.com/nickgieschen/lein-extend-cp) Adds paths to the classpath
@@ -52,7 +55,6 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-jdk-tools](https://github.com/pallet/lein-jdk-tools) Add tools.jar to the classpath
 -   [lein-jshint](https://github.com/vbauer/lein-jshint) static code analysis for JS, based on JSHint
 -   [lein-jslint](https://github.com/vbauer/lein-jslint) static code analysis for JS, based on JSLint
--   [lein-kibit](https://github.com/jonase/kibit) static code analysis to find more idiomatic ways to write your Clojure code.
 -   [lein-libdir](https://github.com/djpowell/lein-libdir) Copy dependencies to a 'lib' folder in your project
 -   [lein-localrepo](https://github.com/kumarshantanu/lein-localrepo) Work with the local Maven repository
 -   [lein-maven](https://github.com/pallet/lein-maven) Support for maven projects in checkouts
@@ -84,9 +86,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [varspotting](https://github.com/michalmarczyk/varspotting) Count public Vars meeting certain criteria (holding functions, macros etc.)
 -   [mranderson](https://github.com/benedekfazekas/mranderson) Download and use some dependencies as source.
 -   [gargamel](https://github.com/MailOnline/gargamel) generates pretty (with links etc) changelog based on git commit messages in multiple formats
--   [ultra](https://github.com/venantius/ultra) A Leiningen plugin for a superior development environment
 -   [walmartlabs/shared-deps](https://github.com/walmartlabs/shared-deps) allow sub-modules to more easily share common dependencies 
--   [weavejester/cljfmt](https://github.com/weavejester/cljfmt) A tool for formatting Clojure code
 
 ## Compilers
 
