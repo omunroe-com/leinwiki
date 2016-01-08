@@ -7,12 +7,13 @@ Please note that inclusion on this list does not constitute endorsement by the L
 
 ## Development Tools
 
--   [lein-ancient](https://github.com/xsc/lein-ancient) Check your projects and plugins for outdated dependencies.
 -   [lein-kibit](https://github.com/jonase/kibit) static code analysis to find more idiomatic ways to write your Clojure code.
 -   [lein-eastwood](https://github.com/jonase/eastwood) A Clojure linting tool that inspects Clojure code and reports possible problems.
 -   [lein-bikeshed](https://github.com/dakrone/lein-bikeshed) Notify you if your code is bad
--   [ultra](https://github.com/venantius/ultra) A Leiningen plugin for a superior development environment
 -   [lein-cljfmt](https://github.com/weavejester/cljfmt) A tool for formatting Clojure code
+-   [lein-ancient](https://github.com/xsc/lein-ancient) Check your projects and plugins for outdated dependencies.
+-   [lein-try](https://github.com/rkneufeld/lein-try) Try out libraries without creating a dummy project/dependency.
+-   [ultra](https://github.com/venantius/ultra) A Leiningen plugin for a superior development environment
 -   [configleaf](https://github.com/davidsantiago/configleaf) Build profiles and access to project.clj at runtime. (see also 'slothcfg', an updated fork)
 -   [datomic-schema-grapher](https://github.com/felixflores/datomic_schema_grapher) A library and lein plugin for graphing datomic schemas
 -   [hiccup-bridge](https://github.com/hozumi/hiccup-bridge) Hiccup to html, html to hiccup
@@ -73,7 +74,6 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-tarsier](https://github.com/sattvik/lein-tarsier) Add a [VimClojure](http://www.vim.org/scripts/script.php?script_id=2501) server to your project
 -   [lein-teamcity](https://github.com/nd/lein-teamcity) Add an on-the-fly stages, artifacts and tests reporting in TeamCity
 -   [lein-thrush](https://github.com/technomancy/lein-thrush) Feed the return value of one task into the input of another
--   [lein-try](https://github.com/rkneufeld/lein-try) Try out libraries without creating a dummy project/dependency.
 -   [lein-ubersource](https://github.com/puppetlabs/lein-ubersource) Download the source code for all of the project's (transitive) dependencies.
 -   [lein-vanity](https://github.com/dgtized/lein-vanity) Lines of code statistics for vanity's sake
 -   [lein-var-file](https://github.com/orend/lein-var-file) Creates an environment variables file. Works great with [environ](https://github.com/weavejester/environ) and useful when running Docker containers.
