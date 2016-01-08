@@ -7,13 +7,13 @@ Please note that inclusion on this list does not constitute endorsement by the L
 
 ## Development Tools
 
+-   [lein-cljfmt](https://github.com/weavejester/cljfmt) A tool for formatting Clojure code
 -   [lein-kibit](https://github.com/jonase/kibit) static code analysis to find more idiomatic ways to write your Clojure code.
 -   [lein-eastwood](https://github.com/jonase/eastwood) A Clojure linting tool that inspects Clojure code and reports possible problems.
 -   [lein-bikeshed](https://github.com/dakrone/lein-bikeshed) Notify you if your code is bad
--   [lein-cljfmt](https://github.com/weavejester/cljfmt) A tool for formatting Clojure code
 -   [lein-ancient](https://github.com/xsc/lein-ancient) Check your projects and plugins for outdated dependencies.
--   [lein-try](https://github.com/rkneufeld/lein-try) Try out libraries without creating a dummy project/dependency.
 -   [ultra](https://github.com/venantius/ultra) A Leiningen plugin for a superior development environment
+-   [lein-try](https://github.com/rkneufeld/lein-try) Try out libraries without creating a dummy project/dependency.
 -   [configleaf](https://github.com/davidsantiago/configleaf) Build profiles and access to project.clj at runtime. (see also 'slothcfg', an updated fork)
 -   [datomic-schema-grapher](https://github.com/felixflores/datomic_schema_grapher) A library and lein plugin for graphing datomic schemas
 -   [hiccup-bridge](https://github.com/hozumi/hiccup-bridge) Hiccup to html, html to hiccup
