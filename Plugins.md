@@ -39,6 +39,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-extend-cp](https://github.com/nickgieschen/lein-extend-cp) Adds paths to the classpath
 -   [lein-externs](https://github.com/ejlo/lein-externs) Generate externs for your ClojureScript project
 -   [lein-cljs-externs](https://github.com/bbbates/lein-cljs-externs) Generate externs for your Clojurescript project, specified via metadata
+-   [lein-figwheel](https://github.com/bhauman/lein-figwheel) Pushes ClojureScript code changes to the client as you code
 -   [lein-file-replace](https://github.com/jcrossley3/lein-file-replace) Replace text in files with other text, possibly from a project map
 -   [lein-filegen](https://github.com/ThoughtWorksInc/lein-filegen) Generate files from data and a template
 -   [lein-fore-prob](https://github.com/bfontaine/probs-from-4clj) Import problems from [4clojure](http://www.4clojure.com)
