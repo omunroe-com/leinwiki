@@ -172,6 +172,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-runit](https://github.com/danielsz/lein-runit) Integration with [runit](http://smarden.org/runit/), a UNIX init scheme with service supervision
 -   [lein-runproject](https://github.com/weissjeffm/lein-runproject) Run any project's -main function directly from the repository
 -   [lein-s3-static-deploy](https://github.com/ThoughtWorksInc/lein-s3-static-deploy) Deploy a local directory as a static website on s3
+-   [lein-s3-wagon-vault](https://github.com/wadeandwendy/lein-s3-wagon-vault) Pull AWS credentials for s3-wagon-private from Hashicorp Vault
 -   [lein-set-version](https://github.com/pallet/lein-set-version) Sets the version number in your project.clj
 -   [lein-sha-version](https://github.com/pallet/lein-sha-version) Middleware to set the project version based on git SHA
 -   [lein-sitemap](https://github.com/hashobject/lein-sitemap) Plugin for resubmitting sitemaps to Google Webmaster Tools. 
