@@ -72,6 +72,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-resource](https://github.com/m0smith/lein-resource) Copy files and transform using [stencil](https://github.com/davidsantiago/stencil)
 -   [lein-shell](https://github.com/hyPiRion/lein-shell) Run sub-processes from within Leiningen.
 -   [lein-sub](https://github.com/kumarshantanu/lein-sub) Execute tasks on sub-projects
+-   [lein-sync](https://github.com/otto-de/leinsync) Synchronize the shared codebase between leiningen projects
 -   [lein-tarsier](https://github.com/sattvik/lein-tarsier) Add a [VimClojure](http://www.vim.org/scripts/script.php?script_id=2501) server to your project
 -   [lein-teamcity](https://github.com/nd/lein-teamcity) Add an on-the-fly stages, artifacts and tests reporting in TeamCity
 -   [lein-thrush](https://github.com/technomancy/lein-thrush) Feed the return value of one task into the input of another
