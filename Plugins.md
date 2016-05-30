@@ -88,7 +88,8 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [varspotting](https://github.com/michalmarczyk/varspotting) Count public Vars meeting certain criteria (holding functions, macros etc.)
 -   [mranderson](https://github.com/benedekfazekas/mranderson) Download and use some dependencies as source.
 -   [gargamel](https://github.com/MailOnline/gargamel) generates pretty (with links etc) changelog based on git commit messages in multiple formats
--   [walmartlabs/shared-deps](https://github.com/walmartlabs/shared-deps) allow sub-modules to more easily share common dependencies 
+-   [walmartlabs/shared-deps](https://github.com/walmartlabs/shared-deps) allow sub-modules to more easily share common dependencies
+-   [lein-repetition-hunter](https://github.com/fractalLabs/lein-repetition-hunter) find repetitions in clojure code
 
 ## Compilers
 
