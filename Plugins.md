@@ -94,6 +94,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 ## Compilers
 
 -   [funcgo-lein](https://github.com/eobrain/funcgo-lein) Funcgo is a compiler that converts Functional Go into Clojure, to run on the JVM or as JavaScript.
+-   [kotlinc-lein](https://github.com/bokbokan/kotlinc-lein) Compile Kotlin
 -   [lein-aggravate](https://github.com/byels/lein-aggravate) Aggregate & compress .css files, general file aggregation options
 -   [lein-antlr](https://github.com/alexhall/lein-antlr) Generates source code from ANTLR grammars
 -   [lein-beaver](https://github.com/quoll/lein-beaver) Generates source code from Beaver/JFlex grammars
