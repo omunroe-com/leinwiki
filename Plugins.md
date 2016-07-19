@@ -234,6 +234,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-plantuml](https://github.com/vbauer/lein-plantuml) Generate UML diagrams using [PlantUML](http://plantuml.sourceforge.net)
 -   [lein-precate](https://github.com/technomancy/lein-precate) Transform project.clj into Leiningen 2.x-compatible form.
 -   [lein-sphinx](https://github.com/SnootyMonkey/lein-sphinx) Generate documentation from [reStructuredText](http://docutils.sourceforge.net/rst.html) using [Sphinx](http://sphinx-doc.org/).
+-   [lein-viz](https://github.com/kumarshantanu/lein-viz) Visualize graph and tree data
 -   [nephila](https://github.com/timmc/nephila) Show a graph of your Clojure namespaces
 -   [gargamel](https://github.com/MailOnline/gargamel) generates pretty (with links etc) changelog based on git commit messages in multiple formats
 
