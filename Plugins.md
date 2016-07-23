@@ -136,8 +136,8 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-prism](https://github.com/aphyr/prism/) Auto-reload and rerun tests, works with vanilla clojure.test unlike the others mentioned here.
 -   [lein-test-bang-bang](https://github.com/joegallo/lein-test-bang-bang) Run each test namespace in a separate JVM
 -   [lein-test-from](https://github.com/joegallo/lein-test-from) Run your test namespaces, starting from a particular namespace
--   [lein-test-refresh](https://github.com/minhtuannguyen/remote-test-refresh) Watch project for changes and automatically reload namespaces and run `clojure.test` tests.
--   [remote-test-refresh](https://github.com/jakemcc/lein-test-refresh) Synchronize code change between local and remote repository per SSH.
+-   [lein-test-refresh](https://github.com/jakemcc/lein-test-refresh) Watch project for changes and automatically reload namespaces and run `clojure.test` tests.
+-   [remote-test-refresh](https://github.com/minhtuannguyen/remote-test-refresh) Synchronize code change between local and remote repository per SSH.
 -   [perforate](https://github.com/davidsantiago/perforate) Painless benchmarking with Leiningen and [Criterium](https://github.com/hugoduncan/criterium)
 -   [quickie](https://github.com/jakepearson/quickie) Autotest clojure.test files.  Filters stacktraces to skip over some of the clojure cruft.
 -   [speclj](https://github.com/slagyr/speclj) (pronounced “speckle”) TDD/BDD framework, with auto-runner, based on [rspec](http://rspec.info/)
