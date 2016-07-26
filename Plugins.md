@@ -34,6 +34,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-cprint](https://github.com/greglook/lein-cprint) Like lein-pprint, but with color.
 -   [lein-create-template](https://github.com/tcw/lein-create-template) Create Leiningen templates from existing skeleton projects
 -   [lein-depgraph](https://github.com/kurtharriger/clojure-dependency-grapher) Generate a namespace dependency graph as an svg file
+-   [lein-dependency-check](https://github.com/livingsocial/lein-dependency-check) A Leiningen plugin for detecting vulnerable project dependencies
 -   [lein-exec](https://github.com/kumarshantanu/lein-exec) Execute Clojure scripts in a project
 -   [lein-expand-resource-paths](https://github.com/dchelimsky/lein-expand-resource-paths) Expand glob patterns in `:resource-paths` to work alongside alternative dependency managers
 -   [lein-extend-cp](https://github.com/nickgieschen/lein-extend-cp) Adds paths to the classpath
