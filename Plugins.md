@@ -6,7 +6,7 @@ If you’ve created a [plugin](https://github.com/technomancy/leiningen/blob/mas
 Please note that inclusion on this list does not constitute endorsement by the Leiningen maintainers.
 
 ## Development Tools
-
+-   [lein-v](https://github.com/roomkey/lein-v) A leiningen plugin for integrating project versions more tightly with git.  Never edit `project.clj` again to update a version. 
 -   [lein-cljfmt](https://github.com/weavejester/cljfmt) A tool for formatting Clojure code
 -   [lein-kibit](https://github.com/jonase/kibit) static code analysis to find more idiomatic ways to write your Clojure code.
 -   [lein-eastwood](https://github.com/jonase/eastwood) A Clojure linting tool that inspects Clojure code and reports possible problems.
