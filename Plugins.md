@@ -215,6 +215,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-dynamodb-local](https://github.com/dmcgillen/lein-dynamodb-local) Download and run an instance of DynamoDB Local
 -   [lein-embongo](https://github.com/joelittlejohn/lein-embongo) Create a managed/embedded instance of MongoDB during a lein build (e.g. for integration testing).
 -   [lein-flyway](https://github.com/metaphor/lein-flyway) - Flyway Migration Tool ported to Leiningen
+-   [lein-h2](https://github.com/joelittlejohn/lein-h2) - Start a TCP mode H2 database server as part of your lein build.
 -   [lein-ldapimem](https://github.com/mdaley/lein-ldapimem) - Create an embedded instance of unboundID's LDAP service (e.g. for testing) 
 -   [lein-memcached](https://github.com/mdaley/lein-memcached) - Create an embedded instance of memcached (useful for testing)
 -   [lein-postgres](https://github.com/whostolebenfrog/lein-postgres) Create an embedded instance of postgres for testing and development.
