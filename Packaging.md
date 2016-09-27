@@ -7,7 +7,7 @@ Please note that all of these are 3rd-party releases not supported by the
 Leiningen team.
 
 * [nix](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/tools/build-managers/leiningen/default.nix)
-* [homebrew](https://github.com/Homebrew/homebrew-core/blob/master/Formula/leiningen.rb) (2.6.1)
+* [homebrew](https://github.com/Homebrew/homebrew-core/blob/master/Formula/leiningen.rb)
 * [yum](https://apps.fedoraproject.org/packages/leiningen/overview/)
 * [Arch AUR](https://aur.archlinux.org/packages/leiningen2-git)
 * [Chocolatey](http://chocolatey.org/packages/lein) (Windows)
