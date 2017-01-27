@@ -85,6 +85,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-webdav](https://github.com/tobias/lein-webdav) Enables uploading of deployments to webdav repos
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
 -   [lein-whimrepl](https://github.com/malyn/lein-whimrepl) Start a REPL session in a Vim-targetable server for use with [vim-slime](https://github.com/jpalardy/vim-slime).
+-   [io.aviso/pretty](https://github.com/AvisoNovate/pretty) Enable formatted, colorized, readable exceptions
 -   [reloadable-app](https://github.com/mowat27/reloadable-app) Leiningen template for a new component based app implementing the reloaded workflow.
 -   [slothcfg](https://github.com/taoeffect/slothcfg) Build profiles and access to project.clj at runtime. Updated fork of 'configleaf'.
 -   [varspotting](https://github.com/michalmarczyk/varspotting) Count public Vars meeting certain criteria (holding functions, macros etc.)
