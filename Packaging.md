@@ -7,10 +7,13 @@ Please note that all of these are 3rd-party releases not supported by the
 Leiningen team.
 
 * [nix](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/tools/build-managers/leiningen/default.nix)
+  * `nix-env -i leiningen`
 * [homebrew](https://github.com/Homebrew/homebrew-core/blob/master/Formula/leiningen.rb)
+  * `brew install leiningen`
 * [yum](https://apps.fedoraproject.org/packages/leiningen/overview/)
 * [Arch AUR](https://aur.archlinux.org/packages/leiningen2-git)
 * [Chocolatey](http://chocolatey.org/packages/lein) (Windows)
+  * `choco install lein`
 * [FreeBSD Ports](http://www.freshports.org/devel/leiningen/)
 * [Gentoo](http://gpo.zugaina.org/dev-lang/leiningen-bin) (it is not official at the moment, available only in overlay)
 
