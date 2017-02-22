@@ -16,6 +16,8 @@ Leiningen team.
   * `choco install lein`
 * [FreeBSD Ports](http://www.freshports.org/devel/leiningen/)
 * [Gentoo](http://gpo.zugaina.org/dev-lang/leiningen-bin) (it is not official at the moment, available only in overlay)
+* [SDKMAN!](http://sdkman.io/)
+  * `sdk install leiningen`
 
 Leiningen 1.x was available in apt-get at one point, but it has been
 removed from recent releases, being too old to actually be
