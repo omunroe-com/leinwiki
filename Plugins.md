@@ -83,7 +83,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-ubersource](https://github.com/puppetlabs/lein-ubersource) Download the source code for all of the project's (transitive) dependencies.
 -   [lein-vanity](https://github.com/dgtized/lein-vanity) Lines of code statistics for vanity's sake
 -   [lein-var-file](https://github.com/orend/lein-var-file) Creates an environment variables file. Works great with [environ](https://github.com/weavejester/environ) and useful when running Docker containers.
--   [lein-marathon](https://github.com/dalzony/lein-marathon)  Converts config.edn to Marathon-framework style configuration(JSON mode).
+-   [lein-marathon](https://github.com/dalzony/lein-marathon) Generate JSON config file for marathon framework from (luminus friendly) config.edn
 -   [lein-vertx](https://github.com/isaiah/lein-vertx) Develop vertx applications in clojure
 -   [lein-webdav](https://github.com/tobias/lein-webdav) Enables uploading of deployments to webdav repos
 -   [lein-webrepl](https://github.com/zoka/lein-webrepl) A browser based nREPL interface
