@@ -97,6 +97,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [gargamel](https://github.com/MailOnline/gargamel) generates pretty (with links etc) changelog based on git commit messages in multiple formats
 -   [walmartlabs/shared-deps](https://github.com/walmartlabs/shared-deps) allow sub-modules to more easily share common dependencies
 -   [lein-repetition-hunter](https://github.com/fractalLabs/lein-repetition-hunter) find repetitions in clojure code
+-   [lein-template-replace](https://github.com/MShobana/lein-template-replace) substitute templates with given values
 
 ## Compilers
 
