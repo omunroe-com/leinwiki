@@ -211,6 +211,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-s3-static-deploy](https://github.com/ThoughtWorksInc/lein-s3-static-deploy) Deploy a local directory as a static website on s3
 -   [lein-servlet](https://github.com/kumarshantanu/lein-servlet) Work with servlet-based webapps
 -   [lein-simpleton](https://github.com/fogus/lein-simpleton) Serve files via http out of a local directory.
+-   [moarweba](https://github.com/tuddman/moarweba)  Get up and running with a RESTful web-server in one minute.
 -   [touchme](https://github.com/sogilis/touchme) Touch files when html (by example) files are modified. Can be used to update enlive templates.
 -   [lein-sitecompiler](https://github.com/dbushenko/lein-sitecompiler) The plugin allows generating a static website. Supports many template engines such as Mustache, Hiccup, Cuma, Fleet, Markdown.
 
