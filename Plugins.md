@@ -65,7 +65,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-mvn](https://github.com/big-solutions/lein-mvn) Interop plugin that runs arbitrary mvn commands in an embedded Maven instance
 -   [lein-nevam](https://github.com/thickey/lein-nevam) Convert Maven pom.xml files to project.clj files
 -   [lein-nodecljs](https://github.com/ghaskins/lein-nodecljs) Support for Clojurescript on NodeJS platform
--   [lein-nomis-ns-graph] (https://github.com/simon-katz/lein-nomis-ns-graph) Shows namespace dependencies as a graph, and also shows the namespace hierarchy
+-   [lein-nomis-ns-graph](https://github.com/simon-katz/lein-nomis-ns-graph) Shows namespace dependencies as a graph, and also shows the namespace hierarchy
 -   [lein-notes](https://github.com/myguidingstar/lein-notes) See inline notes from sources
 -   [lein-ns-dep-graph](https://github.com/hilverd/lein-ns-dep-graph) Show namespace dependencies of Clojure project sources as a graph
 -   [lein-oneoff](https://github.com/mtyaka/lein-oneoff) Simplify working with one-off, single-file clojure programs
