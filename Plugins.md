@@ -138,6 +138,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-expectations](https://github.com/gar3thjon3s/lein-expectations) Run [Expectations](https://github.com/jaycfields/expectations)-based tests
 -   [lein-fixtures-sql](https://github.com/sc13-bioinf/lein-fixtures-sql) Generate sql fixtures from your db.
 -   [lein-guzheng](http://github.com/dgrnbrg/lein-guzheng) Branch coverage analysis usable with any testing framefork
+-   [lein-jmh](https://github.com/jgpc42/lein-jmh) Run [jmh-clojure](https://github.com/jgpc42/jmh-clojure) benchmarks.
 -   [lein-junit](https://github.com/febeling/lein-junit) Run JUnit tests
 -   [lein-midje](https://github.com/marick/lein-midje) Run [Midje](http://github.com/marick/Midje/blob/master/README.md) tests
 -   [lein-pjotest](https://github.com/jonpither/lein-pjotest) Run test namespaces in parallel with JUnit XML output
