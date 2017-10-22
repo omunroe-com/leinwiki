@@ -166,6 +166,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-binplus](https://github.com/BrunoBonacci/lein-binplus) (Enhanced version of [lein-bin](https://github.com/Raynes/lein-bin)) - Generate cross-platform standalone executables of your project
 -   [lein-cloudbees](https://clojars.org/lein-cloudbees) Deploy clojure apps to cloudbees
 -   [lein-clj-lambda](https://github.com/mhjort/lein-clj-lambda) Deploy (JVM) AWS Lambda functions
+-   [lein-lambda](https://github.com/paulbutcher/lein-lambda) An opinionated Leiningen plugin to automate AWS Lambda deployments, and a template to create projects that use it.
 -   [lein-cljs-lambda](https://github.com/nervous-systems/cljs-lambda) Template, plugin & library for deploying Clojurescript functions to AWS Lambda.
 -   [lein-daemon](http://github.com/arohner/lein-daemon) Run app as a daemon
 -   [lein-deploy-deps](https://github.com/neatonk/lein-deploy-deps) Deploy project dependencies to a remote repository
