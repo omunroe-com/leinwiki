@@ -46,7 +46,7 @@ later once it has identified which sections of the code are hotspots.
 
 Leiningen 2.1.0 onward get a speed boost by disabling the optimized
 compilation (which only benefits long-running processes) for both 
-your project and Leiningen itself.  
+your project and Leiningen itself.
 
 Be aware that this can negatively affect performance in the long run 
 (or lead to inaccurate benchmarking results).  If you do have a 
@@ -58,20 +58,6 @@ disable tiered compilation by either:
 or in `project.clj` with:
 
     :jvm-opts ^:replace []
-
-In earlier versions of Leiningen, you can enable this speed boost yourself:
-
-    $ export LEIN_JVM_OPTS=-XX:TieredStopAtLevel=1
-
-And you can apply the same startup boost to your project (though be aware
-of the above performance implications for long-running processes):
-
-    $ export LEIN_JVM_OPTS=-XX:TieredStopAtLevel=1
-
-You can do this within `project.clj` as well:
-
-    :jvm-opts ["-XX:+TieredCompilation" "-XX:TieredStopAtLevel=1"]
-
 
 ## Eval in nREPL
 
@@ -106,43 +92,36 @@ can be addressed using `rlwrap` or by running it inside Emacs using
 
 ## Drip
 
-[Drip](https://github.com/ninjudd/drip) is a script intended to speed up JVM start times. Installation details and an explanation of how Drip works are in the [Drip Readme](https://github.com/ninjudd/drip/blob/master/README.md).  Leiningen will make use of a Drip installation if the LEIN_JAVA_CMD environment variable is set to the location of the drip script.
+[Drip](https://github.com/ninjudd/drip) is a script intended to speed
+up JVM start times. Installation details and an explanation of how
+Drip works are in the
+[Drip Readme](https://github.com/ninjudd/drip/blob/master/README.md).
+Leiningen will make use of a Drip installation if the `LEIN_JAVA_CMD`
+environment variable is set to the location of the drip script.
 
 ## Eval in Classloader
 
-Setting `:eval-in :classloader` will run the project's code in the same JVM as Leiningen, albeit in a separate classloader.  However, the bootclasspath optimizations used by Leiningen can interfere with classloader isolation, so this mode is not recommended.  If you do use this mode and start to experience strange, seemingly unexplainable issues, then remove this setting.
-
-## Bootclasspath
-
-Leiningen places its own code on the JVM's bootclasspath, which allows
-for quicker boot by skipping bytecode verification and a few other
-steps. You can do the same for your own projects:
-
-    :bootclasspath true
-
-Be aware that there are some compatibility issues with this; some
-libraries like Jetty assume they're being loaded from a regular
-classloader rather than the bootstrap classloader.
+Setting `:eval-in :classloader` will run the project's code in the
+same JVM as Leiningen, albeit in a separate classloader.  However, the
+bootclasspath optimizations used by Leiningen can interfere with
+classloader isolation, so this mode is not recommended.  If you do use
+this mode and start to experience strange, seemingly inexplicable
+issues, then remove this setting.
 
 ## Disable bytecode verification
 
-If you can't use the bootclasspath for compatibility reasons you can
-just disable bytecode verification by itself. This gives you slightly
-under half the speedup of the bootclasspath:
+Normally all code that's loaded runs thru the bytecode verifier, which
+is very I/O heavy. It's vanishingly unlikely that the bytecode
+verifier will actually find any problems that Leiningen's own
+checksum mechanism wouldn't, so you can turn it off with this:
 
     :jvm-opts ["-Xverify:none"]
 
-Technically this could open you up to problems where the results of
-loading corrupt bytecode would be undefined. Leiningen already
-performs checksumming of jars when they are downloaded over the
-network, but there are other potential sources of corruption which
-could still affect you.
-
 ## Check your :main
 
-When starting the REPL, Leiningen loads the project's :main namespace.
-If the :main namespace takes significant time to load, the user's perception
-is that Leiningen is slow.
+When starting the REPL, Leiningen loads the project's `:main`
+namespace.  If the `:main` namespace takes significant time to load,
+the user's perception is that Leiningen is slow.
 
 ## Grenchman
 

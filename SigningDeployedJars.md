@@ -6,10 +6,6 @@ library before you got in the habit of signing. If this is the case,
 don't fret! It's easy to sign your existing artifacts and deploy the
 signatures back to Clojars.
 
-Unfortunately there's a bug in Leiningen that's just been fixed on
-master, so if you try this with 2.4.2 or older it will try to deploy
-`mylib-1.3.asc`, which is the wrong thing.
-
 First get the artifacts. They're most likely already in your
 `~/.m2/repository` directory, but there is a chance the local copy may
 not match the remote copy exactly, so it's best to delete these first
