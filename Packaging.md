@@ -3,7 +3,7 @@ Leiningen is available in a number of package managers:
 Please note that these are 3rd-party releases not supported by the Leiningen team.
 
 * [Debian unstable and testing](https://packages.debian.org/sid/leiningen)
-* [Ubuntu PPA](https://launchpad.net/~mikegedelman/+archive/ubuntu/leiningen-git-stable)
+* [Ubuntu 18.04](https://launchpad.net/ubuntu/+source/leiningen-clojure)
 * [nix](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/tools/build-managers/leiningen/default.nix)
 * [homebrew](https://github.com/Homebrew/homebrew-core/blob/master/Formula/leiningen.rb)
 * [yum](https://apps.fedoraproject.org/packages/leiningen/overview/)
