@@ -70,6 +70,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-ns-dep-graph](https://github.com/hilverd/lein-ns-dep-graph) Show namespace dependencies of Clojure project sources as a graph
 -   [lein-oneoff](https://github.com/mtyaka/lein-oneoff) Simplify working with one-off, single-file clojure programs
 -   [lein-open](https://github.com/cldwalker/lein-open) Open any dependency or installed jar in an editor.
+-   [lein-oramvn](https://github.com/chimpymike/lein-oramvn) A leiningen plugin that enables retrieving dependencies from the Oracle Maven Repository
 -   [lein-parent](https://github.com/achin/lein-parent) Inherit properties from a parent project
 -   [lein-pdo](https://github.com/Raynes/lein-pdo) Run lein tasks concurrently in parallel
 -   [lein-plz](https://github.com/johnwalker/lein-plz) Add dependencies to projects quickly
