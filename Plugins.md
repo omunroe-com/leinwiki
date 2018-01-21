@@ -23,6 +23,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-aot-filter](https://github.com/pallet/lein-aot-filter) Filtering of AOT compiled class files
 -   [lein-auto](https://github.com/weavejester/lein-auto) Automatically perform a task when source files change
 -   [lein-autoreload](https://github.com/pyronicide/lein-autoreload) Reload your source in the background while running the repl.
+-   [lein-bootclasspath-deps](https://github.com/sunng87/lein-bootclasspath-deps) Adding dependency to JVM bootclasspath
 -   [lein-capsule](https://github.com/circlespainter/lein-capsule) [Capsule](http://www.capsule.io) plugin for Leiningen
 -   [lein-cascade](https://github.com/kumarshantanu/lein-cascade) Execute cascading task dependencies
 -   [lein-checkall](https://github.com/itang/lein-checkall) lein check && lein kibit && lein eastwood && lein bikeshed
