@@ -7,7 +7,7 @@ Please note that these are 3rd-party releases not supported by the Leiningen tea
 * [nix](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/tools/build-managers/leiningen/default.nix)
 * [homebrew](https://github.com/Homebrew/homebrew-core/blob/master/Formula/leiningen.rb)
 * [yum](https://apps.fedoraproject.org/packages/leiningen/overview/)
-* [Arch AUR](https://aur.archlinux.org/packages/leiningen2-git)
+* [Arch AUR](https://aur.archlinux.org/packages/leiningen/)
 * [Chocolatey](http://chocolatey.org/packages/lein) (Windows, `choco install lein`)
 * [FreeBSD Ports](http://www.freshports.org/devel/leiningen/)
 * [Gentoo unofficial overlay](http://gpo.zugaina.org/dev-lang/leiningen-bin)
