@@ -69,6 +69,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-nomis-ns-graph](https://github.com/simon-katz/lein-nomis-ns-graph) Shows namespace dependencies as a graph, and also shows the namespace hierarchy
 -   [lein-notes](https://github.com/myguidingstar/lein-notes) See inline notes from sources
 -   [lein-ns-dep-graph](https://github.com/hilverd/lein-ns-dep-graph) Show namespace dependencies of Clojure project sources as a graph
+-   [lein-nsorg](https://github.com/immoh/lein-nsorg) Keep ns declarations lexicographically sorted
 -   [lein-oneoff](https://github.com/mtyaka/lein-oneoff) Simplify working with one-off, single-file clojure programs
 -   [lein-open](https://github.com/cldwalker/lein-open) Open any dependency or installed jar in an editor.
 -   [lein-oramvn](https://github.com/chimpymike/lein-oramvn) A leiningen plugin that enables retrieving dependencies from the Oracle Maven Repository
