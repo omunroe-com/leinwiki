@@ -102,6 +102,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [walmartlabs/shared-deps](https://github.com/walmartlabs/shared-deps) allow sub-modules to more easily share common dependencies
 -   [lein-repetition-hunter](https://github.com/fractalLabs/lein-repetition-hunter) find repetitions in clojure code
 -   [lein-template-replace](https://github.com/MShobana/lein-template-replace) substitute templates with given values
+-   [lein-tools-deps](https://github.com/RickMoynihan/lein-tools-deps) `tools.deps` support for leiningen.
 
 ## Compilers
 
@@ -130,7 +131,6 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-thriftc](https://github.com/xsc/lein-thriftc) Compile Thrift
 -   [lein-typescript](https://github.com/vbauer/lein-typescript) Compile [TypeScript](https://github.com/Microsoft/TypeScript)
 -   [lein-zinc](https://github.com/k2n/lein-zinc) Compile Scala and Java with [Typesafe zinc](https://github.com/typesafehub/zinc) incremental compiler.
--   [lein-tools-deps](https://github.com/RickMoynihan/lein-tools-deps) `tools.deps` support for leiningen.
 
 
 ## Testing
