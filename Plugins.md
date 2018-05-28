@@ -158,6 +158,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [test2junit](https://github.com/ruedigergad/test2junit) Write test results to JUnit XML format suited for creating HTML reports. Allows automation of report generation as well.
 -   [parallel-test](https://github.com/aredington/parallel-test) Run clojure.test tests in parallel with lein test style output. Supports fine grained configuration of what tests are executed in parallel, and how.
 -   [humane-test-output](https://github.com/pjstadig/humane-test-output) Humane output for Clojure Tests. Pretty prints output, and diffs equality assertions.
+-   [lein-tools-deps](https://github.com/RickMoynihan/lein-tools-deps) `tools.deps` support for leiningen.
 
 ## Deployment
 
