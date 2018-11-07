@@ -204,7 +204,7 @@ Please note that inclusion on this list does not constitute endorsement by the L
 -   [lein-version-spec](https://github.com/circleci/lein-version-specs) Set the version number of your project according to rules
 -   [lein-wagon-ssh-external](https://github.com/ToBeReplaced/lein-wagon-ssh-external) Use the apache wagon-ssh-external provider
 -   [lein-worker](https://github.com/devth/lein-worker) Upload worker jars to IronWorker
--   [record-deps](https://github.com/fourtytoo/record-deps) Save the dependency tree in a resource file
+-   [record-deps](https://github.com/fourtytoo/record-deps) Save and optionally check the dependency tree in a resource file
 
 ## Web
 
